@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_selector">
+
+    <TextView
+        android:id="@+id/txt_leenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:gravity="left|center_vertical"
+        android:text="Introduction"
+        android:textSize="@dimen/text_size_twenty"
+       />
+
+    <TextView
+        android:id="@+id/txt_leenIntroduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_leenTitle"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:text="abcccccccccccccccccccccc"
+        android:layout_marginRight="@dimen/size_ten"
+        android:textSize="@dimen/text_size_twenty"/>
+
+    <TextView
+        android:id="@+id/txt_waoleen_Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_below="@id/txt_leenIntroduction"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten"
+        android:gravity="left|center_vertical"
+        android:text="Wao Leen"
+        android:textSize="@dimen/text_size_twenty"
+         />
+
+    <TextView
+        android:id="@+id/txt_waoleen_Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_waoleen_Title"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten"
+        android:text="abccccccccccccccccccccccc"
+        android:layout_marginRight="@dimen/size_ten"
+        android:textSize="@dimen/text_size_twenty"/>
+    <!---->
+    <RelativeLayout
+        android:id="@+id/relWaoLeen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_waoleen_Intro"
+        android:clickable="true"
+
+        android:tag="1">
+
+        <ImageView
+
+            android:id="@+id/imgWaoleen1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/size_ten"
+            android:src="@drawable/img_arabic_wow_leen1" />
+
+        <ImageView
+            android:id="@+id/speakerWaoleen"
+            android:layout_width="@dimen/size_twenty"
+            android:layout_height="@dimen/size_twenty"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_thirty"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:src="@drawable/speaker_selector" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_yaleen_Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_below="@id/relWaoLeen"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten"
+        android:gravity="left|center_vertical"
+        android:text="Ya leen"
+        android:textSize="@dimen/text_size_twenty"
+     />
+
+    <TextView
+        android:id="@+id/txt_yaleen_Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_yaleen_Title"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten"
+        android:text="abccccccccccccccccccccccc"
+        android:layout_marginRight="@dimen/size_ten"
+        android:textSize="@dimen/text_size_twenty"/>
+
+    <RelativeLayout
+        android:id="@+id/relYaLeen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_yaleen_Intro"
+        android:clickable="true"
+
+        android:tag="2">
+
+        <!---->
+        <ImageView
+            android:id="@+id/imgyaleen1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_fifty"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/size_ten"
+            android:src="@drawable/img_yaa_leen" />
+
+        <ImageView
+
+            android:id="@+id/speakeryaleen"
+            android:layout_width="@dimen/size_twenty"
+            android:layout_height="@dimen/size_twenty"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_thirty"
+            android:layout_marginTop="@dimen/size_twenty"
+
+            android:src="@drawable/speaker_selector" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+    </ScrollView>

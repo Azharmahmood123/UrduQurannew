@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/about_bg" >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:text="@string/txt_about_us"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/tv_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/seprator_line"
+        android:layout_marginBottom="40dp" >
+
+        <ImageView
+            android:id="@+id/img_about"
+            android:layout_width="225dp"
+            android:layout_height="255dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/about_img_margin_left"
+            android:layout_marginRight="@dimen/about_img_margin_right"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:scaleType="fitCenter"
+            android:src="@drawable/about_img" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_about"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:text="@string/app_name_main"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_thirty_six"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/txt_version"
+                android:textColor="@color/header_bg"
+                android:textSize="@dimen/text_size_twenty_five"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_copy_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/txt_copy_right"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_eighteen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/txt_rights"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_eighteen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/txt_splash"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_eighteen"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/adimg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_fourty_eight"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:background="@drawable/banner"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="onClickAdImage"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+</RelativeLayout>

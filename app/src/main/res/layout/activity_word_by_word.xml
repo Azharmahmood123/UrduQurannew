@@ -1,0 +1,466 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:splitMotionEvents="false" >
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:background="@color/header_bg" >
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/size_fifty_five"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:onClick="buttonClick"
+            android:src="@drawable/back_selctor_file"
+            android:tag="5" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/backButton"
+            android:text="Sura Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_twenty" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tabsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_thirty"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/header_bg"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fullSuraText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/header_bg"
+                android:clickable="true"
+                android:gravity="center|bottom"
+                android:onClick="onTabSelection"
+                android:tag="1"
+                android:text="@string/full_tab_dua"
+                android:layout_marginBottom="@dimen/size_three"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_seventeen" />
+
+            <View
+                android:id="@+id/fullSuraView"
+                style="@style/detail_tab_separator"
+                android:layout_marginLeft="@dimen/size_fifteen"
+                android:layout_marginRight="@dimen/size_fifteen"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/wordByWordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/header_bg"
+                android:clickable="true"
+                android:gravity="center|bottom"
+                android:onClick="onTabSelection"
+                android:layout_marginBottom="@dimen/size_three"
+                android:tag="2"
+                android:text="@string/word_tab_txt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_seventeen" />
+
+            <View
+                android:id="@+id/wordSuraView"
+                style="@style/detail_tab_separator"
+                android:layout_marginLeft="@dimen/size_fifteen"
+                android:layout_marginRight="@dimen/size_fifteen"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footerLayout"
+        android:layout_below="@+id/tabsLayout"
+        android:background="@color/background_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/wordBywordLAyout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/wbwsurah_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_ten"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/WordLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent" >
+
+                    <ImageView
+                        android:id="@+id/nextWordButton"
+                        android:layout_width="@dimen/size_fifty"
+                        android:layout_height="@dimen/size_fifty"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_ten"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:src="@drawable/next_word_selector_file" />
+
+                    <ImageView
+                        android:layout_width="@dimen/size_two_hundred_twenty"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bg" />
+
+                    <TextView
+                        android:id="@+id/textArabicWord"
+                        android:layout_width="@dimen/size_two_hundred_ten"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/size_twelve"
+                        android:gravity="center"
+                        android:text="arabic"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_size_thirty_four"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/backWordButton"
+                        android:layout_width="@dimen/size_fifty"
+                        android:layout_height="@dimen/size_fifty"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/size_ten"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:src="@drawable/previous_word_selector_file" />
+
+                    <ImageView
+                        android:id="@+id/playWord"
+                        android:layout_width="@dimen/size_fourty"
+                        android:layout_height="@dimen/size_fourty"
+                        android:layout_alignRight="@+id/textArabicWord"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="11dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/speaker_selector_file" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tranlation_Layout"
+                    android:layout_width="@dimen/size_two_hundred_twenty"
+                    android:layout_height="@dimen/size_fifty"
+                    android:layout_below="@+id/WordLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/size_minus_ten" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bg" />
+
+                    <TextView
+                        android:id="@+id/textTransliterationWord"
+                        android:layout_width="@dimen/size_two_hundred_ten"
+                        android:layout_height="@dimen/size_fifty_five"
+                        android:layout_marginBottom="@dimen/size_seven"
+                        android:gravity="center"
+                        android:text="transliteration"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_size_fifteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/size_two_hundred_twenty"
+                    android:layout_height="@dimen/size_fifty"
+                    android:layout_below="@+id/tranlation_Layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/size_minus_ten" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bg" />
+
+                    <TextView
+                        android:id="@+id/textTranslationWord"
+                        android:layout_width="@dimen/size_two_hundred_ten"
+                        android:layout_height="@dimen/size_fifty_five"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="translation jfhdu shdjjgujhgjc bndjfnjd djfjdn jdf dfs"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_size_fifteen" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/ayahListView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/background_color"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fullSurahLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/fullSurahList"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/background_color"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_eight"
+        android:layout_below="@+id/tabsLayout"
+        android:src="@drawable/shadow_file" />
+
+    <View
+        style="@style/footerView"
+        android:layout_above="@+id/footerLayout" />
+
+    <RelativeLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fifty"
+        android:layout_above="@+id/bottom_layout"
+        android:background="@color/dark_gray"
+        android:splitMotionEvents="false" >
+
+        <ImageView
+            android:id="@+id/playButon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/size_twelve"
+            android:adjustViewBounds="true"
+            android:onClick="buttonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/play_selector_file"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/playButon"
+            android:adjustViewBounds="true"
+            android:onClick="buttonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/stop_selector_file"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/favButon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/shareButton"
+            android:adjustViewBounds="true"
+            android:onClick="buttonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/favourite_selctor_file"
+            android:tag="3"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_twelve"
+            android:adjustViewBounds="true"
+            android:onClick="buttonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/share_selctor_file"
+            android:tag="4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/calibrationlayoutWbW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_above="@id/bottom_layout">
+
+        <TextView
+            android:id="@+id/playTv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/playIV"
+            android:layout_marginLeft="@dimen/size_twenty_eight"
+            android:text="Dua Word by Word"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_fifteen" />
+
+        <ImageView
+            android:id="@+id/speakerIV"
+            android:layout_width="@dimen/size_hundred_twenty"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/size_sixty_calibaration"
+            android:layout_toRightOf="@+id/playTv1"
+            android:layout_marginLeft="@dimen/size_twenty_five"
+            android:src="@drawable/cal_speaker" />
+
+
+        <TextView
+            android:id="@+id/wordTv1"
+            android:layout_width="@dimen/size_hundred_fourty"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wordIV"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:text="Tap on"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_fifteen" />
+
+        <TextView
+            android:id="@+id/wordTv2"
+            android:layout_width="@dimen/size_hundred_fourty"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wordTv1"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:text=" word to Listen"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_fifteen" />
+
+        <Button
+            android:id="@+id/okWbW"
+            android:layout_width="@dimen/size_hundred_twenty"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_centerInParent="true"
+            android:background="@drawable/calibration_button_file"
+            android:text="   Got It   "
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_eighteen" />
+
+        <ImageView
+            android:id="@+id/wordIV"
+            android:layout_width="@dimen/size_hundred"
+            android:layout_height="@dimen/size_hundred_twenty"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_minus_cal"
+            android:layout_below="@+id/speakerIV"
+            android:layout_marginTop="@dimen/cali_margin"
+            android:src="@drawable/cal_word" />
+
+        <TextView
+            android:id="@+id/playTv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/playTv2"
+            android:layout_alignLeft="@+id/playTv2"
+            android:layout_marginLeft="@dimen/size_thirty_five"
+            android:text="Play complete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_fifteen" />
+
+        <LinearLayout
+            android:id="@+id/adLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+           >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/speakerTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/playTv1"
+            android:layout_marginTop="@dimen/size_hundred_eighty"
+            android:text="Tap to Listen Word Audio"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_fifteen"  />
+
+        <ImageView
+            android:id="@+id/playIV"
+            android:layout_width="@dimen/size_hundred_twenty"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cali_play"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/size_minus_twenty_calibaration"
+
+            />
+
+    </RelativeLayout>
+-->
+</RelativeLayout>

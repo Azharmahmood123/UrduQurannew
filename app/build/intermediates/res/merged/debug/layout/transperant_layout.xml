@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/size_two_hundred_fifteen"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/size_ten"
+    android:background="@android:color/transparent"
+    android:layerType="software"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_layout"
+        android:layout_alignLeft="@+id/btn_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_layout"
+        android:layout_alignTop="@+id/btn_layout"
+        android:background="@android:color/transparent"
+        android:enabled="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white"
+    android:splitMotionEvents="false"
+    tools:context="com.QuranReading.urduquran.SettingsActivity">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:text="@string/txt_settings"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/del_btn"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/size_five"
+        android:background="@drawable/delete_disable"
+        android:clickable="false"
+        android:onClick="DelBookmarks"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/tv_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seprator_line"
+        android:layout_margin="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_five"
+        android:background="@drawable/settings_container_bg"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/tajweedNotificatn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/tajweedNotificatn" />
+
+            <ImageView
+                android:id="@+id/tajweedOn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:src="@drawable/img_on"
+                android:clickable="true"
+                android:onClick="onClickEvent"/>
+
+        </LinearLayout>
+
+        <View style="@style/settings_stroke_line" />
+
+        <LinearLayout
+            android:id="@+id/vocabularyNotificatn"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/vocabularyNotificatn" />
+
+            <ImageView
+                android:id="@+id/vocabularyOn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:onClick="onClickEvent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:src="@drawable/img_on" />
+
+        </LinearLayout>
+
+        <View style="@style/settings_stroke_line" />
+        <LinearLayout
+            android:id="@+id/quranFactsNotificatn"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/quranFactsNotification" />
+
+            <ImageView
+                android:id="@+id/quranFactsOn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:onClick="onClickEvent"
+
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:src="@drawable/img_on" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/suraKahfNotificatn"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/suraKahfNotificatn" />
+
+            <ImageView
+                android:id="@+id/suraKahfOn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:onClick="onClickEvent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:src="@drawable/img_on" />
+
+        </LinearLayout>
+        <View style="@style/settings_stroke_line" />
+        <LinearLayout
+            android:id="@+id/languageTajweed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/labelTajweedQuran" />
+
+            <TextView
+                android:id="@+id/tvTajweedQuran"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/setUrdu"
+                android:clickable="true"
+                android:onClick="onClickEvent"/>
+
+        </LinearLayout>
+        <View style="@style/settings_stroke_line" />
+        <LinearLayout
+            android:id="@+id/languageQuranVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_weight="0.75"
+                android:gravity="center_vertical"
+                android:text="@string/labelQuranVocabulary" />
+
+            <TextView
+                android:id="@+id/tvQuranVocabulary"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_twenty_five"
+                android:layout_marginRight="@dimen/size_two"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="@dimen/size_five"
+                android:gravity="center"
+                android:text="@string/setUrdu"
+                android:clickable="true"
+                android:onClick="onClickEvent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

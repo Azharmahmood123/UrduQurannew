@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_heading">
+        <item>1.    Introduction</item>
+        <item>2.	Mukhraj ul Huroof</item>
+        <item>3.	Components of Tajweed</item>
+        <item>4.	Rules of Tajweed</item>
+    </string-array>
+    <string-array name="tajweedHeadingsUrdu">
+        <item>تعارف</item>
+        <item>مخارج الحروف</item>
+        <item>تجوید کے اجزاء</item>
+        <item>تجوید کے قوانین</item>
+    </string-array>
+    <string-array name="sublist_4Urdu">
+        <item>حروف حلقی </item>
+        <item>جلی حروف</item>
+        <item>خالی حروف</item>
+        <item>حروف قلقلہ</item>
+        <item>حروف لین</item>
+        <item>حرکات</item>
+        <item>تنوین</item>
+        <item>سکون</item>
+        <item>شدہ</item>
+        <item>مَدِ</item>
+
+    </string-array>
+
+    <string-array name="sublist_4">
+        <item>Throat Letters</item>
+        <item>Bold Letters</item>
+        <item>Silent Letters</item>
+        <item>Qalqalah Letters</item>
+        <item>Leen Letters</item>
+        <item>Harkat (Movement)</item>
+        <item>Tanween</item>
+        <item>Sukoon</item>
+        <item>Shaddah</item>
+        <item>Madd</item>
+
+    </string-array>
+    <string-array name="sublist_5Urdu">
+        <item>نون ساکن</item>
+        <item>میم ساکن</item>
+        <item>را</item>
+        <item>لام</item>
+        <item>حمزہ</item>
+
+    </string-array>
+    <string-array name="sublist_5">
+        <item>Rules of Noon Sakin</item>
+        <item>Rules of Meem Sakin</item>
+        <item>Rules of Raa</item>
+        <item>Rules of Letter Laam</item>
+        <item>Rules of Hamzah</item>
+
+    </string-array>
+</resources>
+
+

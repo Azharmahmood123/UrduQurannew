@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The main content view -->
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color" >
+
+
+        <ExpandableListView
+            android:id="@+id/duaListView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:divider="@null"
+            android:layout_marginTop="@dimen/size_fifteen"
+            android:dividerHeight=".5dp"  
+            android:childDivider="#000000"
+            android:paddingTop="@dimen/size_minus_ten"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </ExpandableListView>
+
+        
+        <ImageView
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_eight"
+            android:src="@drawable/shadow_file" />
+       
+    </RelativeLayout>
+
+</RelativeLayout>

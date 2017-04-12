@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearMukhraj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_selector"
+    android:clickable="false"
+    android:gravity="center_vertical|center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="4.5">
+
+        <ImageView
+            android:id="@+id/imgMukhrooj"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_twenty"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_weight="0.5"
+            android:src="@drawable/options_icon" />
+
+        <TextView
+            android:id="@+id/txt_mukhroojWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_weight="2.5"
+            android:gravity="center_vertical|center"
+            android:layout_gravity="center"
+            android:text="Meaning of word Alif"
+            android:layout_marginBottom="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <TextView
+            android:id="@+id/txt_mukhroojMeaning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center"
+            android:text="Alif"
+            android:textSize="@dimen/text_size_twenty" />
+
+</LinearLayout>

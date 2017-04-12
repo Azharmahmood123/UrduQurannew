@@ -1,0 +1,349 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.packageapp.HomeScreen2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/_100QuranFacts"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Quran Facts"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/Premium"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Premium"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv8"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/settings"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv12"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv9"/>
+            </LinearLayout>
+
+
+
+
+            <!-- <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_weight="1"
+                 android:orientation="vertical"
+                 android:id="@+id/salat"
+                 android:clickable="true"
+                 android:onClick="homeClickEvent">
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_gravity="center"
+                     android:layout_weight="0.75"
+                     android:clickable="true"
+                     android:onClick="homeClickEvent"
+                     android:orientation="vertical">
+                     <ImageView
+                         android:layout_width="@dimen/size_eighty"
+                         android:layout_height="@dimen/size_eighty"
+                         android:layout_gravity="center"
+                         android:layout_marginBottom="@dimen/size_ten"
+                         android:background="@drawable/icon8" />
+                 </LinearLayout>
+                 <LinearLayout
+
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_gravity="center"
+                     android:layout_weight="0.25"
+                     android:clickable="true"
+                     android:onClick="homeClickEvent"
+                     android:orientation="vertical">
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:gravity="center"
+                         android:text="Salat Timing"
+                         android:textSize="@dimen/text_size_sixteen"
+                         android:textColor="@color/black"
+                         android:id="@+id/tv8"/>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:text="Coming Soon"
+                         android:textColor="#C5BDBD"
+                         android:textSize="@dimen/text_size_sixteen"
+                         android:id="@+id/tv9"
+                         />
+                 </LinearLayout>
+             </LinearLayout>
+
+
+
+           &lt;!&ndash;  <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_weight="1"
+                 android:orientation="vertical"
+                 android:id="@+id/salat"
+                 android:clickable="true"
+                 android:onClick="homeClickEvent">
+                 &lt;!&ndash; added extra 5 dp size due to dimension difference with other &ndash;&gt;
+                 <ImageView
+                     android:layout_width="@dimen/size_eighty_five"
+                     android:layout_height="@dimen/size_eighty_five"
+                     android:layout_gravity="center"
+                     android:layout_marginBottom="@dimen/size_ten"
+                     android:background="@drawable/icon8" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:gravity="center"
+                     android:text="Salat Timing"
+                     android:textSize="@dimen/text_size_twelve"/>
+             </LinearLayout>&ndash;&gt;
+              <LinearLayout
+                android:id="@+id/tafseer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:clickable="true"
+                  android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.75"
+                    android:clickable="true"
+                    android:onClick="homeClickEvent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/size_eighty"
+                        android:layout_height="@dimen/size_eighty"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/size_ten"
+                        android:background="@drawable/icon6" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25"
+                    android:clickable="true"
+                    android:onClick="homeClickEvent"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tafseer"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Coming Soon"
+                    android:textColor="#C5BDBD"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:id="@+id/tv11" />
+                </LinearLayout>
+              </LinearLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/btn_more"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:gravity="center"
+                    android:id="@+id/tv10"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/share"
+                android:clickable="true"
+                android:gravity="top"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Share"
+                    android:textSize="@dimen/text_size_sixteen"
+
+                    android:id="@+id/tv11"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/btn_rate_us"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rate Us"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv12" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

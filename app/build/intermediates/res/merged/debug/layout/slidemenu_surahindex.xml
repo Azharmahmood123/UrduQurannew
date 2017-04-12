@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:splitMotionEvents="false" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/size_six"
+            android:layout_marginLeft="@dimen/size_twenty"
+            android:layout_marginRight="@dimen/size_sixty"
+            android:layout_marginTop="@dimen/size_six"
+            android:background="@drawable/search_bg"
+            android:splitMotionEvents="false" >
+
+            <EditText
+                android:id="@+id/edit_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/btn_search"
+                android:background="@android:color/transparent"
+                android:hint="@string/txt_hint"
+                android:paddingLeft="@dimen/size_ten"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:maxLength="15"
+                android:textColorHint="#85ABBB"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                android:textSize="@dimen/text_size_eighteen" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/btn_search"
+                android:layout_width="@dimen/size_thirty_five"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_five"
+                android:layout_marginBottom="@dimen/size_three"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="@drawable/search_btn"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+        
+        <ImageView
+                android:id="@+id/last_read"
+                android:layout_width="@dimen/size_thirty_five"
+                android:layout_height="@dimen/size_thirty_five"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="@dimen/size_fifteen"
+                android:background="@drawable/btn_lastread"
+                android:clickable="true"
+                android:onClick="openLastRead"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/top_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_below="@id/seprator_line"
+       android:orientation="horizontal"
+        android:background="@color/white"
+        android:weightSum="2.01"
+        android:id="@+id/tabHeader">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/juzHeader"
+            android:background="@color/header_bg"
+            android:text="@string/surahHeader"
+            android:textSize="@dimen/text_size_twenty"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:onClick="onSurahClick"
+            android:tag="12"
+            android:clickable="true"
+            android:layout_weight="1"/>
+        <View
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_width="4dp"
+          />
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/surahHeader"
+            android:background="@color/header_bg"
+            android:text="@string/juzHeader"
+            android:textSize="@dimen/text_size_twenty"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:onClick="onSurahClick"
+            android:tag="13"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/seprator_line_juzz_surah"
+        style="@style/white_line"
+        android:layout_below="@+id/tabHeader" />
+
+
+
+    <ListView
+        android:id="@+id/index_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seprator_line_juzz_surah"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#a6a494"
+        android:dividerHeight="@dimen/size_one"
+        android:scrollbars="none"
+        android:splitMotionEvents="false" >
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvNoResultFound"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="No Result Found"
+        android:textSize="@dimen/text_size_twenty_five"/>
+
+    <View
+        style="@style/side_menu_shadow"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

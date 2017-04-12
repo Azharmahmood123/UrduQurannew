@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For Mor Apps -->
+    <string name="more_apps">More Apps</string>
+    <string name="tap_to_view_more">Tap to View More Apps</string>
+    <string name="apps">Apps</string>
+    <string name="app_name_QuranVocabulary">Quran Vocabulary</string>
+    <string name="app_name_TajweedQuran">Tajweed Quran</string>
+    <string name="tajweedNotificatn">Quran Tajweed Notification</string>
+    <string name="vocabularyNotificatn">Quran Vocabulary Notification</string>
+    <string name="suraKahfNotificatn">Surah Kahf Notification</string>
+    <string name="quranFactsNotification">Quran Facts Notification</string>
+    <string name="labelQuranVocabulary">Quran Vocabulary Language</string>
+    <string name="labelTajweedQuran">Tajweed Language</string>
+    <string name="setUrdu">Urdu</string>
+    <string name="setEnglish">English</string>
+    <string name="word_tab_txt">Word By Word</string>
+    <string name="full_tab_dua">Full Dua</string>
+    <string name="full_tab_sura">Full Surah</string>
+    <string name="Quranvocabulary_audioSize">4.214976E7</string>
+    <string name="TajweedQuran_audioSize">2.119104E7</string>
+    <string name="WBW_audioSize">4.2137472E7</string>
+    <string name="xlistview_header_hint_normal">Pull down to Go to Previous Surah</string>
+    <string name="xlistview_header_hint_ready">Release to Go to Previous Surah</string>
+    <string name="xlistview_header_hint_loading">loading...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">Pull up to Go to Next Surah</string>
+    <string name="xlistview_footer_hint_ready">Release to Go to Next Surah</string>
+    <string name="xlistview_footer_hint_last_surah">Last Surah</string>
+    <string name="juzHeader">Juz</string>
+    <string name="surahHeader">Surah</string>
+
+
+
+    <string-array name="more_apps_category">
+        <item>Kids</item>
+        <item>Adults</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="eng_urdu">
+        <item>Urdu</item>
+        <item>English</item>
+
+    </string-array>
+
+    <string-array name="on_off">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <!--Quran Facts Data-->
+    <string-array name="scietific_facts_list">
+        <item>The Creation of Life</item>
+        <item>The Presence of Iron</item>
+        <item>Sky as Protector</item>
+        <item>Function of Mountains</item>
+        <item>Earth - Egg Shaped</item>
+        <item>Atoms</item>
+        <item>Pain Receptors in Skin</item>
+        <item>Wormholes</item>
+        <item>Pulsars and Black Holes</item>
+        <item>Expansion of Universe</item>
+        <item>Orbits</item>
+        <item>Origin of the Universe</item>
+        <item>Sex of baby</item>
+        <item>The Quran on the Cerebrum</item>
+        <item>The Movement of Mountains</item>
+        <item>The Relativity of Time</item>
+        <item>The Quran on Seas and Rivers</item>
+        <item>The Quran on Deep Seas and Internal Waves</item>
+        <item>The Quran on Clouds</item>
+        <item>The Proportion of Rain</item>
+        <item>The Quran on Human Embryonic Development</item>
+        <item>The Identity in the Fingerprint</item>
+        <item>The Victory Of The Romans And The Lowest Point On Earth</item>
+        <item>The Formation Of Petrol</item>
+        <item>Creation From Clay</item>
+
+    </string-array>
+
+    <string-array name="interesting_facts_list">
+        <item>Parts</item>
+        <item>Chapters</item>
+        <item>Bismillah</item>
+        <item>Al Taubah</item>
+        <item>Al Naml</item>
+        <item>Longest Surah</item>
+        <item>Smallest Surah</item>
+        <item>Rewards of Reciting Quran</item>
+        <item>Longest Verse</item>
+        <item>Greatest Verse</item>
+        <item>Other Names Of Quran</item>
+        <item>Age Of Prophet (PBUH) at Revealation</item>
+        <item>Duration of Revelation</item>
+        <item>First Revelation</item>
+        <item>Best Drink</item>
+        <item>Best Food</item>
+        <item>Best Month</item>
+        <item>Best Night</item>
+        <item>Mention of Pharaoh</item>
+        <item>Heart Of Quran</item>
+        <item>Laws Of Marriage</item>
+        <item>Quran Reading in Ramadan</item>
+        <item>Judgment Day</item>
+        <item>Word \‘Allah\’</item>
+        <item>Chapters Named After Prophets</item>
+        <item>25 Prophets</item>
+        <item>Mosques in Quran</item>
+        <item>Angels in Quran</item>
+        <item>Theme of Quran</item>
+        <item>Difficulty in Recitation</item>
+        <item>Charity</item>
+    </string-array>
+    <!--Facts Data-->
+    <string name="parts">There are 30 Paara or Juz (parts) in The Holy Quran.</string>
+    <string name="chapters">There are 114 Surahs (chapters) in The Holy Quran.</string>
+    <string name="bismillah_fact"><![CDATA[<b>Bismillah Al-Rahman Al-Raheem</b> is repeated <b>114</b> times in the Quran.]]></string>
+    <string name="twabah"><![CDATA[All except for Surah &quot;<b>Al Taubah&quot</b> start with <b>Bismillah Al-Rahman Al-Raheem</b>.]]></string>
+    <string name="naml"><![CDATA[Bismillah is repeated twice in Surah Al-Naml (Chapter 27). One in the beginning (Verse 1) and other in the middle (Verse 30).]]></string>
+    <string name="longest_surah"><![CDATA[Surah Al-Baqarah (Chapter 2) is the longest Surah in The Holy Quran. It has 286 verses.]]></string>
+    <string name="smallest_surah"><![CDATA[Surah Al-Kausar (chapter 108) is the smallest Surah in The Holy Quran. It comprises of 3 verses only.]]></string>
+    <string name="rewards_of_quran"><![CDATA[The Quran has more than 300,000 letters. Therefore, whoever reads the Quran will get a reward of more than 3 million good deeds because a person who reads one letter of the Quran gets ten rewards.]]></string>
+    <string name="longest_verse"><![CDATA[The longest verse in the Quran is verse 282 in Surah Al-Baqarah, popularly known as the verse of debt.]]></string>
+    <string name="greatest_verse"><![CDATA[The greatest verse in the Quran is <b>Aayah-tul-Kursi (Verse of the Throne)</b> which is verse 255 in Surah Al-Baqarah (Chapter 2).]]></string>
+    <string name="other_names_quran"><![CDATA[The Quran is known by various names: <ul>
+        <li>Furqaan (Criterion, as stated in Quran (25: 1))</li></br>
+        <li>Tanzil (Sent down, as mentioned Quran (26: 192))</li></br>
+        <li>Dhikr (Reminder, refer to Quran (15: 9))</li></br>
+        <li>Kitab (Scripture, as indicated in Quran (21:10))</li>]]></string>
+    <string name="age_of_prophet"><![CDATA[Prophet Muhammad (Sallallahu Alaihi Wasallam) was 40 Years old when Quran was first revealed to him through Jibraeel (Alaihis-salaam)]]></string>
+    <string name="duration_revelation"><![CDATA[Prophet Muhammad (Sallallahu Alaihi Wasallam) received the revelation of the Quran in Makkah for 13 Years and in Madinah for 10 Years. The revelation was completed in 23 years.]]></string>
+    <string name="first_revelation"><![CDATA[The first verse to be revealed were the first few verses of Surah Al-Alaq (Chapter 96). Prophet Muhammad (Sallallahu Alaihi Wasallam) received the first revelation in the cave of Hira (Makkah)]]></string>
+    <string name="best_drink"><![CDATA[<b>Milk</b> is the <b>best drink</b> mentioned in the Quran.<b>(Quran 16:66)</b>]]></string>
+    <string name="best_food"><![CDATA[<b>Honey</b> is the <b>best food</b> mentioned in the Quran. <b>(Quran 16:69)</b>]]></string>
+    <string name="best_month"><![CDATA[<b>Ramadan</b> is the <b>best month</b> mentioned in the Quran <b>(Quran 2:183)</b>]]></string>
+    <string name="best_night"><![CDATA[The best night mentioned in Quran is the <b>Night of Power</b> in Ramadan <b>(Laylat al Qadr) [Quran 97:1-5; 44:3-6]</b>]]></string>
+    <string name="mention_of_pharaoh"><![CDATA[Allah has said in the Qur\'an that Fir\'aun\'s (Pharaoh) body is kept as an admonishing example for future generations to come. <b>(Quran 10: 91-92)</b>]]></string>
+    <string name="heart_of_quran"><![CDATA[<b>Surah Yaseen (Chapter 36)</b> is the HEART of the Quran <b>(Al-Tirmidhi, 2887)</b>]]></string>
+    <string name="law_marriages"><![CDATA[<b>Surah Al-Nissa (The Women), Chapter 4</b> speaks about laws of <b>marriage</b>]]></string>
+    <string name="reading_ramdhan"><![CDATA[Reading <b>1 verse</b> in Ramadan is equal to reading the entire Quran in other months]]></string>
+    <string name="judgment"><![CDATA[The Quran will <b>intercede</b> for people who recited it on <b>Judgment Day</b> and it will <b>complain</b> of people who didn\'t recite it.]]></string>
+    <string name="word_Allah"><![CDATA[The word &apos;Allah&apos; has been repeated 2698 times in the Quran.]]></string>
+    <string name="chapters_names_after"><![CDATA[5 Surahs or Chapters in Quran are named after Prophets who came before Prophet Muhammad (PBUH)<ul>
+      <li>Surah Al-Yunus (chapter 10)</li>
+        <li>Surah Al-Hood (chapter 11)</li>
+        <li>Surah Al-Yusuf (chapter 12)</li>
+        <li>Surah Al-Ibraheem (chapter 14)<\li>
+        <li>Surah Al-Nuh (chapter 71)</li>
+        </ul>
+   <!--<p>&#8226;  Surah Al-Yunus (chapter 10)<br />&#8226;   Surah Al-Hood (chapter 11)<br /></p>-->]]></string>
+    <string name="_25_prophets"><![CDATA[<i>25</i> Prophets are mentioned in the Quran.<ol>
+    <li>Adam</li>
+    <li>Ayub</li>
+    <li>Dawud </li>
+    <li>Dhul-Kifl</li>
+    <li>Harun</li>
+    <li>Hud</li>
+    <li>Ibrahim</li>
+    <li>Idris</li>
+    <li>Ilyas</li>
+    <li>Al Yasa</li>
+    <li>Isa (Jesus)</li>
+    <li>Ishaq </li>
+    <li>Ismail</li>
+    <li>Lut</li>
+    <li>Muhammad</li>
+    <li>Musa (Moses)</li>
+    <li>Nuh</li>
+    <li>Saleh</li>
+    <li>Shu\'ayb </li>
+    <li>Sulayman</li>
+    <li>Yahya </li>
+    <li>Yusuf</li>
+    <li>Ya\'qub</li>
+    <li>Yunus</li>
+    <li>Zakariyya</li>
+    </ol>]]></string>
+    <string name="mosques"><![CDATA[There are 5 mosques that are mentioned in the Quran
+    <ul>
+      <li>Surah Al-Yunus (chapter 10)</li>
+        <li>Surah Al-Hood (chapter 11)</li>
+        <li>Surah Al-Yusuf (chapter 12)</li>
+        <li>Surah Al-Ibraheem (chapter 14)<\li>
+        <li>Surah Al-Nuh (chapter 71)</li>
+        </ul>]]></string>
+<string name="angles"><![CDATA[There are 5 angles that are mentioned in the Quran
+    <ul>
+      <li>Jibraeel (Alaihis salaam) [2:98] (chapter 10)</li>
+        <li>Meekaeel (Alaihis salaam) [2:98]</li>
+        <li>Haroot (Alaihis salaam) [2:102]</li>
+        <li>Maroot (Alaihis salaam) [2:102]<\li>
+        <li>Maalik (Alaihis salaam) [43:77]</li>
+        </ul>]]></string>
+    <string name="theme"><![CDATA[The major theme of the Quran is Tawheed (Oneness of Allah). It teaches us that those who worshipped Allah alone sincerely were successful in this world and will attain salvation in the Hereafter, while those who have no Tawheed in their lives are doomed in the hereafter.]]></string>
+    <string name="_difficulity_recitation">One who recites the Quran and experiences difficulty in doing so will get double the reward.</string>
+    <string name="charity">The Quran orders those who are capable to give charity. One of the best forms of charity is that which is given to a relative, because it consists of two things; charity and strengthening of family ties.</string>
+
+    <!--Scientific facts-->
+    <string name="creation_of_life"><![CDATA[Allah says in Quran:<b><br>
+&quot;We made every living thing from water. Will they not believe?&quot; (Quran 21:30)</b>
+<p>In this verse, Allah mentions water as the basic element of the creation of every living thing. Today, science proves that every living thing is made up of cells and these cells consist of 80% cytoplasm, which in simple terms is &quot;water&quot;. This might have seemed odd for the people of that time as there was no science to prove it but today, science proves this fact which Quran mentioned 1400 years ago.</p>
+]]></string>
+    <string name="presence_of_iron"><![CDATA[For the people of today, iron is a metal that is found on earth. However, according to scientists today, the original source of iron is not a metal of this earth rather it came from space.
+Quran mentions iron in the following way:<b><br>
+&quot; We sent down Iron, in which is (material for) mighty war, as well as many benefits for mankind.&quot; <br>(Quran 57:25)</b><br>
+<p>This ayah states that the iron is not something that formed on earth but was actually sent down by Allah. According to scientists, billions of years ago meteoroids hit earth and these meteoroids came with the metal iron which then dispersed and immersed in different parts of the earth.</p>
+]]></string>
+    <string name="sky_protector"><![CDATA[Allah says in Quran: <b><br>
+&quot;We made the sky a protective ceiling. And yet they are turning away from Our signs!&quot;<br>
+(Quran 21:32)</b>
+<p>Allah mentions sky as a protective ceiling and calls it as a sign. Today, this is a scientific fact that the sky actually does serve as a protective shield for life on earth. Earth\'s atmosphere protects life on earth by filtering harmful ultraviolet radiations from the sun, destroying most meteors that pass through it and retaining heat. Earth\'s atmosphere also provides oxygen to humans and animals and carbon dioxide to plants.</p>
+]]></string>
+    <string name="function_mountain"><![CDATA[Allah says in Quran:<b><br>
+&quot;Did We not make the earth a resting place? And the mountains as stakes?&quot;<br>
+(Quran 78:6-7)</b>
+<p>This Ayah describes mountains as stakes which go deep down in earth. Today, science proves this claim of Quran according to which the mountains are not just above the surface rather they have roots deep down below earth\'s surface as well.</p>
+<p>The highest peak in the world Mount Everest can be the best example of this. According to scientists, Mount Everest that is 9km above the surface has its roots almost 125km below the surface. Thus the metaphor of &quot;mountains as stakes&quot; in Quran actually gets a scientific proof.</p>
+]]></string>
+    <string name="earth_egg_shaped"><![CDATA[Allah says in Quran:<b><br>
+&quot;After that He smoothed out the earth.&quot;<br> (Quran 79:30)</b>
+
+<p>The word dahaha means &quot;Egg Shaped&quot;. However, the other meaning of this word is &quot;Spread out&quot;. Even the translation &quot;Spread out&quot; is correct as it points towards increase in surface area. Today, science tells us that the Earth\'s surface area gradually started spreading along the sun and our neighboring planets 4.57 billion years ago. So the Quran correctly described the surface area as increasing.</p>
+]]>
+
+    </string>
+    <string name="atom"><![CDATA[Allah says in Quran:<b><br>
+&quot;And nothing is hidden from your Lord (so much as) the weight of an atom on Earth and in heaven, not less than that nor more but is (written) in a clear record (the Preserved Tablet).&quot; <br>(Quran 10:61)</b>
+<p>Before Quran was revealed, philosophers thought that the atom was the smallest indivisible component of matter. However, today we know that this in not true. Atoms are composed of electrons, neutrons and protons. Recently it was discovered that those neutrons and protons are made of quarks. However 1400 years ago the Quran contradicted the common knowledge of the time but modern science proves this Quranic claim that Atom is not the smallest particle.</p>
+]]>
+    </string>
+    <string name="pain_receptors_skin"><![CDATA[The skin burning sensation is carried to the brain by nerves in the skin. However, if the nerve endings at outer skin are damaged, no signals would be carried to the brain, hence no burning sensation would be felt.
+<p>The Quran says that those who will burn in hell their skins will be replaced with new ones, every time it is roasted, so that they may feel the pain again:<br></p>
+<b>&quot;Those who disbelieve in Our verses, We will drive them into a fire, every time their skins are roasted We will replace their skins with other new skins so that they may taste the torture. Allah is ever Exalted in Might and Wise.&quot; <br>(Quran 4:56)</b>
+]]></string>
+    <string name="warmholes"><![CDATA[General relativity explains a mechanism to shrink huge distances into few meters. Albert Einstein called this mechanism \'bridges\' in space and time. Today, scientists call them wormholes.
+<p>A wormhole acts as a shortcut connecting two distant regions in the universe. Allah made wormholes so that angels can transport in universe through them. The Quran calls them &quot;ma\'arij&quot; and describes how angels use them for long distance travel. Today, Muslims believe that these &quot;ma\'arij&quot; are what scientists call wormholes.</p>
+Allah says in Quran:<br>
+<p> <b>&quot;Someone asked about the penalty that will befall the unbelievers; (A penalty) that has none to ward off; (a penalty) from Allah (who owns) wormholes [&quot;ma\'arij&quot; in Arabic] The angels and the Spirit ascend to Him in a day, the measure of which is fifty thousand years.&quot;<br>(Quran 70:1-4)</b></p>
+]]></string>
+    <string name="pulsars_blackholes"><![CDATA[Neutron stars are the remains of exploded stars. As more matter falls into a neutron star, its mass and gravity increases. Ultimately, a point will be reached where gravity would grow so much that not even light will escape it, thus a black hole forms.
+<p>Most neutron stars discovered today are in the form of radio pulsars. They are called radio pulsars because they emit radio waves. These radio waves (pulsars) can be detected and heard by simply connecting a radio telescope to a loud speaker. Pulsars sound like someone is continuously knocking. In other words, we can hear a pulsar knock. And if matter continues to fall into this pulsar, a black hole will eventually form.</p>
+<p>Muslims believe that this is what Allah says in the Quran. The Quran describes a star by &quot;The one who knocks&quot; and, that it is &quot;The one who makes a hole&quot;.</p>
+Allah says in Quran:<br>
+<b>&quot;By the heaven and the  &quot;Knocker&quot; (tariq in Arabic) How could you know about the &quot;Knocker&quot;? The piercing star (thaqib in Arabic)]&quot;
+<br>(Quran 86:1-3)</b>
+<p>The Arabic word &quot;Thukb&quot; means a hole; &quot;thaqib&quot; means the one who makes the hole. The Quran is describing a knocking star that makes a hole.</p>
+]]></string>
+    <string name="expansion_universe"><![CDATA[Allah says in Quran:<br>
+<b>&quot;And it is We who have built the Universe with (Our creative) power and keep expanding it.&quot; (Quran 51:47)</b>
+<p>In this Ayah, Allah refers to the expansion of the universe. According to this ayah, the universe has not been the same since its existence; it continues and will continue on changing. This fact was proved by science a hundred years ago when the astronomers found out that the universe does not remain constant, rather it is expanding with the passage of time, thus proving the claim of Quran.</p>
+]]>
+    </string>
+    <string name="orbits"><![CDATA[Allah says in Quran:<br>
+<b>&quot;It is He Who created the night and the day, and the sun and the moon. They swim along, each in an orbit. &quot;<br>
+(Quran 21:33)</b><br>
+
+<p>In 1512 the astronomer Nicholas Copernicus presented a theory that the Sun is motionless at the center of the solar system and the planets revolve around it.</p>
+<p>The belief that the Sun is stationary was widespread amongst astronomers until the 20th century. Today, it is now a well-established scientific fact that the Sun is not stationary but is moving in an orbit around the center of our galaxy.</p>
+<p>Modern scientific knowledge has shown that our galaxy revolves on its own axis. The sun thus revolves in an orbit around the center of the galaxy. This was not known to man 1400 years ago. The concept of motion of the heavenly bodies with an orbit of their own belongs to modern science.</p>
+<p>Just a couple of decades ago, the Quran would have been wrong according to astronomers of that time but today, Quran\'s definition of the Sun\'s motion is consistent with modern Astronomy.</p>
+]]></string>
+<string name="origin_universe"><![CDATA[Allah says in Quran:<br>
+<b><q>Then He turned to the heaven when it was smoke...</q><br>(Quran 41:11)</b>
+
+<p><b><q>Have not those who disbelieved known that the heavens and the earth were one connected entity, then We separated them?...</q> <br> (Quran 21:30)</b></p>
+
+
+<p>According to the science of modern cosmology, the whole universe, at one point, was nothing but a cloud of \'smoke\' (i.e. highly dense and hot gaseous composition). Scientists now often observe new stars forming out of the remains of that \‘smoke\’.</p>
+
+<p>Because everything in the universe formed from this same \'smoke\', we conclude that the earth and the heavens were one connected entity.  All the planets, stars, and galaxies formed and separated from each other out of this \'smoke\'.</p>
+]]></string>
+    <string name="sex_baby"><![CDATA[Allah says in Quran:<br>
+<b><q>And He (Allah) creates pairs, male and female, from semen emitted.</q><br>(Quran 53:45-46)</b>
+<p>In the light of this Ayah, it is the semen of males that determines whether the baby is male or female. Females have XX chromosomes, which means they can only give one X chromosome. But since males have XY chromosomes, they can either give the X or the Y chromosome. This means, that it is actually the males who determine the sex of the baby.</p>
+<p>This verse also describes that Allah created everything in pairs. Today, science confirms that even the smallest particle has a pair (Antiparticle). All the living things from the humans, to the plants, to the animals that we know have pairs (males and females).</p>
+]]></string>
+    <string name="quran_cerebrum"><![CDATA[During the time of Prophet Muhammad (PBUH), there was a cruel and oppressive tribal leader named Abu Jahl. Allah revealed the following verses of Quran to warn him:<br>
+<p><b>No!  If he does not stop, We will take him by the naseyah (front of the head), a lying, sinful naseyah (front of the head)!  (Quran 96:15-16)</b></p>
+<p>Note that Allah describes the front of the head as being lying and sinful, rather saying that the person was lying and sinful.  This Ayah draws a relationship between the front of the head with lying and sinfulness.</p>
+<p>The front of the skull is the prefrontal area of the cerebrum. This area of the cerebrum is responsible for planning, motivating, initiating behavior and is responsible for the telling of lies and the speaking of truth.  Thus, it is indeed appropriate to describe the front of the head as lying and sinful when someone lies or commits a sin.</p>
+]]></string>
+   <string name="movement_mountains"><![CDATA[Allah says in Quran:
+<p><b><q>You will see the mountains you reckoned to be solid going past like clouds.</q></p>
+(Quran 27:88)</b>
+<p>In this verse, Allah says that mountains are not motionless as they seem, but are in constant motion.</p>
+<p>It was discovered at the beginning of the 20th century as a result of the geological research, that this motion of the mountains is caused by the movement of the Earth\'s crust that \'floats\' over the mantle layer, which is denser.</p>
+<p>There is another important point to be stated here that Allah has referred to the motion of mountains as a \'drifting motion\'. Today, scientists also use the term &quot;Continental Drift&quot; for this motion.</p>
+]]></string>
+    <string name="relativity_time"><![CDATA[The relativity of time is a proven scientific fact today. In the early years of the 20th century, Einstein presented the theory of relativity. Until then, people did not know that time was a relative concept, and that it could change according to the environment. Albert Einstein showed that time is dependent on mass and velocity. In the history of mankind, no one had expressed this fact clearly before.
+<p>With one exception however, In the Quran, Allah talks about time\'s being relative in the following verses:</p>
+&quot;<b>They ask you to hasten the punishment. Allah will not break His promise. A day with your Lord is equivalent to a thousand years in the way you count.&quot;<br>
+(Quran 22:47)</b>
+<p>&quot;<b>He directs the whole affair from heaven to earth. Then it will again ascend to Him on a Day whose length is a thousand years by the way you measure.&quot;<br>
+(Quran 32:5)</b></p>
+<p>&quot;<b>The angels and the Spirit ascend to Him in a day whose length is fifty thousand years.&quot;<br>
+(Quran 70:4)</b></p>
+<p>The following verse indicates that people perceive time differently and that people may perceive a short period of time as a lengthy one.</p>
+<p>&quot;<b>He will say, \'How many years did you tarry on the earth?\' They will say, \'We tarried there for a day or part of a day. Ask those able to count!\' He will say, \'You only tarried there for a little while if you did but know!&quot;<br>
+(Quran 23:12)</b></p>
+<p>The fact that the relativity of time is mentioned clearly in the Quran, which was revealed 1400 years ago, is another evidence that it is the word of Allah.</p>
+]]></string>
+
+    <string name="quran_seas_rivers"><![CDATA[Allah says in Quran:
+<p><b>He has set free the two seas meeting together.  There is a barrier between them.  They do not transgress.  (Quran 55:19-20)</p></b>
+<p>In this ayah, the Holy Quran mentioned that there is a barrier between two seas that meet and that they do not transgress.</p>
+<p>But when the Quran speaks about the divider between fresh and salt water, it mentions that there is &quot;a forbidding partition&quot; with the barrier.  Allah says in Quran:</p>
+<p><b>He is the one who has set free the two kinds of water, one sweet and palatable, and the other salty and bitter.  And He has made between them a barrier and a forbidding partition.  (Quran 25:53)</p></b>
+<p>This information was only discovered recently, using advanced equipment to measure water\'s temperature, density, salinity, and oxygen dissolubility, etc.</p>
+]]></string>
+
+    <string name="deep_seas"><![CDATA[Allah says in Quran:
+<p><b>Or (the unbelievers\' state) is like the darkness in a deep sea.  It is covered by waves, above which are waves, above which are clouds. Darkness, one above another.  If a man stretches out his hand, he cannot see it....  (Quran 24:40)</p></b>
+<p>This verse mentions the darkness found in deep seas and oceans. The darkness in deep seas and oceans is found around a depth of 200 meters and below where there is almost no light. Below a depth of 1000 meters there is no light at all.
+Allah mentions another information in the following parts of this verse, <b>&quot;...in a deep sea.  It is covered by waves, above which are waves, above which are clouds....&quot;</b>
+It is mentioned that the deep waters of seas and oceans are covered by waves, and above these waves are other waves.  It is clear that the second set of waves that are mentioned here are surface waves that we can see (because the verse mentions that above the second waves there are clouds). But this verse also mentions the waves in the deep sea.</p>
+<p>Scientists have recently discovered that there are internal waves which cover the deep waters of seas and oceans because the deep waters have a higher density than the waters above them. Just like surface waves, internal waves can also break. But internal waves cannot be seen by the human eye, they can only be detected by studying temperature or salinity changes at a given location.</p>
+]]></string>
+    <string name="quran_clouds"><![CDATA[Allah says in Quran:
+
+<p><b>Have you not seen how Allah makes the clouds move gently, then joins them together, then makes them into a stack, and then you see the rain come out of it....  (Quran 24:43)</p></b>
+
+<p>Scientists have studied and concluded that rain clouds are formed and shaped according to a definite system. And that there are certain steps connected with certain types of wind and clouds. Scientists have found that clouds go through the following three steps to produce rain:
+<ol>
+<li>Clouds being pushed by the wind</li>
+<li>Joining</li>
+<li>Stacking</li>
+</ol>
+]]></string>
+    <string name="proportion_rain"><![CDATA[According to Quran, rain is sent down to Earth in due measure;
+<p><b>&quot;It is He who sends down water in due measure from the sky by which We bring a dead land back to life. That is how you too will be raised (from the dead).&quot;<br>
+(Quran 43:11)</p></b>
+<p>Modern science has discovered this measured quantity of rain. It is estimated that in one second, approximately 16 million tons of water evaporates from the Earth. This figure amounts to 513 trillion tons of water in one year. This number is equal to the amount of rain that falls on the Earth in a year. This means that water continuously circulates in a balanced cycle (in a measure). Life on Earth depends on this water cycle.</p>
+<p>Even a minor deviation in this equilibrium would very soon give rise to a major ecological imbalance that would bring about the end of life on Earth.</p>
+]]></string>
+    <string name="embroynic"><![CDATA[Allah says in Quran:
+
+<p><b>We created man from an extract of clay.  Then We made him as a drop in a place of settlement, firmly fixed.  Then We made the drop into an alaqah (leech, suspended thing, and blood clot), then We made the alaqah into a mudghah (chewed substance) (Quran 23:12-14)</b></p>
+
+<p>Literally, the Arabic word alaqah means a leech, suspended thing, and blood clot.<p>
+
+<p>In comparing a leech to an embryo in the alaqah stage, we find similarity between the two as we know that the embryo at this stage obtains nourishment from the blood of the mother, similar to the leech, which feeds on the blood of others.
+The second meaning of the word alaqah is &quot;suspended thing&quot;.  The embryo seems like it is suspended during the alaqah stage (about 15 days old) in the womb of the mother.
+We also find that the external appearance of the embryo during the alaqah stage is similar to that of a blood clot.</p>
+
+<p>Scientists have only recently discovered this using advanced equipment and powerful microscopes which did not exist at the time Quran was revealed.</p>
+]]></string>
+    <string name="identity_fingerprint"><![CDATA[Allah says in Quran:
+
+<p><b><q>Yes, We are able to put together in perfect order the very tips of his fingers.</q><br>
+(Quran 75:3-4)</b></p>
+
+<p>In this Ayah, the emphasis on fingerprints has a very special meaning. This is because everyone\'s fingerprint is unique to himself. Every person who is alive or who has ever lived in this world has a set of unique fingerprints.</p>
+<p>But the importance of fingerprints was only discovered in the late 19th century. Before then, people regarded fingerprints as ordinary curves without any specific importance or meaning. However in the Quran, Allah points to the fingertips, which did not attract anyone\'s attention at that time. Now the importance of fingertips (fingerprints) is finally understood in our day.</p>
+]]></string>
+    <string name="victory_romans"><![CDATA[Allah says in Quran:
+
+<p><b>&quot;The Romans have been defeated in the lowest land, but after their defeat they will soon be victorious.  Within three to nine years.  The decision of the matter, before and after, is with Allah.&quot;<br> (Quran 30:2-4)</b></p>
+
+<p>These verses were revealed around 620 C.E, almost 7 years after the severe defeat of the Christian Byzantines at the hands of the idolater Persians in 613 &#45; 614 C.E.  Yet it was stated in the verses that the Byzantines would shortly be victorious.  In-fact, Byzantine had been defeated so badly that it seemed impossible for the Empire to even maintain its very existence, let alone be victorious again.</p>
+
+<p>Around 7 years after the revelation of these verses, in December, 627 C.E, Byzantine army surprisingly defeated the Persians in a decisive battle that was fought in the area around the Dead Sea.</p>
+<p>Another miracle revealed in the mentioned verses is the announcement of a geographical fact that no-one would have been able to discover in that period.  In the third verse, it was mentioned that the Romans were defeated <b> &quot;in the lowest land &quot; (Quran 30:3).</b><br>
+The location where the main battles took place (Damascus and Jerusalem) lie in a vast area of low-lying land called the Great Rift Valley.
+<br>This fact has been discovered recently with the help of satellite images, that the area around the Dead Sea (Great Rift Valley) has the lowest altitude on Earth. In fact, the lowest point on Earth is the shoreline of the Dead Sea, with an altitude of around 400 meters below sea level.
+]]></string>
+    <string name="petrol"><![CDATA[Allah says in Quran:
+<p><b>&quot;Glorify the name of your Lord, the Most High: He Who created and molded; He Who determined and guided; He Who forth green pasture; then makes it blackened stubble. &quot; - (Quran, 87:1-5)</b></p>
+
+<p>As we know, petrol forms from the remains of plants and animals in the sea. Once these have decayed on the sea bed after millions of years, all that is left are oily substances.</p>
+
+<p>The three elements identified in the first four verses parallel the formation of petroleum.
+<ul>
+<li>	It is quite likely that the term "almaraa," meaning pasture or meadow, refers to the organically-based substances in the formation of petroleum.</li>
+<li>	The second key word in the verse is "ahwa," which is used to describe blackish-green, greenish-black, dark or sooty colors. This word is describing the waste plant matter accumulated underground gradually turning black.</li>
+<li>	The above two words are supported by a third word, "ghuthaan." which is translated as stubble, which refers to plants brought together by waste being collected and dispersed around valleys, rubbish, leaves or foam.</li>
+</ul>
+</p>
+<p>In addition to the connotation of &quot;vomiting out&quot; implied in the word, it may also be translated as &quot;to flood forth vomited matter,&quot; and describes the way that the earth &quot;vomits&quot; forth petroleum. In fact, in the light of the formation of petroleum, the way it emerges, its foam-like appearance and its color, one can better see with what wisdom were employed the words in the verses.</p>
+]]></string>
+    <string name="creation_clay"><![CDATA[Allah says in Quran:
+
+<p><b>Your Lord said to the angels, "I am going to create a human being out of clay. When I have formed him and breathed My Spirit into him, fall down in prostration to him!" (Quran, 38:71-72)</p></b>
+
+<p><b>Then inquire of them: Is it they who are stronger in structure or other things We have created? We created them from sticky clay. (Quran, 37:11)</p></b>
+
+<p><b>We created man from an extract of clay. (Quran, 23:12)</p></b>
+
+<p>Allah reveals in Quran that the creation of the human is a miracle. In the above verses, it is mentioned that first human being was created by Allah shaping clay into human form and breathing a soul into it.</p>
+Today, modern science discovers that human body contains many elements that are present on the earth. Living tissues contain 95% carbon, oxygen, hydrogen, nitrogen, phosphorus and sulphur with a total of 26 different elements.</p>
+]]></string>
+
+    <string-array name="interesting_facts_data">
+        <item>@string/parts</item>
+        <item>@string/chapters</item>
+        <item>@string/bismillah_fact</item>
+        <item>@string/twabah</item>
+        <item>@string/naml</item>
+        <item>@string/longest_surah</item>
+        <item>@string/smallest_surah</item>
+        <item>@string/rewards_of_quran</item>
+        <item>@string/longest_verse</item>
+        <item>@string/greatest_verse</item>
+        <item>@string/other_names_quran</item>
+        <item>@string/age_of_prophet</item>
+        <item>@string/duration_revelation</item>
+        <item>@string/first_revelation</item>
+        <item>@string/best_drink</item>
+        <item>@string/best_food</item>
+        <item>@string/best_month</item>
+        <item>@string/best_night</item>
+        <item>@string/mention_of_pharaoh</item>
+        <item>@string/heart_of_quran</item>
+        <item>@string/law_marriages</item>
+        <item>@string/reading_ramdhan</item>
+        <item>@string/judgment</item>
+        <item>@string/word_Allah</item>
+        <item>@string/chapters_names_after</item>
+        <item>@string/_25_prophets</item>
+        <item>@string/mosques</item>
+        <item>@string/angles</item>
+        <item>@string/theme</item>
+        <item>@string/_difficulity_recitation</item>
+        <item>@string/charity</item>
+    </string-array>
+    <string-array name="scientific_facts_data">
+        <item>@string/creation_of_life</item>
+        <item>@string/presence_of_iron</item>
+        <item>@string/sky_protector</item>
+        <item>@string/function_mountain</item>
+        <item>@string/earth_egg_shaped</item>
+        <item>@string/atom</item>
+        <item>@string/pain_receptors_skin</item>
+        <item>@string/warmholes</item>
+        <item>@string/pulsars_blackholes</item>
+        <item>@string/expansion_universe</item>
+        <item>@string/orbits</item>
+        <item>@string/origin_universe</item>
+        <item>@string/sex_baby</item>
+        <item>@string/quran_cerebrum</item>
+        <item>@string/movement_mountains</item>
+        <item>@string/relativity_time</item>
+        <item>@string/quran_seas_rivers</item>
+        <item>@string/deep_seas</item>
+        <item>@string/quran_clouds</item>
+        <item>@string/proportion_rain</item>
+        <item>@string/embroynic</item>
+        <item>@string/identity_fingerprint</item>
+        <item>@string/victory_romans</item>
+        <item>@string/petrol</item>
+        <item>@string/creation_of_life</item>
+    </string-array>
+
+    <!--Facts Data-->
+
+    <string name="app_name_main">Urdu Quran</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_word_arabic">الرَّحْمَٰنِ</string>
+    <string name="fatiha_text">ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَـٰلَمِينَ </string>
+
+    <string name="txt_word_translation">The Most Merciful</string>
+    <string name="txt_small">small</string>
+    <string name="txt_medium">medium</string>
+    <string name="txt_large">large</string>
+    <string name="txt_tap">Tap to Enter</string>
+    <!--Names of the Home Screen Buttons-->
+    <string name="tv1">Urdu Quran</string>
+    <string name="tv2">Translation Quran</string>
+    <string name="tv3">Word By Word Surah</string>
+    <string name="tv4">Vocabulary</string>
+    <string name="tv5">Learn Tajweed</string>
+    <string name="tv6">Sajhdas</string>
+    <string name="tv7">10 Quran Facts</string>
+    <string name="tv8">Donate</string>
+    <string name="tv9">Share</string>
+    <string name="tv10">Rabana Duas</string>
+    <string name="tv11">Salat Timings</string>
+    <string name="tv12">Settings</string>
+    <!--        End  of The Home Screen Button Names-->
+
+
+    <!--Ids all  -->
+    <string name="inapp_purchase_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzpmuEHCjh0sZoZMaNd/Ovno9PnEAXrkQOcUIspwhx0QCR/LPId5FYQKhCm4EFy9ikt+gu+shuTSxi+ailHHi4GJhzh1d/rKkEhq9CoZHf2xWQI2YhYSxqU6rxEdjVLbp6iWXO80of1S2yDJ1Li3v6Tj58i0AN7NraI88ANBnf2775EfGJZE1LmR2h1+UBMyG0rvINrEWwobJ1CkX953hKkR4af5h9TCPrIsr3xHR1Z0sJkLH/eU776mSxVz3EXrZ8PUqYxu5mwVzsUkE1uBXiOplO56qVfZro2AleLyQ/3Wv+pHM9B06E7pfErlX2v7uY8cAfX7PkomA15EXamq5RQIDAQAB</string>
+    <string name="facebook_app_id">615577455250978</string>
+     <!-- test ids-->
+   <!-- <string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interestitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_id_preminum">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="admob_id">ca-app-pub-6471360733987211/8411830043</string>
+    <string name="admob_interestitial_id">ca-app-pub-6471360733987211/9888563240</string>
+    <string name="admob_id_preminum">ca-app-pub-6471360733987211/7279784846</string>
+    <string name="txt_splash">www.QuranReading.com</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="txt_instruction">Instructions</string>
+    <string name="txt_app_instrct">App Instructions</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_hint">Search</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_contnt_descrptn">Image</string>
+    <string name="txt_last_read">Last Read</string>
+    <string name="txt_reciter">Reciter</string>
+    <string name="txt_reciter_1">Abdul Rahman Al-Sudais</string>
+    <string name="txt_reciter_2">Mishary Rashid Al-Afasy</string>
+    <string name="txt_translation">Translation</string>
+    <string name="txt_tafseer">Urdu Tafseer</string>
+    <string name="txt_transliteration">Transliteration</string>
+    <string name="txt_notification">Daily Notification</string>
+    <string name="txt_wordsearch">Word Search</string>
+    <string name="txt_theme">Theme&#58;</string>
+    <string name="txt_color">Settings</string>
+    <string name="txt_background">Reset</string>
+    <string name="txt_font_size">Font Size&#58;</string>
+    <string name="txt_font_style">Font Style&#58;</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_font_style_1">Font 1</string>
+    <string name="txt_font_style_2">Font 2</string>
+    <string name="txt_font_style_3">Font 3</string>
+    <string name="txt_font_color">Font Color&#58;</string>
+    <string name="txt_backgrnd_color">Background Color&#58;</string>
+    <string name="txt_copy_right">Copyright &#169; 2017&#45;2018</string>
+    <string name="txt_version">Version 3.5</string>
+    <string name="txt_rights">Quran Reading ®. All rights reserved</string>
+    <string name="txt_download">Downloading . . .</string>
+    <string name="txt_bookmarks">Bookmarks</string>
+    <string name="txt_stop_signs">Stop Signs</string>
+    <string name="txt_sajdahs">Sajhdas</string>
+    <string name="txt_share">Share</string>
+    <string name="txt_more_apps">More Applications</string>
+    <string name="txt_remove">Donate</string>
+    <string name="full_quran">Entire Quran</string>
+    <string name="cur_surah">Current Surah</string>
+    <string name="txt_remove_ads">Donate</string>
+    <string name="txt_disclaimer">Disclaimer</string>
+    <string name="title_tafseer_dialog">Tafseer Preferences:</string>
+    <string name="txt_titele_privacy">Privacy Policy</string>
+    <string name="txt_privacyText">We have updated Urdu Quran Privacy Policy. By clicking the \"I accept\" button, you agree to</string>
+    <string name="txt_Link"><a href="http://www.quranreading.com/apps/Quran-with-Urdu-Translation-privacy-policy.html">Urdu Quran Privacy Policy</a></string>
+    <string name="body_text_tafseer_dialog">Please set the preferred translation of Maulana Mehmood-ul-Hassan.</string>
+    <string name="txt_header_remove_ad">Donate And Remove Ads</string>
+    <string name="txt_gotit">Got it!</string>
+    <string name="txt_accept">I ACCEPT</string>
+    <string name="txt_header_wordsearch">Word Search</string>
+    <string name="disclaimer">This app is a human effort and it was developed with the best intentions. Any mistake in the content is undeliberate and due to sheer humanness. However, if you notice any mistake or errors please notify us and we will resolve it at the earliest. \n\nThe text of this app is obtained from Tanzil.net while the audio recitations come from Versebyversequran.com. We do not claim the content or recitation and all the rights to them belong to the original owners. If anyone thinks the content to be their property feel free to contact us immediately.</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_goto">GoTo Ayah</string>
+    <string name="txt_ayahno">Enter Ayah No:</string>
+    <string name="txt_surah_audio">Download this Surah</string>
+    <string name="txt_complete_audio">Download full Quran</string>
+    <string name="download">Download</string>
+    <string name="download_body_surah">Do you want to download</string>
+    <string name="download_body">Do you want to download Word By Word audio files?</string>
+    <string name="index_btn1">Later</string>
+    <string name="index_btn2">Now</string>
+    <string name="rate_us_header">Rate Us</string>
+    <string name="rate_us_content">Please Give us your feedback</string>
+
+    <string name="txt_stop_sign_1">م</string>
+    <string name="txt_stop_sign_2">ع</string>
+    <string name="txt_stop_sign_3">ط</string>
+    <string name="txt_stop_sign_4">قف</string>
+    <string name="txt_stop_sign_5">ج</string>
+    <string name="txt_stop_sign_6">ص</string>
+    <string name="txt_stop_sign_7">صل</string>
+    <string name="txt_stop_sign_8">ز</string>
+    <string name="txt_stop_sign_9">ﻻ</string>
+    <string name="txt_stop_sign_10">؞؞</string>
+    <string name="txt_stop_sign_11">قلے</string>
+    <string name="txt_stop_sign_12">صلے</string>
+    <string name="txt_stop_sign_13">ق</string>
+    <string name="txt_stop_sign_detail_1">Compulsory stop – Otherwise meaning is changed</string>
+    <string name="txt_stop_sign_detail_2">Stop – End of a section</string>
+    <string name="txt_stop_sign_detail_3">Should stop – End of a sentence</string>
+    <string name="txt_stop_sign_detail_4">Better to stop</string>
+    <string name="txt_stop_sign_detail_5">Can stop or continue</string>
+    <string name="txt_stop_sign_detail_6">Must continue, can take a breath</string>
+    <string name="txt_stop_sign_detail_7">Must continue, can take a breath</string>
+    <string name="txt_stop_sign_detail_8">Must continue, can take a breath</string>
+    <string name="txt_stop_sign_detail_9">Better NOT to stop</string>
+    <string name="txt_stop_sign_detail_10">Stop at the first or the second but not at both</string>
+    <string name="txt_stop_sign_detail_11">Better to stop but permissible to continue</string>
+    <string name="txt_stop_sign_detail_12">Better to continue but permissible to stop</string>
+    <string name="txt_stop_sign_detail_13">It is better not to stop</string>
+    <!-- Premium -->
+    <string name="downloadCompleted">Download is Completed</string>
+
+
+    <string name="premium_1">1</string>
+    <string name="premium_2">Learn Tajweed</string>
+    <string name="premium_3">Multiple Translations</string>
+    <string name="premium_4">4</string>
+    <string name="premium_5">Remove Ads</string>
+    <string name="exit">Exit</string>
+    <string name="toast_already_purchased">Already Purchased</string>
+    <string name="toast_purchase_successful">Purchase Succesful</string>
+    <string name="img_desrcptn">Image</string>
+    <string name="body">\n I just found this Beautiful Islamic App \"Quran Urdu \" on Play store - Download Free Now\nhttps://play.google.com/store/apps/details?id=com.QuranReading.urduuran</string>
+    <string name="device">small</string>
+    <string name="remove_ads_content">Please Donate and Remove Ads To Help Us In Spreading Islam By Developing More Valuable Apps.</string>
+    <string name="txt_remove_ad">Upgrade To Premium</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="txt_learn_more">Learn More</string>
+    <string name="spinner_title">Juz</string>
+
+
+    <!--Default dialog  -->
+    <string name="please_enter_value">Enter a number between </string>
+    <!-- Stoping Signs -->
+
+    <string name="aya_of_day">Ayah of the Day</string>
+    <string name="aya_of_day_urdu">آج کی آیت</string>
+    <string name="aya_of_day_spanish">Ayah del Día</string>
+    <string name="aya_of_day_french">Ayah de la Journée</string>
+    <string name="aya_of_day_chinese">每日女仆</string>
+    <string name="aya_of_day_persian">آیه روز</string>
+    <string name="aya_of_day_italian">Ayah del giorno</string>
+    <string name="aya_of_day_dutch">Ayah van de Dag</string>
+    <string name="aya_of_day_indonesian">Ayah Hari</string>
+    <string name="aya_of_day_turkish">Günün ayet</string>
+    <string name="aya_of_day_bengali">দিনের আয়াত</string>
+    <string name="aya_of_day_malay">Ayat Hari</string>
+    <string name="aya_of_day_hindi">दिन की धाय</string>
+    <string name="aya_of_day_arabic">الآية من اليوم</string>
+    <string name="aya_of_day_russian">Аят дня</string>
+    <string name="aya_of_day_japanese">一日のアヤ</string>
+    <string name="aya_of_day_portugese">aia do dia</string>
+    <string name="aya_of_day_thai">กลอน ของวันนี้</string>
+
+
+    <!--      Language Text -->
+
+    <string name="lbl_goto">Go to</string>
+    <string name="lbl_recitation">Recitation</string>
+
+    <string name="txt_exit">Exit</string>
+    <string name="added_to_bookmarks">Added to bookmarks</string>
+    <string name="removed_from_bookmark">Removed From Bookmarks</string>
+    <string name="downloading_in_progress">Downloading in Progress</string>
+    <string name="no_last_read_saved">No Last Read Saved</string>
+    <string name="enter_a_value">Please Enter a value</string>
+    <string name="no_bookmarks_added">No Bookmarks Added</string>
+    <string name="reset">Reset</string>
+    <string name="txt_reset">Do you want to apply the default settings?</string>
+    <string name="yes">Yes</string>
+    <string name="not_now">Not Now</string>
+    <string name="verses">Verses</string>
+    <string name="select_translation">Select Translation</string>
+
+    <string name="please_enter_value_within_limit">Please Enter value with in limit</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="word_doesnot_exists">Word doesnot exist</string>
+    <string name="not_enough_memory">Not Enough Memory</string>
+    <string name="downloading_surah_finished">Downloading Surah finished</string>
+    <string name="quran_download_completely">Quran Downloaded Completely</string>
+    <string name="error_occurred_downloading_quran">Error occured while downloading Quran</string>
+    <string name="error_occurred_downloading_surah">Error occured while downloading Surah</string>
+    <string name="data_not_found">Data not fount</string>
+    <string name="already_downloaded">Already downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloadTajweed">Do you want to download Tajweed Quran audio files?</string>
+    <string name="download13Line">Do you want to download 13 Line Quran files?</string>
+    <string name="downloadQuranVocabulary">Do you want to download  Quran Vocabulary audio files?</string>
+    <string name="already_purchased">Already Purchased</string>
+    <string name="purchase_successful">Successfully Purchased</string>
+    <string name="downloading_surah_in_progress">Downloading Surah in Progress</string>
+    <string name="downloading_quran_in_progress">Downloading Quran in Progress</string>
+    <string name="alert">Alert!</string>
+    <string name="download_manager_disabled">Download Manager disabled \n Do you want to enable it?</string>
+    <string-array name="juzz_names">
+        <item>Juz 1</item>
+        <item>Juz 2</item>
+        <item>Juz 3</item>
+        <item>Juz 4</item>
+        <item>Juz 5</item>
+        <item>Juz 6</item>
+        <item>Juz 7</item>
+        <item>Juz 8</item>
+        <item>Juz 9</item>
+        <item>Juz 10</item>
+        <item>Juz 11</item>
+        <item>Juz 12</item>
+        <item>Juz 13</item>
+        <item>Juz 14</item>
+        <item>Juz 15</item>
+        <item>Juz 16</item>
+        <item>Juz 17</item>
+        <item>Juz 18</item>
+        <item>Juz 19</item>
+        <item>Juz 20</item>
+        <item>Juz 21</item>
+        <item>Juz 22</item>
+        <item>Juz 23</item>
+        <item>Juz 24</item>
+        <item>Juz 25</item>
+        <item>Juz 26</item>
+        <item>Juz 27</item>
+        <item>Juz 28</item>
+        <item>Juz 29</item>
+        <item>Juz 30</item>
+
+    </string-array>
+    <string-array name="surah_names">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Aal-e-Imran</item>
+        <item>An-Nisa</item>
+        <item>Al-Ma\'idah</item>
+        <item>Al-An\'am</item>
+        <item>Al-A\'raf</item>
+        <item>Al-Anfal</item>
+        <item>At-Taubah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Bani Isra\'il</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ta Ha</item>
+        <item>Al-Anbiya</item>
+        <item>Al-Hajj</item>
+        <item>Al-Mu\'minun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Ash-Shu\'ara</item>
+        <item>An-Naml</item>
+        <item>Al-Qasas</item>
+        <item>Al-\'Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba</item>
+        <item>Fatir</item>
+        <item>Ya Sin</item>
+        <item>As-Saffat</item>
+        <item>Sad</item>
+        <item>Az-Zumar</item>
+        <item>Al-Mumin</item>
+        <item>Ha Meem Al-Sajdah</item>
+        <item>Ash-Shura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jathiyah</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Ad-Dhariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'ah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadilah</item>
+        <item>Al-Hashr</item>
+        <item>Al-Mumtahanah</item>
+        <item>As-Saff</item>
+        <item>Al-Jumu\'ah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Taghabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyamah</item>
+        <item>Ad-Dahr</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba</item>
+        <item>An-Nazi\'at</item>
+        <item>Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infitar</item>
+        <item>Al-Mutaffifin</item>
+        <item>Al-Inshiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-A\'la</item>
+        <item>Al-Ghashiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Lail</item>
+        <item>Ad-Duha</item>
+        <item>Ash-Sharhh</item>
+        <item>At-Tin</item>
+        <item>Al-\'Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-\'Adiyat</item>
+        <item>Al-Qari\'ah</item>
+        <item>At-Takathur</item>
+        <item>Al-\'Asr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraish</item>
+        <item>Al-Ma\'un</item>
+        <item>Al-Kauthar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nasr</item>
+        <item>Lahab</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas</item>
+    </string-array>
+    <string-array name="surah_temp_names_alfasay">
+        <item>temp_1_a.mp3</item>
+        <item>temp_2_a.mp3</item>
+        <item>temp_3_a.mp3</item>
+        <item>temp_4_a.mp3</item>
+        <item>temp_5_a.mp3</item>
+        <item>temp_6_a.mp3</item>
+        <item>temp_7_a.mp3</item>
+        <item>temp_8_a.mp3</item>
+        <item>temp_9_a.mp3</item>
+        <item>temp_10_a.mp3</item>
+        <item>temp_11_a.mp3</item>
+        <item>temp_12_a.mp3</item>
+        <item>temp_13_a.mp3</item>
+        <item>temp_14_a.mp3</item>
+        <item>temp_15_a.mp3</item>
+        <item>temp_16_a.mp3</item>
+        <item>temp_17_a.mp3</item>
+        <item>temp_18_a.mp3</item>
+        <item>temp_19_a.mp3</item>
+        <item>temp_20_a.mp3</item>
+        <item>temp_21_a.mp3</item>
+        <item>temp_22_a.mp3</item>
+        <item>temp_23_a.mp3</item>
+        <item>temp_24_a.mp3</item>
+        <item>temp_25_a.mp3</item>
+        <item>temp_26_a.mp3</item>
+        <item>temp_27_a.mp3</item>
+        <item>temp_28_a.mp3</item>
+        <item>temp_29_a.mp3</item>
+        <item>temp_30_a.mp3</item>
+        <item>temp_31_a.mp3</item>
+        <item>temp_32_a.mp3</item>
+        <item>temp_33_a.mp3</item>
+        <item>temp_34_a.mp3</item>
+        <item>temp_35_a.mp3</item>
+        <item>temp_36_a.mp3</item>
+        <item>temp_37_a.mp3</item>
+        <item>temp_38_a.mp3</item>
+        <item>temp_39_a.mp3</item>
+        <item>temp_40_a.mp3</item>
+        <item>temp_41_a.mp3</item>
+        <item>temp_42_a.mp3</item>
+        <item>temp_43_a.mp3</item>
+        <item>temp_44_a.mp3</item>
+        <item>temp_45_a.mp3</item>
+        <item>temp_46_a.mp3</item>
+        <item>temp_47_a.mp3</item>
+        <item>temp_48_a.mp3</item>
+        <item>temp_49_a.mp3</item>
+        <item>temp_50_a.mp3</item>
+        <item>temp_51_a.mp3</item>
+        <item>temp_52_a.mp3</item>
+        <item>temp_53_a.mp3</item>
+        <item>temp_54_a.mp3</item>
+        <item>temp_55_a.mp3</item>
+        <item>temp_56_a.mp3</item>
+        <item>temp_57_a.mp3</item>
+        <item>temp_58_a.mp3</item>
+        <item>temp_59_a.mp3</item>
+        <item>temp_60_a.mp3</item>
+        <item>temp_61_a.mp3</item>
+        <item>temp_62_a.mp3</item>
+        <item>temp_63_a.mp3</item>
+        <item>temp_64_a.mp3</item>
+        <item>temp_65_a.mp3</item>
+        <item>temp_66_a.mp3</item>
+        <item>temp_67_a.mp3</item>
+        <item>temp_68_a.mp3</item>
+        <item>temp_69_a.mp3</item>
+        <item>temp_70_a.mp3</item>
+        <item>temp_71_a.mp3</item>
+        <item>temp_72_a.mp3</item>
+        <item>temp_73_a.mp3</item>
+        <item>temp_74_a.mp3</item>
+        <item>temp_75_a.mp3</item>
+        <item>temp_76_a.mp3</item>
+        <item>temp_77_a.mp3</item>
+        <item>temp_78_a.mp3</item>
+        <item>temp_79_a.mp3</item>
+        <item>temp_80_a.mp3</item>
+        <item>temp_81_a.mp3</item>
+        <item>temp_82_a.mp3</item>
+        <item>temp_83_a.mp3</item>
+        <item>temp_84_a.mp3</item>
+        <item>temp_85_a.mp3</item>
+        <item>temp_86_a.mp3</item>
+        <item>temp_87_a.mp3</item>
+        <item>temp_88_a.mp3</item>
+        <item>temp_89_a.mp3</item>
+        <item>temp_90_a.mp3</item>
+        <item>temp_91_a.mp3</item>
+        <item>temp_92_a.mp3</item>
+        <item>temp_93_a.mp3</item>
+        <item>temp_94_a.mp3</item>
+        <item>temp_95_a.mp3</item>
+        <item>temp_96_a.mp3</item>
+        <item>temp_97_a.mp3</item>
+        <item>temp_98_a.mp3</item>
+        <item>temp_99_a.mp3</item>
+        <item>temp_100_a.mp3</item>
+        <item>temp_101_a.mp3</item>
+        <item>temp_102_a.mp3</item>
+        <item>temp_103_a.mp3</item>
+        <item>temp_104_a.mp3</item>
+        <item>temp_105_a.mp3</item>
+        <item>temp_106_a.mp3</item>
+        <item>temp_107_a.mp3</item>
+        <item>temp_108_a.mp3</item>
+        <item>temp_109_a.mp3</item>
+        <item>temp_110_a.mp3</item>
+        <item>temp_111_a.mp3</item>
+        <item>temp_112_a.mp3</item>
+        <item>temp_113_a.mp3</item>
+        <item>temp_114_a.mp3</item>
+    </string-array>
+    <string-array name="surah_temp_names_basit">
+        <item>temp_1_b.mp3</item>
+        <item>temp_2_b.mp3</item>
+        <item>temp_3_b.mp3</item>
+        <item>temp_4_b.mp3</item>
+        <item>temp_5_b.mp3</item>
+        <item>temp_6_b.mp3</item>
+        <item>temp_7_b.mp3</item>
+        <item>temp_8_b.mp3</item>
+        <item>temp_9_b.mp3</item>
+        <item>temp_10_b.mp3</item>
+        <item>temp_11_b.mp3</item>
+        <item>temp_12_b.mp3</item>
+        <item>temp_13_b.mp3</item>
+        <item>temp_14_b.mp3</item>
+        <item>temp_15_b.mp3</item>
+        <item>temp_16_b.mp3</item>
+        <item>temp_17_b.mp3</item>
+        <item>temp_18_b.mp3</item>
+        <item>temp_19_b.mp3</item>
+        <item>temp_20_b.mp3</item>
+        <item>temp_21_b.mp3</item>
+        <item>temp_22_b.mp3</item>
+        <item>temp_23_b.mp3</item>
+        <item>temp_24_b.mp3</item>
+        <item>temp_25_b.mp3</item>
+        <item>temp_26_b.mp3</item>
+        <item>temp_27_b.mp3</item>
+        <item>temp_28_b.mp3</item>
+        <item>temp_29_b.mp3</item>
+        <item>temp_30_b.mp3</item>
+        <item>temp_31_b.mp3</item>
+        <item>temp_32_b.mp3</item>
+        <item>temp_33_b.mp3</item>
+        <item>temp_34_b.mp3</item>
+        <item>temp_35_b.mp3</item>
+        <item>temp_36_b.mp3</item>
+        <item>temp_37_b.mp3</item>
+        <item>temp_38_b.mp3</item>
+        <item>temp_39_b.mp3</item>
+        <item>temp_40_b.mp3</item>
+        <item>temp_41_b.mp3</item>
+        <item>temp_42_b.mp3</item>
+        <item>temp_43_b.mp3</item>
+        <item>temp_44_b.mp3</item>
+        <item>temp_45_b.mp3</item>
+        <item>temp_46_b.mp3</item>
+        <item>temp_47_b.mp3</item>
+        <item>temp_48_b.mp3</item>
+        <item>temp_49_b.mp3</item>
+        <item>temp_50_b.mp3</item>
+        <item>temp_51_b.mp3</item>
+        <item>temp_52_b.mp3</item>
+        <item>temp_53_b.mp3</item>
+        <item>temp_54_b.mp3</item>
+        <item>temp_55_b.mp3</item>
+        <item>temp_56_b.mp3</item>
+        <item>temp_57_b.mp3</item>
+        <item>temp_58_b.mp3</item>
+        <item>temp_59_b.mp3</item>
+        <item>temp_60_b.mp3</item>
+        <item>temp_61_b.mp3</item>
+        <item>temp_62_b.mp3</item>
+        <item>temp_63_b.mp3</item>
+        <item>temp_64_b.mp3</item>
+        <item>temp_65_b.mp3</item>
+        <item>temp_66_b.mp3</item>
+        <item>temp_67_b.mp3</item>
+        <item>temp_68_b.mp3</item>
+        <item>temp_69_b.mp3</item>
+        <item>temp_70_b.mp3</item>
+        <item>temp_71_b.mp3</item>
+        <item>temp_72_b.mp3</item>
+        <item>temp_73_b.mp3</item>
+        <item>temp_74_b.mp3</item>
+        <item>temp_75_b.mp3</item>
+        <item>temp_76_b.mp3</item>
+        <item>temp_77_b.mp3</item>
+        <item>temp_78_b.mp3</item>
+        <item>temp_79_b.mp3</item>
+        <item>temp_80_b.mp3</item>
+        <item>temp_81_b.mp3</item>
+        <item>temp_82_b.mp3</item>
+        <item>temp_83_b.mp3</item>
+        <item>temp_84_b.mp3</item>
+        <item>temp_85_b.mp3</item>
+        <item>temp_86_b.mp3</item>
+        <item>temp_87_b.mp3</item>
+        <item>temp_88_b.mp3</item>
+        <item>temp_89_b.mp3</item>
+        <item>temp_90_b.mp3</item>
+        <item>temp_91_b.mp3</item>
+        <item>temp_92_b.mp3</item>
+        <item>temp_93_b.mp3</item>
+        <item>temp_94_b.mp3</item>
+        <item>temp_95_b.mp3</item>
+        <item>temp_96_b.mp3</item>
+        <item>temp_97_b.mp3</item>
+        <item>temp_98_b.mp3</item>
+        <item>temp_99_b.mp3</item>
+        <item>temp_100_b.mp3</item>
+        <item>temp_101_b.mp3</item>
+        <item>temp_102_b.mp3</item>
+        <item>temp_103_b.mp3</item>
+        <item>temp_104_b.mp3</item>
+        <item>temp_105_b.mp3</item>
+        <item>temp_106_b.mp3</item>
+        <item>temp_107_b.mp3</item>
+        <item>temp_108_b.mp3</item>
+        <item>temp_109_b.mp3</item>
+        <item>temp_110_b.mp3</item>
+        <item>temp_111_b.mp3</item>
+        <item>temp_112_b.mp3</item>
+        <item>temp_113_b.mp3</item>
+        <item>temp_114_b.mp3</item>
+    </string-array>
+    <string-array name="surah_temp_names_sudais">
+        <item>temp_1_s.mp3</item>
+        <item>temp_2_s.mp3</item>
+        <item>temp_3_s.mp3</item>
+        <item>temp_4_s.mp3</item>
+        <item>temp_5_s.mp3</item>
+        <item>temp_6_s.mp3</item>
+        <item>temp_7_s.mp3</item>
+        <item>temp_8_s.mp3</item>
+        <item>temp_9_s.mp3</item>
+        <item>temp_10_s.mp3</item>
+        <item>temp_11_s.mp3</item>
+        <item>temp_12_s.mp3</item>
+        <item>temp_13_s.mp3</item>
+        <item>temp_14_s.mp3</item>
+        <item>temp_15_s.mp3</item>
+        <item>temp_16_s.mp3</item>
+        <item>temp_17_s.mp3</item>
+        <item>temp_18_s.mp3</item>
+        <item>temp_19_s.mp3</item>
+        <item>temp_20_s.mp3</item>
+        <item>temp_21_s.mp3</item>
+        <item>temp_22_s.mp3</item>
+        <item>temp_23_s.mp3</item>
+        <item>temp_24_s.mp3</item>
+        <item>temp_25_s.mp3</item>
+        <item>temp_26_s.mp3</item>
+        <item>temp_27_s.mp3</item>
+        <item>temp_28_s.mp3</item>
+        <item>temp_29_s.mp3</item>
+        <item>temp_30_s.mp3</item>
+        <item>temp_31_s.mp3</item>
+        <item>temp_32_s.mp3</item>
+        <item>temp_33_s.mp3</item>
+        <item>temp_34_s.mp3</item>
+        <item>temp_35_s.mp3</item>
+        <item>temp_36_s.mp3</item>
+        <item>temp_37_s.mp3</item>
+        <item>temp_38_s.mp3</item>
+        <item>temp_39_s.mp3</item>
+        <item>temp_40_s.mp3</item>
+        <item>temp_41_s.mp3</item>
+        <item>temp_42_s.mp3</item>
+        <item>temp_43_s.mp3</item>
+        <item>temp_44_s.mp3</item>
+        <item>temp_45_s.mp3</item>
+        <item>temp_46_s.mp3</item>
+        <item>temp_47_s.mp3</item>
+        <item>temp_48_s.mp3</item>
+        <item>temp_49_s.mp3</item>
+        <item>temp_50_s.mp3</item>
+        <item>temp_51_s.mp3</item>
+        <item>temp_52_s.mp3</item>
+        <item>temp_53_s.mp3</item>
+        <item>temp_54_s.mp3</item>
+        <item>temp_55_s.mp3</item>
+        <item>temp_56_s.mp3</item>
+        <item>temp_57_s.mp3</item>
+        <item>temp_58_s.mp3</item>
+        <item>temp_59_s.mp3</item>
+        <item>temp_60_s.mp3</item>
+        <item>temp_61_s.mp3</item>
+        <item>temp_62_s.mp3</item>
+        <item>temp_63_s.mp3</item>
+        <item>temp_64_s.mp3</item>
+        <item>temp_65_s.mp3</item>
+        <item>temp_66_s.mp3</item>
+        <item>temp_67_s.mp3</item>
+        <item>temp_68_s.mp3</item>
+        <item>temp_69_s.mp3</item>
+        <item>temp_70_s.mp3</item>
+        <item>temp_71_s.mp3</item>
+        <item>temp_72_s.mp3</item>
+        <item>temp_73_s.mp3</item>
+        <item>temp_74_s.mp3</item>
+        <item>temp_75_s.mp3</item>
+        <item>temp_76_s.mp3</item>
+        <item>temp_77_s.mp3</item>
+        <item>temp_78_s.mp3</item>
+        <item>temp_79_s.mp3</item>
+        <item>temp_80_s.mp3</item>
+        <item>temp_81_s.mp3</item>
+        <item>temp_82_s.mp3</item>
+        <item>temp_83_s.mp3</item>
+        <item>temp_84_s.mp3</item>
+        <item>temp_85_s.mp3</item>
+        <item>temp_86_s.mp3</item>
+        <item>temp_87_s.mp3</item>
+        <item>temp_88_s.mp3</item>
+        <item>temp_89_s.mp3</item>
+        <item>temp_90_s.mp3</item>
+        <item>temp_91_s.mp3</item>
+        <item>temp_92_s.mp3</item>
+        <item>temp_93_s.mp3</item>
+        <item>temp_94_s.mp3</item>
+        <item>temp_95_s.mp3</item>
+        <item>temp_96_s.mp3</item>
+        <item>temp_97_s.mp3</item>
+        <item>temp_98_s.mp3</item>
+        <item>temp_99_s.mp3</item>
+        <item>temp_100_s.mp3</item>
+        <item>temp_101_s.mp3</item>
+        <item>temp_102_s.mp3</item>
+        <item>temp_103_s.mp3</item>
+        <item>temp_104_s.mp3</item>
+        <item>temp_105_s.mp3</item>
+        <item>temp_106_s.mp3</item>
+        <item>temp_107_s.mp3</item>
+        <item>temp_108_s.mp3</item>
+        <item>temp_109_s.mp3</item>
+        <item>temp_110_s.mp3</item>
+        <item>temp_111_s.mp3</item>
+        <item>temp_112_s.mp3</item>
+        <item>temp_113_s.mp3</item>
+        <item>temp_114_s.mp3</item>
+    </string-array>
+    <string-array name="surah_sizes_alfasay">
+        <item>416623.0</item>
+        <item>6.0320623E7</item>
+        <item>3.7696701E7</item>
+        <item>3.828874E7</item>
+        <item>3.0144806E7</item>
+        <item>3.4688649E7</item>
+        <item>3.9784616E7</item>
+        <item>1.4592753E7</item>
+        <item>2.9000642E7</item>
+        <item>1.617147E7</item>
+        <item>2.2176832E7</item>
+        <item>2.0200721E7</item>
+        <item>9736695.0</item>
+        <item>9824675.0</item>
+        <item>7640629.0</item>
+        <item>2.0232904E7</item>
+        <item>1.5984767E7</item>
+        <item>1.5968675E7</item>
+        <item>1.0264786E7</item>
+        <item>1.302478E7</item>
+        <item>1.2568786E7</item>
+        <item>1.4184825E7</item>
+        <item>1.1888767E7</item>
+        <item>1.472859E7</item>
+        <item>8816767.0</item>
+        <item>1.4664851E7</item>
+        <item>1.2584669E7</item>
+        <item>1.5232649E7</item>
+        <item>1.0168864E7</item>
+        <item>9376832.0</item>
+        <item>5728675.0</item>
+        <item>4192884.0</item>
+        <item>1.3944708E7</item>
+        <item>9144864.0</item>
+        <item>8456695.0</item>
+        <item>8480727.0</item>
+        <item>1.1600793E7</item>
+        <item>8560767.0</item>
+        <item>1.3040662E7</item>
+        <item>1.2544753E7</item>
+        <item>9288851.0</item>
+        <item>9360740.0</item>
+        <item>9832616.0</item>
+        <item>4616695.0</item>
+        <item>5200793.0</item>
+        <item>7664871.0</item>
+        <item>5904845.0</item>
+        <item>5776740.0</item>
+        <item>4016714.0</item>
+        <item>4480858.0</item>
+        <item>4360695.0</item>
+        <item>3888819.0</item>
+        <item>3696767.0</item>
+        <item>3864786.0</item>
+        <item>5440701.0</item>
+        <item>5736825.0</item>
+        <item>6472642.0</item>
+        <item>4912819.0</item>
+        <item>5016682.0</item>
+        <item>3616727.0</item>
+        <item>2344669.0</item>
+        <item>1712714.0</item>
+        <item>2072577.0</item>
+        <item>2600669.0</item>
+        <item>2896793.0</item>
+        <item>2864610.0</item>
+        <item>3648701.0</item>
+        <item>3656642.0</item>
+        <item>3248714.0</item>
+        <item>2544662.0</item>
+        <item>2248747.0</item>
+        <item>2680708.0</item>
+        <item>1960773.0</item>
+        <item>2600669.0</item>
+        <item>1696623.0</item>
+        <item>2520838.0</item>
+        <item>2288662.0</item>
+        <item>2344669.0</item>
+        <item>2056695.0</item>
+        <item>1768721.0</item>
+        <item>1272812.0</item>
+        <item>1096851.0</item>
+        <item>2488656.0</item>
+        <item>1288695.0</item>
+        <item>1592760.0</item>
+        <item>808878.0</item>
+        <item>864884.0</item>
+        <item>1080760.0</item>
+        <item>1704773.0</item>
+        <item>968747.0</item>
+        <item>680773.0</item>
+        <item>896858.0</item>
+        <item>528636.0</item>
+        <item>344734.0</item>
+        <item>520695.0</item>
+        <item>768753.0</item>
+        <item>368767.0</item>
+        <item>1016812.0</item>
+        <item>480780.0</item>
+        <item>568760.0</item>
+        <item>504812.0</item>
+        <item>504812.0</item>
+        <item>224780.0</item>
+        <item>472629.0</item>
+        <item>392799.0</item>
+        <item>344734.0</item>
+        <item>464688.0</item>
+        <item>200747.0</item>
+        <item>440656.0</item>
+        <item>280786.0</item>
+        <item>336793.0</item>
+        <item>176714.0</item>
+        <item>272636.0</item>
+        <item>408682.0</item>
+        <item>8.37309792E8</item>
+    </string-array>
+    <string-array name="surah_sizes_basit">
+        <item>739278.0</item>
+        <item>1.44589471E8</item>
+        <item>6.124515E7</item>
+        <item>6.2393074E7</item>
+        <item>4.7456885E7</item>
+        <item>5.6453039E7</item>
+        <item>6.5454894E7</item><!--6.5576124E7 old value-->
+        <item>2.119104E7</item>  <!--2.1288751E7 old value-->
+        <item>4.2137472E7</item>    <!--4.223553E7 old value-->
+        <item>3.0178368E7</item>   <!--3.027759E7 old value-->
+        <item>4.666368E7</item>
+        <item>4.3589425E7</item>
+        <item>2.0887554E7</item>
+        <item>2.0864566E7</item>
+        <item>1.7047345E7</item>
+        <item>4.6444878E7</item>
+        <item>3.6478268E7</item>
+        <item>3.7476354E7</item>
+        <item>2.2546434E7</item>
+        <item>3.1278646E7</item>
+        <item>2.9427923E7</item>
+        <item>3.0948668E7</item>
+        <item>2.660352E7</item>
+        <item>3.4882246E7</item>
+        <item>2.2032135E7</item>
+        <item>3.5203866E7</item>
+        <item>2.9849182E7</item>
+        <item>3.4888351E7</item>
+        <item>2.5173099E7</item>
+        <item>1.9083015E7</item>
+        <item>1.2212767E7</item>
+        <item>8695222.0</item>
+        <item>3.148173E7</item>
+        <item>2.1654465E7</item>
+        <item>1.8779324E7</item>
+        <item>1.135775E7</item>
+        <item>2.3594631E7</item>
+        <item>1.8748186E7</item>
+        <item>2.880909E7</item>
+        <item>2.9562044E7</item>
+        <item>1.9908231E7</item>
+        <item>2.0100075E7</item>
+        <item>2.1267644E7</item>
+        <item>9621838.0</item>
+        <item>1.1920822E7</item>
+        <item>1.7295568E7</item>
+        <item>1.3272711E7</item>
+        <item>1.3572179E7</item>
+        <item>9102524.0</item>
+        <item>8826044.0</item>
+        <item>8868466.0</item>
+        <item>7988453.0</item>
+        <item>8626050.0</item>
+        <item>8695222.0</item>
+        <item>1.0845413E7</item>
+        <item>1.0692231E7</item>
+        <item>1.4962102E7</item>
+        <item>1.2105142E7</item>
+        <item>1.1798151E7</item>
+        <item>9739493.0</item>
+        <item>5439111.0</item>
+        <item>4356179.0</item>
+        <item>4655647.0</item>
+        <item>6145253.0</item>
+        <item>7366321.0</item>
+        <item>6852022.0</item>
+        <item>7835271.0</item>
+        <item>8065567.0</item>
+        <item>6828408.0</item>
+        <item>5630955.0</item>
+        <item>5208607.0</item>
+        <item>6260401.0</item>
+        <item>4709355.0</item>
+        <item>6237413.0</item>
+        <item>3964551.0</item>
+        <item>6176391.0</item>
+        <item>4962638.0</item>
+        <item>4417201.0</item>
+        <item>4264019.0</item>
+        <item>3388604.0</item>
+        <item>2596989.0</item>
+        <item>2029191.0</item>
+        <item>4601521.0</item>
+        <item>2666161.0</item>
+        <item>2881619.0</item>
+        <item>1591379.0</item>
+        <item>1836721.0</item>
+        <item>2366693.0</item>
+        <item>3580238.0</item>
+        <item>2006204.0</item>
+        <item>1128698.0</item>
+        <item>2044029.0</item>
+        <item>1120258.0</item>
+        <item>769172.0</item>
+        <item>986929.0</item>
+        <item>1790746.0</item>
+        <item>719435.0</item>
+        <item>2221035.0</item>
+        <item>1032448.0</item>
+        <item>1153695.0</item>
+        <item>1003648.0</item>
+        <item>936983.0</item>
+        <item>468242.0</item>
+        <item>903128.0</item>
+        <item>736154.0</item>
+        <item>635843.0</item>
+        <item>852973.0</item>
+        <item>434805.0</item>
+        <item>752663.0</item>
+        <item>602616.0</item>
+        <item>652562.0</item>
+        <item>401786.0</item>
+        <item>585479.0</item>
+        <item>685999.0</item>
+        <item>685999.0</item>
+    </string-array>
+    <!-- Al-Sudais audio sizes -->
+    <string-array name="surah_sizes_sudais">
+        <item>305737.0</item>
+        <item>4.5017129E7</item>
+        <item>2.6519928E7</item>
+        <item>2.9228721E7</item>
+        <item>2.1544751E7</item>
+        <item>2.2601978E7</item>
+        <item>1.3152338E7</item>
+        <item>9615777.0</item>
+        <item>1.9635304E7</item>
+        <item>1.3979689E7</item>
+        <item>1.5065756E7</item>
+        <item>1.3027578E7</item>
+        <item>7128084.0</item>
+        <item>6292166.0</item>
+        <item>5267957.0</item>
+        <item>1.3829433E7</item>
+        <item>1.2169717E7</item>
+        <item>1.1854701E7</item>
+        <item>7524310.0</item>
+        <item>9147663.0</item>
+        <item>9153724.0</item>
+        <item>9501048.0</item>
+        <item>7955226.0</item>
+        <item>1.0498089E7</item>
+        <item>6765087.0</item>
+        <item>9594253.0</item>
+        <item>8436288.0</item>
+        <item>1.0976026E7</item>
+        <item>7227141.0</item>
+        <item>5718935.0</item>
+        <item>4146573.0</item>
+        <item>2792803.0</item>
+        <item>1.147486E7</item>
+        <item>6914507.0</item>
+        <item>5566380.0</item>
+        <item>6371578.0</item>
+        <item>6800822.0</item>
+        <item>5524166.0</item>
+        <item>9040875.0</item>
+        <item>9657364.0</item>
+        <item>6116414.0</item>
+        <item>7142504.0</item>
+        <item>7683134.0</item>
+        <item>3112333.0</item>
+        <item>3993182.0</item>
+        <item>5062948.0</item>
+        <item>4436427.0</item>
+        <item>4632241.0</item>
+        <item>2959151.0</item>
+        <item>3522977.0</item>
+        <item>3235840.0</item>
+        <item>2700225.0</item>
+        <item>3176698.0</item>
+        <item>2772114.0</item>
+        <item>4227239.0</item>
+        <item>3279307.0</item>
+        <item>4219715.0</item>
+        <item>3496228.0</item>
+        <item>3723389.0</item>
+        <item>2939297.0</item>
+        <item>1860127.0</item>
+        <item>1452826.0</item>
+        <item>1586991.0</item>
+        <item>1963154.0</item>
+        <item>2302955.0</item>
+        <item>2252591.0</item>
+        <item>2859885.0</item>
+        <item>2640875.0</item>
+        <item>2602213.0</item>
+        <item>2319464.0</item>
+        <item>2028564.0</item>
+        <item>2157296.0</item>
+        <item>1630458.0</item>
+        <item>2054896.0</item>
+        <item>1281671.0</item>
+        <item>2004114.0</item>
+        <item>1659297.0</item>
+        <item>1688555.0</item>
+        <item>1433391.0</item>
+        <item>1188884.0</item>
+        <item>815229.0</item>
+        <item>610220.0</item>
+        <item>1356695.0</item>
+        <item>850964.0</item>
+        <item>877296.0</item>
+        <item>558184.0</item>
+        <item>579082.0</item>
+        <item>809168.0</item>
+        <item>1161717.0</item>
+        <item>635297.0</item>
+        <item>484623.0</item>
+        <item>616698.0</item>
+        <item>364460.0</item>
+        <item>208979.0</item>
+        <item>302602.0</item>
+        <item>563617.0</item>
+        <item>257253.0</item>
+        <item>746057.0</item>
+        <item>398733.0</item>
+        <item>445962.0</item>
+        <item>418168.0</item>
+        <item>339591.0</item>
+        <item>205217.0</item>
+        <item>332695.0</item>
+        <item>280241.0</item>
+        <item>241371.0</item>
+        <item>275435.0</item>
+        <item>135418.0</item>
+        <item>244924.0</item>
+        <item>212114.0</item>
+        <item>236146.0</item>
+        <item>137926.0</item>
+        <item>205426.0</item>
+        <item>243043.0</item>
+    </string-array>
+    <string-array name="revealedPlaces">
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Madani</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+        <item>Makki</item>
+    </string-array>
+
+    <integer-array name="noOfVerses">
+        <item>7</item>
+        <item>286</item>
+        <item>200</item>
+        <item>176</item>
+        <item>120</item>
+        <item>165</item>
+        <item>206</item>
+        <item>75</item>
+        <item>129</item>
+        <item>109</item>
+        <item>123</item>
+        <item>111</item>
+        <item>43</item>
+        <item>52</item>
+        <item>99</item>
+        <item>128</item>
+        <item>111</item>
+        <item>110</item>
+        <item>98</item>
+        <item>135</item>
+        <item>112</item>
+        <item>78</item>
+        <item>118</item>
+        <item>64</item>
+        <item>77</item>
+        <item>227</item>
+        <item>93</item>
+        <item>88</item>
+        <item>69</item>
+        <item>60</item>
+        <item>34</item>
+        <item>30</item>
+        <item>73</item>
+        <item>54</item>
+        <item>45</item>
+        <item>83</item>
+        <item>182</item>
+        <item>88</item>
+        <item>75</item>
+        <item>85</item>
+        <item>54</item>
+        <item>53</item>
+        <item>89</item>
+        <item>59</item>
+        <item>37</item>
+        <item>35</item>
+        <item>38</item>
+        <item>29</item>
+        <item>18</item>
+        <item>45</item>
+        <item>60</item>
+        <item>49</item>
+        <item>62</item>
+        <item>55</item>
+        <item>78</item>
+        <item>96</item>
+        <item>29</item>
+        <item>22</item>
+        <item>24</item>
+        <item>13</item>
+        <item>14</item>
+        <item>11</item>
+        <item>11</item>
+        <item>18</item>
+        <item>12</item>
+        <item>12</item>
+        <item>30</item>
+        <item>52</item>
+        <item>52</item>
+        <item>44</item>
+        <item>28</item>
+        <item>28</item>
+        <item>20</item>
+        <item>56</item>
+        <item>40</item>
+        <item>31</item>
+        <item>50</item>
+        <item>40</item>
+        <item>46</item>
+        <item>42</item>
+        <item>29</item>
+        <item>19</item>
+        <item>36</item>
+        <item>25</item>
+        <item>22</item>
+        <item>17</item>
+        <item>19</item>
+        <item>26</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>21</item>
+        <item>11</item>
+        <item>8</item>
+        <item>8</item>
+        <item>19</item>
+        <item>5</item>
+        <item>8</item>
+        <item>8</item>
+        <item>11</item>
+        <item>11</item>
+        <item>8</item>
+        <item>3</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="surahNamesArabic">
+        <item>الفاتحة</item>
+        <item>البقرة</item>
+        <item>آل عمران</item>
+        <item>النساء</item>
+        <item>المائدة</item>
+        <item>الأنعام</item>
+        <item>الأعراف</item>
+        <item>الأنفال</item>
+        <item>التوبة</item>
+        <item>يونس</item>
+        <item>هود</item>
+        <item>يوسف</item>
+        <item>الرّعد</item>
+        <item>إبراهيم</item>
+        <item>الحجر</item>
+        <item>النحل</item>
+        <item>بنیٓ اسرآئیل</item>
+        <item>الكهف</item>
+        <item>مريم</item>
+        <item>طه</item>
+        <item>الأنبياء</item>
+        <item>الحج</item>
+        <item>المؤمنون</item>
+        <item>النّور</item>
+        <item>الفرقان</item>
+        <item>الشعراء</item>
+        <item>النمل</item>
+        <item>القصص</item>
+        <item>العنكبوت</item>
+        <item>الروم</item>
+        <item>لقمان</item>
+        <item>السجدة</item>
+        <item>الأحزاب</item>
+        <item>سبإ</item>
+        <item>فاطر</item>
+        <item>يس</item>
+        <item>الصّافّات</item>
+        <item>ص</item>
+        <item>الزمر</item>
+        <item>المؤمن</item>
+        <item>حٰمٓ السجدة</item>
+        <item>الشورى</item>
+        <item>الزخرف</item>
+        <item>الدخان</item>
+        <item>الجاثية</item>
+        <item>الأحقاف</item>
+        <item>محمّـد</item>
+        <item>الفتح</item>
+        <item>الحُـجُـرات</item>
+        <item>ق</item>
+        <item>الذاريات</item>
+        <item>الـطور</item>
+        <item>النجم</item>
+        <item>الـقمـر</item>
+        <item>الـرحـمـن</item>
+        <item>الواقِعَة‎</item>
+        <item>الحـديد</item>
+        <item>الـمجادلـة</item>
+        <item>الـحـشـر</item>
+        <item>الـمـمـتـحنة</item>
+        <item>الـصّـف</item>
+        <item>الـجـمـعـة</item>
+        <item>الـمنافقون</item>
+        <item>الـتغابن</item>
+        <item>الـطلاق</item>
+        <item>الـتحريم</item>
+        <item>الـملك</item>
+        <item>الـقـلـم</item>
+        <item>الـحاقّـة</item>
+        <item>الـمعارج</item>
+        <item>نوح</item>
+        <item>الجن</item>
+        <item>الـمـزّمّـل</item>
+        <item>الـمّـدّثّـر</item>
+        <item>الـقـيامـة</item>
+        <item>ٱلدَّهۡر‎</item>
+        <item>الـمرسلات</item>
+        <item>الـنبإ</item>
+        <item>الـنازعات</item>
+        <item>عبس</item>
+        <item>التكوير</item>
+        <item>الانفطار</item>
+        <item>المطـفـفين</item>
+        <item>الانشقاق</item>
+        <item>البروج</item>
+        <item>الـطارق</item>
+        <item>الأعـلى</item>
+        <item>الغاشـيـة</item>
+        <item>الفجر</item>
+        <item>الـبلد</item>
+        <item>الـشـمـس</item>
+        <item>اللـيـل</item>
+        <item>الضـحى</item>
+        <item>الـشرح</item>
+        <item>الـتين</item>
+        <item>الـعلق</item>
+        <item>الـقدر</item>
+        <item>الـبينة</item>
+        <item>الـزلزلة</item>
+        <item>الـعاديات</item>
+        <item>الـقارعـة</item>
+        <item>الـتكاثر</item>
+        <item>الـعصر</item>
+        <item>الـهمزة</item>
+        <item>الـفيل</item>
+        <item>القريش</item>
+        <item>المـاعون</item>
+        <item>الـكوثر</item>
+        <item>الـكافرون</item>
+        <item>الـنصر</item>
+        <item>لهب‎</item>
+        <item>الإخلاص</item>
+        <item>الـفلق</item>
+        <item>الـناس</item>
+    </string-array>
+    <string-array name="Juz_Names_Arabic">
+        <item>الم</item>
+        <item>سَيَقُوۡلُ</item>
+        <item> تِلۡكَ الرُّسُلُ</item>
+        <item>لَنۡ تَنَالُوا</item>
+        <item> وَّالۡمُحۡصَنٰتُ</item>
+        <item>لَا يُحِبُّ اللّٰهُ</item>
+        <item>وَاِذَا سَمِعُوۡا</item>
+        <item>وَلَوۡ اَنَّـنَا</item>
+        <item> قَالَ الۡمَلَاُ</item>
+        <item>وَاعۡلَمُوۡۤا</item>
+        <item> يَعۡتَذِرُوۡنَ</item>
+        <item> وَمَا مِنۡ دَآ بَّةٍ</item>
+        <item> وَمَاۤ اُبَرِّئُ</item>
+        <item>رُبَمَا</item>
+        <item> سُبۡحٰنَ الَّذِىۡۤ</item>
+        <item>قَالَ اَ لَمۡ</item>
+        <item> اِقۡتَرَبَٓ</item>
+        <item> قَدۡ اَفۡلَحَ</item>
+        <item> وَقَالَ الَّذِيۡنَ</item>
+        <item> اَمَّنۡ خَلَقَ</item>
+        <item>اُتۡلُ مَاۤ اُوۡحِىَ</item>
+        <item> وَمَنۡ يَّقۡنُتۡ</item>
+        <item> وَمَا لِىَ</item>
+        <item>فَمَنۡ اَظۡلَمُ</item>
+        <item> اِلَيۡهِ يُرَدُّ</item>
+        <item> حٰمٓ‏</item>
+        <item>قَالَ فَمَا خَطۡبُكُمۡ</item>
+        <item>قَدۡ سَمِعَ اللّٰهُ</item>
+        <item> تَبٰرَكَ الَّذِىۡ</item>
+        <item>عَمَّ يَتَسَآءَلُوۡنَ‌ۚ</item>
+    </string-array>
+
+
+    <string name="bismillahTextUrdu">اللہ کے نام سے شروع جو بہت مہربان رحمت والا</string>
+    <string name="bismillahTextUrdu_jalandri">شروع الله کا نام لے کر جو بڑا مہربان نہایت رحم والا ہے</string>
+    <string name="bismillahTextUrdu_junagari">شروع کرتا ہوں اللہ تعالیٰ کے نام سے جو بڑا مہربان نہایت رحم واﻻ ہے</string>
+    <string name="bismillahTextUrdu_mududi">اللہ کے نام سے جو رحمان و رحیم ہے</string>
+    <string name="bismillahTextEngSaheeh">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="bismillahTextEngPickthal">In the name of Allah, the Beneficent, the Merciful.</string>
+    <string name="bismillahTextEngShakir">In the name of Allah, the Beneficent, the Merciful.</string>
+    <string name="bismillahTextEngMadudi">In the name of Allah, the Merciful, the Compassionate</string>
+    <string name="bismillahTextEngDarayabadi">In the name of Allah, the Compassionate, the Merciful.</string>
+    <string name="bismillahTextEngYusaf">In the name of Allah, Most Gracious, Most Merciful.</string>
+    <string name="bismillahTextSpanishCortes">¡En el nombre de Alá, el Compasivo, el Misericordioso!</string>
+    <string name="bismillahTextFrench">Au nom d\'Allah, le Tout Miséricordieux, le Tr\ès Miséricordieux.</string>
+    <string name="bismillahTextChinese">奉至仁至慈的真主之名</string>
+    <string name="bismillahTextPersianGhommshei">به نام خداوند بخشنده مهربان</string>
+    <string name="bismillahTextItalian">In nome di Allah, il Compassionevole, il Misericordioso</string>
+    <string name="bismillahTextDutchKeyzer">In naam van den lankmoedigen en albarmhartigen God.</string>
+    <string name="bismillahTextIndonesianBahasha">Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.</string>
+    <string name="bismillahTextHindi">अल्लाह के नाम से जो बड़ा कृपालु और अत्यन्त दयावान हैं।</string>
+    <string name="bismillahTextBengali">শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।</string>
+    <string name="bismillahTextMalay">Dengan nama Allah, Yang Maha Pemurah, lagi Maha Mengasihani.</string>
+    <string name="bismillahTextTurkish">Rahman ve rahim Allah adiyle</string>
+    <string name="bismillahTextRussian">С именем Аллаха Милостивого, Милосердного!</string>
+    <string name="bismillahTextJapan">慈悲あまねく慈愛深きアッラーの御名において。</string>
+    <string name="bismillahTextPortuguese">Em nome de Deus, o Clemente, o Misericordioso.</string>
+    <string name="bismillahTextThai">ด้วยพระนามของอัลลอฮฺ ผู้ทรงกรุณาปราณี ผู้ทรงเมตตาเสมอ</string>
+
+
+    <string name="bismillah">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</string>
+    <string name="bismillah_text_translation">شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے [۱]</string>
+    <string name="bismillah_text_tafseer">۱ ۔  رحمٰن اور رحیم دونوں مبالغے کے صیغے ہیں اور  رحمٰن میں رحیم سے زیادہ مبالغہ ہے ترجمہ میں، ان سب باتوں کا لحاظ ہے ۔</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

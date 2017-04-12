@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:text="@string/txt_bookmarks"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+
+    <ImageView 
+        android:id="@+id/del_btn"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:background="@drawable/delete"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/size_five"
+        android:visibility="gone"
+        android:clickable="false"
+        android:onClick="guideBookmark"/>
+
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/tv_header" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/seprator_line"
+        android:listSelector="#00000000"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="none"
+        android:splitMotionEvents="false"
+       >
+    </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmptyBookMark"
+        android:textSize="@dimen/size_twenty_five"
+        android:text="No Bookmarks Added"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/adimg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_fourty_eight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/banner"
+            android:clickable="true"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="onClickAdImage"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:enabled="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

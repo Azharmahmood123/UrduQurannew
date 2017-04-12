@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_sixty"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@color/header_bg"
+    android:elevation="4dp"
+
+    >
+    <RelativeLayout
+        android:id="@+id/toolbarItemLayout"
+        android:layout_below="@+id/toolbar_13Line"
+        android:background="@color/header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spinnerSurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            android:padding="5dip"
+            android:scrollbarThumbVertical="@drawable/spinner_style"
+            android:background="@drawable/test"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

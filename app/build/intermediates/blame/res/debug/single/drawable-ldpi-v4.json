@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\tab_selected.9.png",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\drawable-ldpi\\tab_selected.9.png"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\tab_unselected.9.png",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\drawable-ldpi\\tab_unselected.9.png"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    }
+]

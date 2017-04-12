@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="surah_list_names">
+        <item>Al-Fatihah</item>
+        <item>Ash-Sharah</item>
+        <item>At-Tin</item>
+        <item>Al-Qadr</item>
+        <item>At-Takathur</item>
+        <item>Al-Asr</item>
+        <item>Al-Fil</item>
+        <item>Al-Quraish</item>
+        <item>Al-Maun</item>
+        <item>Al-Kauthar</item>
+        <item>Al-Kafirun</item>
+        <item>Al-Nasr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>Al-Nas</item>
+    </string-array>
+    <string-array name="surah_names_arabic">
+        <item>الفاتحة</item>
+        <item>الـشرح</item>
+        <item>الـتين</item>
+        <item>الـقدر</item>
+        <item>الـتكاثر</item>
+        <item>الـعصر</item>
+        <item>الـفيل</item>
+        <item>قريش</item>
+        <item>المـاعون</item>
+        <item>الـكوثر</item>
+        <item>الـكافرون</item>
+        <item>الـنصر</item>
+        <item>الـمسد</item>
+        <item>الإخلاص</item>
+        <item>الـفلق</item>
+        <item>الـناس</item>
+    </string-array>
+    <!-- Surahs arabic -->
+    <string-array name="Al_Fatihah">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَـٰلَمِينَ</item>
+        <item>ٱلرَّحۡمَـٰنِ ٱلرَّحِيم</item>
+        <item>مَـٰلِكِ يَوۡمِ ٱلدِّينِ </item>
+        <item>إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ</item>
+        <item>ٱهۡدِنَا ٱلصِّرَٲطَ ٱلۡمُسۡتَقِيمَ</item>
+        <item>صِرَٲطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ </item>
+    </string-array>
+
+    <string-array name="Ash_Sharah">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ</item>
+        <item>وَوَضَعْنَا عَنكَ وِزْرَكَ</item>
+        <item>الَّذِي
+أَنقَضَ
+ظَهْرَكَ</item>
+        <item>وَرَفَعْنَا لَكَ ذِكْرَكَ</item>
+        <item>فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا</item>
+        <item>إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا</item>
+        <item>فَإِذَا فَرَغْتَ فَٱنصَبْ</item>
+        <item>وَإِلَىٰ رَبِّكَ فَٱرْغَب</item>
+    </string-array>
+
+    <string-array name="At_Tin">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>وَٱلتِّينِ وَٱلزَّيْتُونِ</item>
+        <item>وَطُورِ سِينِينَ</item>
+        <item>وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ</item>
+        <item>لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ</item>
+        <item>ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ</item>
+        <item>إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ</item>
+        <item>فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ</item>
+        <item>أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ</item>
+    </string-array>
+
+    <string-array name="Al_Qadr">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ</item>
+        <item>وَمَآ أَدْرَاكَ مَا لَيْلَةُ ٱلْقَدْرِ</item>
+        <item>لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ</item>
+        <item>تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ</item>
+        <item>سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ</item>
+    </string-array>
+
+
+
+    <string-array name="At_Takathur">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>أَلْهَىٰكُمُ ٱلتَّكَاثُرُ</item>
+        <item>حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ</item>
+        <item>كَلَّا سَوْفَ تَعْلَمُونَ</item>
+        <item>ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ</item>
+        <item>كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ</item>
+        <item>لَتَرَوُنَّ ٱلْجَحِيمَ</item>
+        <item>ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ</item>
+        <item>ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ</item>
+    </string-array>
+
+
+    <string-array name="Al_Asr">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>وَٱلْعَصْرِ</item>
+        <item>إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ</item>
+        <item>إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ</item>
+    </string-array>
+
+
+    <string-array name="Al_Fil">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>ألَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ</item>
+        <item>أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ</item>
+        <item>وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ</item>
+        <item>تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ</item>
+        <item>فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ</item>
+    </string-array>
+
+    <string-array name="Al_Quraish">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>لِإِيلَٰفِ قُرَيْشٍ</item>
+        <item>إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ</item>
+        <item>فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ</item>
+        <item>ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ</item>
+    </string-array>
+
+
+    <string-array name="Al_Maun">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ</item>
+        <item>فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ</item>
+        <item>وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ</item>
+        <item>فَوَيْلٌۭ لِّلْمُصَلِّينَ</item>
+        <item>ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</item>
+        <item>ٱلَّذِينَ هُمْ يُرَآءُونَ</item>
+        <item>وَيَمْنَعُونَ ٱلْمَاعُونَ</item>
+    </string-array>
+
+    <string-array name="Al_Kauthar">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ</item>
+        <item>فَصَلِّ لِرَبِّكَ وَٱنْحَرْ</item>
+        <item>إِنَّ شَانِئَكَ هُوَٱلْأَبْتَرُ</item>
+    </string-array>
+
+    <!--
+    <string-array name="Al_Kafirun">
+            <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+            <item>قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ</item>
+            <item>لَآ أَعْبُدُ مَا تَعْبُدُونَ</item>
+            <item>وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ</item>
+            <item>وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ</item>
+            <item>وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ</item>
+            <item>لَكُمْ دِينُكُمْ وَلِىَ دِينِ</item>
+        </string-array>-->
+
+
+    <string-array name="Al_Kafirun">
+        <item>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</item>
+        <item>قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ</item>
+        <item>لَآ أَعْبُدُ مَا تَعْبُدُونَ</item>
+        <item>وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ</item>
+        <item>وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ</item>
+        <item>وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ</item>
+        <item>لَكُمْ دِينُكُمْ وَلِىَ دِينِ</item>
+    </string-array>
+
+    <string-array name="Al_Nasr">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>إِذَا  جَاءَ  نَصْرُ  اللَّهِ  وَالْفَتْحُ</item>
+        <item>وَ  رَأَيْتَ  النَّاسَ  يَدْخُلُونَ  فِي  دِينِ  اللَّهِ  أَفْوَاجًا</item>
+        <item>فَسَبِّحْ  بِحَمْدِ  رَبِّكَ  وَاسْتَغْفِرْهُۚ  إِنَّهُ  كَانَ  تَوَّابًا</item>
+    </string-array>
+
+
+    <string-array name="Al_Masad">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ</item>
+        <item>مَآأَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ</item>
+        <item>سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ</item>
+        <item>وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ</item>
+        <item>فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ</item>
+    </string-array>
+
+
+    <!--     <string-array name="Al_Masad">
+            <item>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</item>
+            <item>تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ</item>
+            <item>مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ</item>
+            <item>سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ</item>
+            <item>وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ</item>
+            <item>فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ</item>
+        </string-array>
+     -->
+
+    <string-array name="Al_Ikhlas">
+        <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>قُلْ هُوَ ٱللَّهُ أَحَدٌ</item>
+        <item>ٱللَّهُ ٱلصَّمَدُ</item>
+        <item>لَمْ يَلِدْ وَلَمْ يُولَدْ</item>
+        <item> وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ</item>
+
+    </string-array>
+
+    <!--     <string-array name="Al_Ikhlas">
+            <item>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</item>
+            <item>قُلْ هُوَ ٱللَّهُ أَحَدٌ</item>
+            <item>ٱللَّهُ ٱلصَّمَدُ</item>
+            <item>لَمْ يَلِدْ وَلَمْ يُولَدْ</item>
+            <item>وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ</item>
+        </string-array>
+     -->
+
+    <string-array name="Al_Falaq">
+        <item>بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+        <item>قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ</item>
+        <item>مِن شَرِّ مَا خَلَقَ</item>
+        <item>وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ</item>
+        <item>وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ</item>
+        <item>وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ</item>
+    </string-array>
+
+
+    <!--     <string-array name="Al_Falaq">
+            <item>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</item>
+            <item>قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ</item>
+            <item>مِن شَرِّ مَا خَلَقَ</item>
+            <item>وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ</item>
+            <item>وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ</item>
+            <item>وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ</item>
+        </string-array>
+     -->
+    <!--    <string-array name="Al_Nas">
+           <item> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</item>
+           <item>قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ</item>
+           <item>مَلِكِ ٱلنَّاسِ</item>
+           <item>إِلَٰهِ ٱلنَّاسِ</item>
+           <item>مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ</item>
+           <item>ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ</item>
+           <item>مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ</item>
+   </string-array> -->
+
+    <string-array name="Al_Nas">
+        <item>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</item>
+        <item>قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ</item>
+        <item>مَلِكِ ٱلنَّاسِ</item>
+        <item>إِلَٰهِ ٱلنَّاسِ</item>
+        <item>مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ</item>
+        <item>ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ</item>
+        <item>مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ</item>
+    </string-array>
+
+
+    <!--     <string-array name="Al_Nas">
+            <item>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</item>
+            <item>قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ</item>
+            <item>مَلِكِ ٱلنَّاسِ</item>
+            <item>إِلَٰهِ ٱلنَّاسِ</item>
+            <item>مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ</item>
+            <item>ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ</item>
+            <item>مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ</item>
+        </string-array>
+     -->
+
+
+    <!-- Translation Arrays -->
+    <string-array name="Al_Fatihah_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>All praises and thanks -(be) to Allah, -the Lord -of the universe</item>
+        <item>The Most Gracious, -the Most Merciful.</item>
+        <item>(The) Master -(of the) Day -(of the) Judgment.</item>
+        <item>You Alone -we worship, -and You Alone -we ask for help.</item>
+        <item>Guide us -(to) the path, -the straight.</item>
+        <item>(The) path -(of) those -You have bestowed (Your) Favors -on them, -not (of) -those who earned (Your) wrath -on themselves -and not -(of) those who go astray.</item>
+    </string-array>
+
+    <string-array name="At_Takathur_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Diverts you -the competition to increase</item>
+        <item>Until -you visit -the graves.</item>
+        <item>Nay! -Soon -you will know.</item>
+        <item>Then, -nay! -Soon -you will know.</item>
+        <item>Nay! -If -you know -(with) a knowledge -(of) certainty.</item>
+        <item>Surely you will see -the Hellfire.</item>
+        <item>Then -surely you will see it -(with the) eye -(of) certainty.</item>
+        <item>Then, -surely you will be asked -that Day -about -the pleasures.</item>
+    </string-array>
+
+
+    <string-array name="Al_Asr_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>By the time,</item>
+        <item>Indeed -mankind -(is) surely, in -loss,</item>
+        <item>Except -those who -believe -and do -righteous deeds -and enjoin (each other) -to the truth -and enjoin (each other) -to [the] patience.</item>
+    </string-array>
+    <string-array name="Al_Qadr_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Indeed, We -revealed it -in -(the) Night -(of) Power.</item>
+        <item>And what -can make you know -what -(the) Night -(of) Power (is)?</item>
+        <item>(The) Night -(of) Power -(is) better -than -a thousand -month(s).</item>
+        <item>Descend -the Angels -and the Spirit -therein, -by (the) permission -(of) their Lord, -for -every -affair,</item>
+        <item>Peace -it (is) -until -(the) emergence -(of) the dawn.</item>
+    </string-array>
+    <string-array name="At_Tin_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>By the fig, -and the olive.</item>
+        <item>And (the) Mount -Sinai.</item>
+        <item>And this -[the] city, -[the] secure.</item>
+        <item>Indeed -We created -man -in -(the) best -mould.</item>
+        <item>Then -We returned him -(to the) lowest -(of the) low.</item>
+        <item>Except -those who -believe -and do -righteous deeds, -then for them -(is a) reward -never -ending.</item>
+        <item>Then what -causes you to deny -after (this) -the judgment?</item>
+        <item>Is not -Allah -(the) Most Just -(of) the Judges?</item>
+    </string-array>
+    <string-array name="Ash_Sharah_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Have not -We expanded -for you -your breast?</item>
+        <item>And We removed -from you -your burden</item>
+        <item>Which -weighed upon -your back,</item>
+        <item>And We raised high -for you -your reputation</item>
+        <item>So indeed, -with -the hardship -(is) ease.</item>
+        <item>Indeed -with -the hardship -(is) ease.</item>
+        <item>So when -you have finished -then labor hard.</item>
+        <item>And to -your Lord -turn your attention.</item>
+    </string-array>
+    <string-array name="Al_Fil_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Have you not -seen -how -your Lord -dealt -with the men of -the Elephant?</item>
+        <item>Did (He) not -cause -their plan -go -ruined.</item>
+        <item>And He sent -against them -birds -in flocks.</item>
+        <item>Striking them -with stones -of -baked clay.</item>
+        <item> And thus made them -like broken straw -eaten up.</item>
+    </string-array>
+    <string-array name="Al_Quraish_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>For (the) familiarity -(of the) Quraish.</item>
+        <item>Their familiarity -(with the) journey -(of) winter -and summer both.</item>
+        <item>So let them worship -the Lord -of this -House.</item>
+        <item>The one who -gave them food -in -hunger, -and gives them security -from -a big fear.</item>
+    </string-array>
+    <string-array name="Al_Maun_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Have you seen, -the one who -denies -the judgment.</item>
+        <item>Then that -is the one who -drives away -the Orphan.</item>
+        <item>And (does) not -feel the urge -to -feed -the poor.</item>
+        <item>Then woe -to those who pray.</item>
+        <item>Those -who (they) -about -their prayers -are heedless.</item>
+        <item>Those -who -make Show.</item>
+        <item>And they refuse -to give articles of use</item>
+    </string-array>
+    <string-array name="Al_Kauthar_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Undoubtedly, We -have bestowed you -abundance of good.</item>
+        <item>Therefore offer prayer -for your Lord, -and do the sacrifice.</item>
+        <item>Undoubtedly, -your enemy, -he is cut off from every good.</item>
+    </string-array>
+    <string-array name="Al_Kafirun_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Say you, -O -disbelievers</item>
+        <item>Not -I worship -what -you worship.</item>
+        <item>And not -you -worship -what -I worship.</item>
+        <item>And not -I shall -worship -what -you worshiped.</item>
+        <item>And not -you -worship -what -I worship.</item>
+        <item>For you, -your religion. -and for me -my religion.</item>
+    </string-array>
+    <string-array name="Al_Nasr_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>When -comes -the help -of Allah -and victory.</item>
+        <item>And -you see -the people -entering -into -the religion -of Allah -in troops.</item>
+        <item>Then glorify -with (the) praises  -of your Lord -and seek His forgiveness. -Undoubtedly, He -is -Oft Returning</item>
+    </string-array>
+    <string-array name="Al_Masad_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Perish -(the) hands of -Aby -Lahab, -and perish he.</item>
+        <item>Not -(will) avail -him -his wealth -and what -he earned.</item>
+        <item>He will be burnt -in a fire -of -blazing flames.</item>
+        <item>And his wife too, -(the) carrier -(of) firewood.</item>
+        <item>In -her neck -(will be) a rope -of -palm fiber.</item>
+    </string-array>
+    <string-array name="Al_Ikhlas_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Say, -He is -Allah, -the one.</item>
+        <item>Allah, -the eternal, -the Absolute</item>
+        <item>Not -He begets -and not -He is begotten.</item>
+        <item>And not -is -for Him -equivalent -any (one).</item>
+    </string-array>
+    <string-array name="Al_Falaq_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Say -I seek refuge -in (the) Lord (of) -the dawn</item>
+        <item>From the -evil of -all -creatures;</item>
+        <item>And from the -evil of the -darkening one -when it -sets.</item>
+        <item>And from the -evil of -those women who blow -in the -knots.</item>
+        <item>And from the -evil of -the envier -when he -envies me.</item>
+    </string-array>
+    <string-array name="Al_Nas_translation">
+        <item>In (the) name -(of) Allah, -the Most Gracious, -the Most Merciful.</item>
+        <item>Say you, -I came in the refuge of -the Lord of -all mankind;</item>
+        <item>King of -all mankind,</item>
+        <item>God of -all mankind,</item>
+        <item>From the -evil of (him) -who whispers (evil designs) -slinks away.</item>
+        <item>Those who -whisper -in the -hearts of -mankind.</item>
+        <item>From among -the jinns -and men.</item>
+    </string-array>
+    <!-- transliteration Arrays -->
+    <string-array name="Al_Fatihah_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Al-Ĥamdu . Lillahi . Rabbi . Al-`Ālamīna</item>
+        <item>Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Māliki . Yawmi . Ad-Dīni</item>
+        <item>\'Īyāka . Na`budu Wa . \'Īyāka . Nasta`īnu</item>
+        <item>Ahdinā . Aş-Şirāţa . Al-Mustaqīma</item>
+        <item>Şirāţa . Al-Ladhīna . \'An`amta . `Alayhim . Ghayri . Al-Maghđūbi . `Alayhim . Wa Lā . Ađ-Đāllīna</item>
+    </string-array>
+
+    <string-array name="Al_Asr_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Wa Al-`Aşri</item>
+        <item>\'Inna . Al-\'Insāna . Lafī . Khusrin</item>
+        <item>\'Illā . Al-Ladhīna . \'Āmanū . Wa `Amilū . Aş-Şāliĥāti . Wa Tawāşaw . Bil-Ĥaqqi . Wa Tawāşaw . Biş-Şabri </item>
+    </string-array>
+    <string-array name="At_Takathur_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>\'Alhākumu . At-Takāthuru</item>
+        <item>Ĥattá . Zurtumu . Al-Maqābira</item>
+        <item>Kallā . Sawfa . Ta`lamūna</item>
+        <item>Thumma . Kallā . Sawfa . Ta`lamūna</item>
+        <item>Kallā . Law . Ta`lamūna . `Ilma . Al-Yaqīni</item>
+        <item>Latarawunna . Al-Jaĥīma</item>
+        <item>Thumma . Latarawunnahā . `Ayna . Al-Yaqīni</item>
+        <item>Thumma . Latus\'alunna . Yawma\'idhin . `Ani . An-Na`īmi</item>
+    </string-array>
+    <string-array name="Al_Qadr_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>\'Innā . \'Anzalnāhu . Fī . Laylati . Al-Qadri</item>
+        <item>Wa Mā . \'Adrāka . Mā . Laylatu . Al-Qadri</item>
+        <item>Laylatu . Al-Qadri . Khayrun . Min . \'Alfi . Shahrin</item>
+        <item>Tanazzalu . Al-Malā\'ikatu . Wa Ar-Rūĥu . Fīhā . Bi\'idhni . Rabbihim . Min . Kulli . \'Amrin</item>
+        <item>Salāmun . Hiya . Ĥattá . Maţla`i . Al-Fajri</item>
+    </string-array>
+    <string-array name="Ash_Sharah_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>\'Alam . Nashraĥ . Laka . Şadraka</item>
+        <item>Wa Wađa`nā . `Anka . Wizraka</item>
+        <item>Al-Ladhī . \'Anqađa . Žahraka</item>
+        <item>Wa Rafa`nā . Laka . Dhikraka</item>
+        <item>Fa\'inna . Ma`a . Al-`Usri . Yusrāan</item>
+        <item>\'Inna . Ma`a . Al-`Usri . Yusrāan</item>
+        <item>Fa\'idhā . Faraghta . Fānşab</item>
+        <item>Wa \'Ilá . Rabbika . Fārghab</item>
+    </string-array>
+    <string-array name="At_Tin_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Wa At-Tīni . Wa Az-Zaytūni</item>
+        <item>Wa Ţūri . Sīnīna</item>
+        <item>Wa Hadhā . Al-Baladi . Al-\'Amīni</item>
+        <item>Laqad . Khalaqnā . Al-\'Insāna . Fī . \'Aĥsani . Taqwīmin</item>
+        <item>Thumma . Radadnāhu . \'Asfala . Sāfilīna</item>
+        <item>\'Illā . Al-Ladhīna . \'Āmanū . Wa `Amilū . Aş-Şāliĥāti . Falahum . \'Ajrun . Ghayru . Mamnūnin</item>
+        <item>Famā . Yukadhdhibuka . Ba`du . Bid-Dīni</item>
+        <item>\'Alaysa . Al-Lahu . Bi\'aĥkami . Al-Ĥākimīna</item>
+    </string-array>
+    <string-array name="Al_Fil_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Alam . tara . kayfa . faAAala . rabbuka . bi as habi . alfeel</item>
+        <item>Alam . yajAAal . kaydahum . fee . tadleel</item>
+        <item>Waarsala . AAalayhim . tayran . ababeel</item>
+        <item>Tarmeehim . bihijaratin . min . sijjeel</item>
+        <item>FajaAAalahum . kaAAasfin . ma kool</item>
+    </string-array>
+    <string-array name="Al_Quraish_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Li eelafi . quraysh</item>
+        <item>Eelafihim . rihlata . ashshitai . wassayf</item>
+        <item>FalyaAAbudoo . rabba . hatha . albayt</item>
+        <item>Allathee . atAAamahum . min . jooAAin . waamanahum . min . khawf</item>
+    </string-array>
+    <string-array name="Al_Maun_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Araayta . allathee . yukaththibu . biddeen</item>
+        <item>Fathalika . allathee . yaduAAAAu . alyateem</item>
+        <item>Wala . yahuddu . AAala . taAAami . almiskeen</item>
+        <item>Fawaylun . lilmusalleen</item>
+        <item>Allatheena . hum . AAan . salatihim . sahoon</item>
+        <item>Allatheena . hum . yuraoon</item>
+        <item>WayamnaAAoona . almaAAoon</item>
+    </string-array>
+    <string-array name="Al_Kauthar_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Inna . aAAtaynaka . alkawthar</item>
+        <item>Fasalli . lirabbika . wanhar</item>
+        <item>Inna . shani aka . huwa al abtar</item>
+    </string-array>
+    <string-array name="Al_Kafirun_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Qul . ya ayyuha . alkafiroon</item>
+        <item>La . aAAbudu . ma . taAAbudoon</item>
+        <item>Wala . antum . AAabidoona . maa . AAbud</item>
+        <item>Wala . ana . AAabidun . maA . Aabadtum</item>
+        <item>Wala . antum . AAabidoona . maa . AAbud</item>
+        <item>Lakum . deenukum . waliya . deen</item>
+    </string-array>
+    <string-array name="Al_Nasr_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Itha . jaa . nasru . Allahi . walfath</item>
+        <item>Wa . raayta . annasa . yadkhuloona . fee . deeni . Allahi . afwaja</item>
+        <item>Fasabbih . bihamdi . rabbika . wastaghfirhu . innahu . kana . tawwaba</item>
+    </string-array>
+    <string-array name="Al_Masad_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Tabbat . yada . abee . lahabin . watab</item>
+        <item>Ma aghna . AAanhu . maluhu . wama . kasab</item>
+        <item>Sayasla . naran . thata . lahab</item>
+        <item>Wamraatuhu . hammalata . alhatab</item>
+        <item>Fee . jeediha . hablun . min . masad</item>
+    </string-array>
+    <string-array name="Al_Ikhlas_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Qul . Huwa . Alllahu . \'Aĥadun</item>
+        <item>Alllahu . Aş-Şamadu</item>
+        <item>Lam . Yalid . Wa Lam . Yūlad</item>
+        <item>Walam . Yakun . Lahu . Kufūan . \'Aĥadun</item>
+    </string-array>
+    <string-array name="Al_Falaq_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Qul . \'A`ūdhu . Birabbi . Al-Falaqi</item>
+        <item>Min . Sharri . Mā . Khalaqa</item>
+        <item>Wa Min . Sharri . Ghāsiqin . \'Idhā . Waqaba</item>
+        <item>Wa Min . Sharri . An-Naffāthāti . Fī . Al-`Uqadi</item>
+        <item>Wa Min . Sharri . Ĥāsidin . \'Idhā . Ĥasada</item>
+    </string-array>
+    <string-array name="Al_Nas_transliteration">
+        <item>Bismi . Al-Lahi . Ar-Raĥmāni . Ar-Raĥīmi</item>
+        <item>Qul . \'A`ūdhu . Birabbi . An-Nāsi</item>
+        <item>Maliki . An-Nāsi</item>
+        <item>\'Ilahi . An-Nāsi</item>
+        <item>Min . Sharri . Al-Waswāsi . Al-Khannāsi</item>
+        <item>Al-Ladhī . Yuwaswisu . Fī . Şudūri . An-Nāsi</item>
+        <item>Mina . Al-Jinnati . Wa An-Nāsi</item>
+    </string-array>
+
+</resources>

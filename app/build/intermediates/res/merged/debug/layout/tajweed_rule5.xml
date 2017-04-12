@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/txtWaslHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Hamzah-Hamzah tul Wasl"
+            android:textSize="@dimen/text_size_twenty"
+         />
+
+        <TextView
+            android:id="@+id/txtWaslIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWaslHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relWasl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWaslIntro">
+
+            <ImageView
+                android:id="@+id/imgContent1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_hamza1_wasl" />
+
+            <ImageView
+                android:id="@+id/speakerHamza1"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtQataHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relWasl"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Hamzah-Hamzah tul Qat'a"
+            android:textSize="@dimen/text_size_twenty"
+           />
+
+        <TextView
+            android:id="@+id/txtQataIntro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtQataHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relQata1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtQataIntro1">
+
+            <ImageView
+                android:id="@+id/imgContent2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_hamza2" />
+
+            <ImageView
+                android:id="@+id/speakerHamza2"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+            <!--next line-->
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtQataIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relQata1"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relQata2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtQataIntro2"
+            android:layout_marginLeft="@dimen/size_twenty">
+
+            <ImageView
+                android:id="@+id/imgContent3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_hamza3" />
+
+            <ImageView
+                android:id="@+id/speakerHamza3"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtQataIntro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relQata2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relQata3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtQataIntro3">
+
+            <ImageView
+                android:id="@+id/imgContent4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_hamza4" />
+
+            <ImageView
+                android:id="@+id/speakerHamza4"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

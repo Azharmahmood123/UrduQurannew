@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quran_facts_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quranfacts.QuranFactsList">
+
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:text="Quran Facts"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tabviewpager"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        >
+        <!--android.support.design.widget.TabLayout-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/strip"
+            app:tabIndicatorHeight="@dimen/size_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_bg"
+
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/dull_white"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/Mytab"
+
+            app:tabSelectedTextColor="@color/dull_white"
+            app:tabTextColor="@color/tabsTextColr" />
+
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

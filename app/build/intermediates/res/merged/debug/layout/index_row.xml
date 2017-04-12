@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/index_row"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_seventy"
+        android:background="@drawable/index_row_bg" >
+
+        <RelativeLayout
+            android:id="@+id/layout_no"
+            android:layout_width="@dimen/size_fourty_five"
+            android:layout_height="match_parent"
+            android:background="@color/index_no_bg" >
+
+            <LinearLayout
+                android:id="@+id/layout_index_no"
+                android:layout_width="@dimen/size_twenty_eight"
+                android:layout_height="@dimen/size_twenty_eight"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_index_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_fifteen" />
+            </LinearLayout>
+
+            <View
+                style="@style/shadow_bg"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_index_details"
+            android:layout_width="@dimen/size_hundred_eighty"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/layout_no"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/size_fifteen"
+            android:paddingRight="@dimen/size_five" >
+
+            <TextView
+                android:id="@+id/tv_index"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Surah Fatiha"
+                android:textColor="#2a2a2a"
+                android:textSize="@dimen/text_size_twenty" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_three"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/verses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Verses : 07, "
+                    android:textColor="#393939"
+                    android:textSize="@dimen/text_size_twelve" />
+
+                <TextView
+                    android:id="@+id/maki_madni"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Madni"
+                    android:textColor="#393939"
+                    android:textSize="@dimen/text_size_twelve" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/arabic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_seventy"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/size_twelve"
+            android:text="الفاتحة"
+            android:textColor="#2a2a2a"
+            android:textSize="@dimen/text_size_twenty_five" />
+    </RelativeLayout>
+
+</RelativeLayout>

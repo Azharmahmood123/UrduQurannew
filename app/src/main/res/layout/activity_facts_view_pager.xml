@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_facts_viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".quranfacts.FactsViewPager">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layoutHeader"
+        android:layout_height="wrap_content"
+        android:background="@color/header_bg">
+    <ImageView
+        android:id="@+id/btnHomeFacts"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentRight="true"
+        android:onClick="onHomeClickFacts"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_home"
+        android:layout_marginRight="@dimen/size_five"
+        />
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/btnHomeFacts"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/txt_bookmarks"
+        android:textColor="#FFFFFF"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/del_btn"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/size_five"
+        android:background="@drawable/delete_disable"
+        android:clickable="false"
+        android:onClick="DelBookmarks"
+        android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/layoutHeader" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/factsviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/number"
+        android:layout_below="@+id/seprator_line"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginRight="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/size_ten"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginRight="@dimen/size_ten"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="3545"
+        />
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/index_row"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:background="?android:attr/activatedBackgroundIndicator"
+
+       >
+
+        <RelativeLayout
+            android:id="@+id/layout_no"
+            android:layout_width="@dimen/size_fifty"
+            android:layout_height="match_parent"
+            android:background="#DFDED5" >
+
+            <TextView
+                android:id="@+id/tv_index_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_eighteen" />
+
+            <View
+                style="@style/bookmark_seprtr_v"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/layout_no"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/size_fifteen"
+            android:paddingRight="@dimen/size_five"
+            android:textColor="#454545"
+            android:textSize="@dimen/text_size_twenty" />
+    </RelativeLayout>
+
+    <View
+        style="@style/bookmark_seprtr_h"
+        android:layout_below="@+id/index_row" />
+
+</RelativeLayout>

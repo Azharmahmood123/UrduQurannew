@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/size_twenty_five"
+        android:layout_marginRight="@dimen/size_twenty_five"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:id="@+id/btnIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_five"
+            android:layout_marginTop="@dimen/size_ten"
+            android:background="@drawable/btn_color"
+            android:onClick="onButtonClick"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:tag="0" >
+
+            <TextView
+                android:id="@+id/textHeading1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Introduction"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/text_size_twenty"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnmukhraj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_five"
+            android:layout_marginTop="@dimen/size_ten"
+            android:background="@drawable/btn_color"
+            android:onClick="onButtonClick"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:tag="1" >
+
+            <TextView
+                android:id="@+id/textHeading2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Mukhraj ul Huroof"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/text_size_twenty"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnComponents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_five"
+            android:layout_marginTop="@dimen/size_ten"
+            android:background="@drawable/btn_color"
+            android:onClick="onButtonClick"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:tag="2" >
+
+            <TextView
+                android:id="@+id/textHeading3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Components of Tajweed"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/text_size_twenty"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_five"
+            android:layout_marginTop="@dimen/size_ten"
+            android:background="@drawable/btn_color"
+            android:onClick="onButtonClick"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:tag="3" >
+
+            <TextView
+                android:id="@+id/textHeading4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Rules of Tajweed"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/text_size_twenty"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

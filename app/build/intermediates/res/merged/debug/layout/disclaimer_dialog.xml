@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:background="@drawable/download_dialog_bg"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/goto_header_bg"
+        android:gravity="center"
+        android:text="@string/txt_disclaimer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_thirty" />
+
+    <ScrollView
+        android:id="@+id/sc_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_two_hundred_ninty"
+        android:layout_below="@+id/tv_header"
+        android:padding="@dimen/size_five" >
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="left"
+            android:lineSpacingExtra="2dp"
+            android:padding="@dimen/size_five"
+            android:text="@string/disclaimer"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/text_size_twenty" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="@dimen/size_eighty"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_eight"
+        android:background="@drawable/btn_download_dialog"
+        android:onClick="onCancelClick"
+        android:text="@string/txt_ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_twenty" />
+
+</RelativeLayout>

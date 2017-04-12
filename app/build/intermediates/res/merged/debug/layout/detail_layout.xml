@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/size_ten"
+    android:paddingRight="@dimen/size_ten"
+    android:paddingTop="@dimen/size_ten"
+    android:paddingBottom="@dimen/size_ten"
+    android:layout_height="wrap_content"
+    android:splitMotionEvents="false">
+    <ImageView
+        android:id="@+id/detail_speaker"
+        android:layout_width="@dimen/size_fourty"
+        android:layout_height="@dimen/size_thirty"
+        android:paddingLeft="@dimen/size_four"
+        android:paddingRight="@dimen/size_ten"
+        android:paddingTop="@dimen/size_eight"
+        android:paddingBottom="@dimen/size_eight"
+        android:background="@drawable/drawer_item_selector"
+        android:src="@drawable/speaker_off"/>
+    <LinearLayout
+        android:id="@+id/detail_txt_arabic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/detail_speaker"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/detail_txt_arabic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:paddingBottom="@dimen/size_four"
+            android:paddingTop="@dimen/size_four"
+            android:paddingLeft="@dimen/size_four"
+            android:paddingRight="@dimen/size_four"
+            android:textSize="@dimen/text_size_twenty_two"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/detail_txt_arabic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:paddingBottom="@dimen/size_four"
+            android:paddingTop="@dimen/size_four"
+            android:paddingLeft="@dimen/size_four"
+            android:paddingRight="@dimen/size_four"
+            android:textSize="@dimen/text_size_twenty_two"
+            android:text="" />
+        <TextView
+            android:id="@+id/detail_txt_arabic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:paddingBottom="@dimen/size_four"
+            android:paddingTop="@dimen/size_four"
+            android:paddingLeft="@dimen/size_four"
+            android:paddingRight="@dimen/size_four"
+            android:textSize="@dimen/text_size_twenty_two"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/detail_txt_arabic_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/detail_txt_arabic_layout"
+        android:layout_toRightOf="@id/detail_speaker"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/detail_txt_arabic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:paddingBottom="@dimen/size_four"
+            android:paddingTop="@dimen/size_four"
+            android:paddingLeft="@dimen/size_four"
+            android:paddingRight="@dimen/size_four"
+            android:textSize="@dimen/text_size_twenty_two"
+            android:text="" />
+        <TextView
+            android:id="@+id/detail_txt_arabic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:paddingBottom="@dimen/size_four"
+            android:paddingTop="@dimen/size_four"
+            android:paddingLeft="@dimen/size_four"
+            android:paddingRight="@dimen/size_four"
+            android:textSize="@dimen/text_size_twenty_two"
+            android:text="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detail_txt_eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_black"
+        android:paddingBottom="@dimen/size_four"
+        android:paddingTop="@dimen/size_four"
+        android:paddingLeft="@dimen/size_four"
+        android:paddingRight="@dimen/size_four"
+        android:gravity="left"
+        android:layout_below="@id/detail_txt_arabic_layout2"
+        android:textSize="@dimen/text_size_eighteen"
+        android:text="This That Those" />
+
+</RelativeLayout>

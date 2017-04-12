@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header_bg">
+    <ImageView
+        android:id="@+id/btnHomeWBW"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentRight="true"
+        android:onClick="onHomeClickWBW"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_home"
+        android:layout_marginRight="@dimen/size_five"
+        />
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Last 15 Surahs"
+        android:layout_toLeftOf="@+id/btnHomeWBW"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/del_btn"
+        android:layout_width="@dimen/size_fourty_five"
+        android:layout_height="@dimen/size_fourty_five"
+        android:background="@drawable/delete_disable"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/size_five"
+        android:visibility="gone"
+        android:clickable="false"
+        android:onClick="DelBookmarks"/>
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/tv_header" />
+    <!-- The main content view -->
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/seprator_line"
+        android:layout_above="@+id/bottom_layout"
+        android:background="@color/background_color" >
+
+
+        <ImageView
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_eight"
+            android:layout_below="@+id/tabsLayout"/>
+
+        <ListView
+            android:id="@+id/duaListView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="@dimen/size_minus_ten"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </ListView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/txtLamTafkheemHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Laam-Tafkheem"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txtLaamTafkheemIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLamTafkheemHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:text="abcccccccc"
+            android:lineSpacingExtra="@dimen/size_five"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLam1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtLaamTafkheemIntro">
+
+            <ImageView
+                android:id="@+id/imgContent1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_laam1_tkhrim1" />
+
+            <ImageView
+                android:id="@+id/speakerLam1"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtLaamTafkheemIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relLam1"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLam2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLaamTafkheemIntro2">
+
+            <ImageView
+                android:id="@+id/imgContent2"
+                android:layout_width="@dimen/size_two_hundred_twenty"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_marginLeft="@dimen/size_fourty"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_laam1_tkhrim2" />
+
+            <ImageView
+                android:id="@+id/speakerLam2"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_thirty"
+                android:src="@drawable/speaker_selector" />
+            <!--next line-->
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtLaamTafkheemIntro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relLam2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLam3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtLaamTafkheemIntro3">
+
+            <ImageView
+                android:id="@+id/imgContent3"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_laam1_tkhrim3" />
+
+            <ImageView
+                android:id="@+id/speakerLam3"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtLamTarqeeqHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relLam3"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Laam- Tarqeeq"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtLamTarqeeqIntro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLamTarqeeqHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:lineSpacingExtra="@dimen/size_five"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLam4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLamTarqeeqIntro1">
+
+            <ImageView
+                android:id="@+id/imgContent4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_laam_tarqeeq1" />
+
+            <ImageView
+                android:id="@+id/speakerLam4"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtLamTarqeeqIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relLam4"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:lineSpacingExtra="@dimen/size_five"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLam5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLamTarqeeqIntro2">
+
+            <ImageView
+                android:id="@+id/imgContent5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_sixty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_laam_tarqeeq2" />
+
+            <ImageView
+                android:id="@+id/speakerLam5"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_thirty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

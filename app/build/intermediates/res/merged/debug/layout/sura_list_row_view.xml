@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/size_two"
+    android:layout_marginRight="@dimen/size_two">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_eighty"
+        android:layout_marginLeft="@dimen/size_two"
+        android:layout_marginRight="@dimen/size_two"
+        android:background="@drawable/list_selctor_file"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size_minus_ten" >
+
+        <TextView
+            android:id="@+id/suraTitleEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_sixty_five"
+            android:layout_marginLeft="@dimen/size_fifteen"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="abcdef"
+            android:layout_marginTop="@dimen/size_minus_fifteen"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_fifteen" />
+
+        <TextView
+            android:id="@+id/suraTitleArabic"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_sixty_five"
+            android:layout_marginRight="@dimen/size_fifteen"
+            android:layout_marginTop="@dimen/size_minus_fifteen"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_thirty" />
+
+    </LinearLayout>
+</LinearLayout>

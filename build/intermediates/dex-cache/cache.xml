@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.6.1_a45016faf54fa92dec01f3137b08454dcb74834d.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.6.1_5abdc7b446abb4bbf1c435575cc294d4749c447e.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\libs\commons-io-2.4.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\commons-io-2.4_6ce7c0b834285e3f9c2d48a3a5a0253b7c404673.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fb13ef956db47782746e380d764560efcb841eb1.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_791e1f8bb5cfec257dca2c0395ba42c407652180.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\libs\zip4j_1.3.2.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3e20955923c5b61bfbcd4590a87720643c729695">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\zip4j_1.3.2_b14da82279a296d68fa849b4f9593406849167cb.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_3a76bdfc880dd1c0c7cde9db802bf2b8a9c3881e.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3ee1286f1aff82a4cf5e8244b858cf890a844ee0">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\instant-run_8afe1bbdffca156d591c19eac6ac3aaee887ba9d.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_24b46d9e7c44253f0c63fc26c78cc74ec75f6449.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_e9c1fd05148cdd50ede53a17ec57fd6f1c33c05f.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_33cf24d71a6899351dcd4cd3db4969e51bb116f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_513689b2906175d5521db7965739edf1229b2d68.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_582dcd1c983031539832ee8fe889e3fe29aa94b5.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.17.0_b6e657673ec8ea05b1593aaeed0fafe32f16adf8.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_daebedfdade5fb109010293ae315cf28a72bad4f.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_2cf69e08a33895b3b9df4d58f92de242c38a0fa3.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_804ba8234d6c781de169c6c41e3dc93778cbe83c.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b6b449fe681e640ab1e12b599d2c41cf2b49c006">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_631b0b809e657b891f399bdbeab37eda677e1028.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_eccdf14c4d4f68d351a2ea88d03db0e6ba01f1d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_893b37e44d66835e3cc701f637a15740bfab8648.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_09441182bc22b49c8222c4aa3b5c25113fc8b91a.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.6.1_40a5b9110b7a543ef53e9e49b86aabca733dcbaa.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.6.1_01e924cb1506ffba8ab6ab2589608769cca8e1e5.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_5c295008838de360be11a59c940f698f025c38f3.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_f7f0ee2d5a9c16f60be092fe91e457baa336dda8.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_7db997f2901590026177857aa3a391fb5bd0ac16.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6101951c5e1f99542c348e06fdd0bc3fc1cc6497.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_bc1d7268311291735eae7d8c2fd2c426b03b9c2f.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.6.1_131925cfa5305f75d328ec29ebde291f10267c32.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.6.1_231608d9dd9fb2c2df25a7d459109b7c3ee0433f.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_802425aa7a5cb8ac42c78df2b6a4ad04412817ee.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_f5b21b621f44b40cbc38ea80ef2cc36cff81eddb.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_62f9fcf645d84329b2ae5fdd08625a81ac94ead7.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_a2d5d56c0a2b0a1c30c80dc901bbd9be586b7e64.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_70051a79477c51572dea159da46618c626349d4b.jar" />
+    </item>
+    <item
+        jar="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="E:\Farhan\Projects_Official\UrduQuran\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_192910961bf8e9f6ca77673e87a3a88fbaaf0735.jar" />
+    </item>
+
+</items>

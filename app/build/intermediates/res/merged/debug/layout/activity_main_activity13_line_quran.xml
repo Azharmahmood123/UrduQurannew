@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_activity13_line_quran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.packageapp._13linequran.MainActivity13LineQuran">
+    <include android:id="@+id/toolbar_13Line"
+        layout="@layout/toolbar_13line"/>
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_below="@+id/toolbar_13Line"
+        android:background="@color/header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+        android:id="@+id/spinnerJuzz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:padding="5dip"
+        android:scrollbarThumbVertical="@drawable/spinner_style"
+        android:background="@drawable/test"
+      />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/headerLayout"
+        android:id="@+id/vPager13Line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footerLayout"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_sixty"
+        android:id="@+id/footerLayout"
+        android:layout_alignParentBottom="true"
+        android:background="@color/brown">
+        <ImageButton
+
+            android:id="@+id/btn_next"
+
+            android:layout_width="@dimen/size_fourty_five"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="viewsClickEvent"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="@dimen/size_thirty"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back_btn"
+            />
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:layout_width="@dimen/size_fourty_five"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="viewsClickEvent"
+            android:layout_marginRight="@dimen/size_thirty"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next_btn"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="GoTo"
+            android:id="@+id/tvGoTo"
+            android:clickable="true"
+            android:onClick="viewsClickEvent"
+            android:textSize="@dimen/size_twenty"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

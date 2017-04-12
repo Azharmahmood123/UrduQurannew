@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_hundred_eighty"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/size_ten"
+    android:background="@drawable/download_dialog_bg"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/goto_header_bg"
+        android:gravity="center"
+        android:text="@string/txt_goto"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_thirty" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_header"
+        android:layout_marginTop="@dimen/size_five"
+        android:gravity="center|left"
+        android:paddingLeft="@dimen/size_fifteen"
+        android:text="@string/txt_ayahno"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_twenty" />
+
+    <EditText
+        android:id="@+id/tv_index"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty"
+        android:layout_below="@+id/tv_msg"
+        android:layout_marginLeft="@dimen/size_fifteen"
+        android:layout_marginRight="@dimen/size_fifteen"
+        android:layout_marginTop="@dimen/size_five"
+        android:background="@drawable/goto_edittxt_bg"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:maxLength="5"
+        android:paddingLeft="@dimen/size_eight"
+        android:paddingRight="@dimen/size_eight"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size_eight"
+        android:layout_marginLeft="@dimen/size_five"
+        android:layout_marginRight="@dimen/size_five"
+        android:splitMotionEvents="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/size_fifteen"
+            android:layout_marginRight="@dimen/size_twelve"
+            android:layout_weight="1"
+            android:background="@drawable/btn_download_dialog"
+            android:onClick="onOkClick"
+            android:text="@string/txt_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/size_twelve"
+            android:layout_marginRight="@dimen/size_fifteen"
+            android:layout_weight="1"
+            android:background="@drawable/btn_download_dialog"
+            android:onClick="onCancelClick"
+            android:text="@string/txt_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_twenty" />
+    </LinearLayout>
+
+</RelativeLayout>

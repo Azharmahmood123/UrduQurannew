@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="0dp"
+    android:splitMotionEvents="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:splitMotionEvents="false" android:layout_height="match_parent">
+
+        <include layout="@layout/layout_toolbar" android:id="@+id/toolbar"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            android:visibility="gone"
+            ads:adUnitId="@string/admob_id"/>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/container"
+            android:layout_below="@id/toolbar" android:layout_above="@id/adView"
+            android:layout_width="match_parent" android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/calibrationlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:background="@drawable/calibration_background_img"
+            android:visibility="gone"
+            >
+
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="@dimen/size_hundred_twenty"
+                android:layout_height="wrap_content"
+                android:background="@drawable/calibration_button"
+                android:onClick="onCalibrationClick"
+                android:padding="@dimen/size_fifteen"
+                android:layout_marginRight="@dimen/size_fourty"
+                android:layout_marginBottom="@dimen/size_fifty"
+                android:text="   Got It   "
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/text_size_twenty"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_tajweed_single_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_ten"
+        android:layout_marginRight="@dimen/size_ten"
+        android:layout_marginTop="@dimen/size_ten"
+        android:text="abcccccccc"
+        android:textSize="@dimen/text_size_twenty" />
+
+    <RelativeLayout
+        android:id="@+id/relSingle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tajweed_single_1"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/img_tajweed_single_1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/size_ten"
+            android:src="@drawable/img_arabic_silent_letters"
+
+            />
+
+        <ImageView
+            android:id="@+id/speakerSilent"
+            android:layout_width="@dimen/size_twenty"
+            android:layout_height="@dimen/size_twenty"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_thirty"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:clickable="true"
+            android:src="@drawable/speaker_selector"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

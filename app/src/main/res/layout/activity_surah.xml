@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false" >
+
+
+    <RelativeLayout
+        android:id="@+id/inner_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_alignParentTop="true"
+        android:splitMotionEvents="false" >
+
+        <RelativeLayout
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_alignParentTop="true"
+            android:background="@color/header_bg"
+
+            android:splitMotionEvents="false" >
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_five"
+                android:layout_marginRight="@dimen/size_five"
+                android:src="@drawable/btn_menu"
+                android:padding="@dimen/size_six"
+                android:onClick="onSurahClick"
+                android:tag="1" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_five"
+                android:background="@drawable/btn_setting"
+                android:onClick="onSurahClick"
+                android:tag="2" />
+
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button2"
+                android:layout_toLeftOf="@+id/btnHomeQuran"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:textSize="@dimen/text_size_thirty"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/btnHomeQuran"
+                android:layout_width="@dimen/size_fifty"
+                android:layout_height="@dimen/size_fifty"
+                android:onClick="onHomeClickQuran"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bg_home"
+                android:layout_toLeftOf="@+id/button1"
+                android:layout_toStartOf="@+id/button1" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/seprator_line"
+            style="@style/brown_line"
+            android:layout_below="@+id/topbar" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/quran_logo_trans"/>
+
+        <com.QuranReading.helper.XListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btns_layout"
+            android:layout_below="@+id/seprator_line"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#a6a494"
+            android:dividerHeight="@dimen/size_one"
+            android:scrollbars="none"
+            android:splitMotionEvents="false" >
+        </com.QuranReading.helper.XListView>
+
+        <RelativeLayout
+            android:id="@+id/ayah_options_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_thirty_five"
+            android:layout_below="@+id/seprator_line"
+            android:background="#75000000"
+            android:splitMotionEvents="false"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false" >
+
+                <Button
+                    android:id="@+id/btn_ayah_share"
+                    android:layout_width="@dimen/size_thirty"
+                    android:layout_height="@dimen/size_twenty_eight"
+                    android:background="@drawable/btn_ayah_share"
+                    android:onClick="onSurahClick"
+                    android:tag="8" />
+
+                <Button
+                    android:id="@+id/btn_bookmark"
+                    android:layout_width="@dimen/size_thirty"
+                    android:layout_height="@dimen/size_twenty_eight"
+                    android:layout_marginLeft="@dimen/size_fifty"
+                    android:background="@drawable/btn_opt_bookmark"
+                    android:onClick="onSurahClick"
+                    android:tag="9" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/size_thirty"
+                android:layout_height="@dimen/size_thirty"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_ten"
+                android:background="@drawable/btn_cross"
+                android:onClick="onSurahClick"
+                android:tag="10" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/btns_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottom_bar"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false" >
+
+            <ImageButton
+                android:id="@+id/btn_audio"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:onClick="onSurahClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/play_btn"
+                android:tag="3" />
+
+            <ImageButton
+                android:id="@+id/btn_stop"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:enabled="false"
+                android:onClick="onSurahClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stop_btn"
+                android:tag="4" />
+
+            <ImageButton
+                android:id="@+id/btn_goto"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:onClick="onSurahClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goto_btn"
+                android:tag="5" />
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:onClick="onSurahClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_btn"
+                android:tag="6" />
+
+            <ImageButton
+                android:id="@+id/btn_next"
+                android:layout_width="@dimen/size_fourty_five"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/txt_contnt_descrptn"
+                android:onClick="onSurahClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/next_btn"
+                android:tag="7" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tutorial_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:background="#DFDED5"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_header2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty_five"
+            android:layout_alignParentTop="true"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="@string/txt_instruction"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size_thirty"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/seprator_line_2"
+            style="@style/brown_line"
+            android:layout_below="@+id/tv_header2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/Buttons_Layout"
+            android:layout_below="@+id/seprator_line_2"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_tutorial" />
+
+        <LinearLayout
+            android:id="@+id/Buttons_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fifty"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottom_bar"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false" >
+
+            <Button
+                android:layout_width="@dimen/size_hundred_twenty"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_ten"
+                android:layout_marginRight="@dimen/size_ten"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_fifteen"
+                android:visibility="invisible" />
+
+            <Button
+                android:layout_width="@dimen/size_hundred_twenty"
+                android:layout_height="@dimen/size_fourty"
+                android:layout_marginLeft="@dimen/size_ten"
+                android:layout_marginRight="@dimen/size_ten"
+                android:layout_weight="1"
+                android:background="@drawable/btn_tutorial"
+                android:gravity="center"
+                android:onClick="onSurahClick"
+                android:tag="11"
+                android:text="@string/txt_done"
+                android:textColor="@drawable/btn_tutorial_text_color"
+                android:textSize="@dimen/text_size_fifteen" />
+
+            <Button
+                android:layout_width="@dimen/size_hundred_twenty"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_ten"
+                android:layout_marginRight="@dimen/size_ten"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_fifteen"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/adimg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_fourty_eight"
+            android:adjustViewBounds="true"
+            android:background="@drawable/banner"
+            android:clickable="true"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="onClickAdImage"
+            android:scaleType="fitXY" />
+    </RelativeLayout>-->
+
+</RelativeLayout>

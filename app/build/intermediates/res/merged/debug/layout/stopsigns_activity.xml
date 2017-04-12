@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_fourty_five"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bg"
+        android:gravity="center"
+        android:text="@string/txt_stop_signs"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_thirty"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/seprator_line"
+        style="@style/brown_line"
+        android:layout_below="@+id/tv_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/seprator_line"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_1"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_1"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_1"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_2"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_2"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_2"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <!--  -->
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_3"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_3"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_3"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_4"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_4"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_4"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_4"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_5"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_5"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_5"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_5"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_6"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_6"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_6"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_6"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_7"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_7"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_7"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_7"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_8"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_8"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_8"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_8"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_9"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/size_ten"
+                        android:text="@string/txt_stop_sign_9"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_9"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_9"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_10"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_10"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_five" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_10"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_10"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_11"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_11"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_11"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_11"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+
+            <View style="@style/bookmark_seprtr_h" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_sixty"
+                android:background="@drawable/bookmark_row_bg" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_word_12"
+                    android:layout_width="@dimen/size_sixty_five"
+                    android:layout_height="match_parent"
+                    android:background="#DFDED5" >
+
+                    <TextView
+                        android:id="@+id/tv_word_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_stop_sign_12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_twenty_four" />
+
+                    <View
+                        style="@style/bookmark_seprtr_v"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/layout_word_12"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/size_ten"
+                    android:paddingRight="@dimen/size_five"
+                    android:text="@string/txt_stop_sign_detail_12"
+                    android:textColor="#454545"
+                    android:textSize="@dimen/text_size_twenty" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_id"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/adimg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_fourty_eight"
+            android:adjustViewBounds="true"
+            android:background="@drawable/banner"
+            android:clickable="true"
+            android:contentDescription="@string/txt_contnt_descrptn"
+            android:onClick="onClickAdImage"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+</RelativeLayout>

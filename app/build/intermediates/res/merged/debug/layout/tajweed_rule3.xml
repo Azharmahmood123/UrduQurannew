@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/txtTafkeemHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Raa-Tafkheem (rough/thick)"
+            android:textSize="@dimen/text_size_twenty"
+           />
+
+        <TextView
+            android:id="@+id/txtTafkeemIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTafkheem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemIntro">
+
+            <ImageView
+                android:id="@+id/imgContent1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_takhfeem1" />
+
+            <ImageView
+                android:id="@+id/speakerRaa1"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTafkeemIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTafkheem"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTafkheem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemIntro2">
+
+            <ImageView
+                android:id="@+id/imgContent2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa2" />
+
+            <ImageView
+                android:id="@+id/speakerRaa2"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+            <!--next line-->
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTafkeemIntro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTafkheem2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTafkheem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemIntro3">
+
+            <ImageView
+                android:id="@+id/imgContent3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa3" />
+
+            <ImageView
+                android:id="@+id/speakerRaa3"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTafkeemIntro4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTafkheem3"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTafkheem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemIntro4">
+
+            <ImageView
+                android:id="@+id/imgContent4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty_five"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_thfm4" />
+
+            <ImageView
+                android:id="@+id/speakerRaa4"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTafkeemIntro5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relTafkheem4"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTafkheem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTafkeemIntro5">
+
+            <ImageView
+                android:id="@+id/imgContent5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_thfm5" />
+
+            <ImageView
+                android:id="@+id/speakerRaa5"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/size_thirty"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTarqeeqHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relTafkheem5"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Raa-Tarqeeq (soft/ thin)"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtTarqeeqIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTarqeeqHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="tarqeeq intro "
+            android:textSize="@dimen/text_size_twenty"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/relTarqeeq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTarqeeqIntro">
+
+            <ImageView
+                android:id="@+id/imgContent6"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_tarqqeq1" />
+
+            <ImageView
+                android:id="@+id/speakerRaa6"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTarqeeqIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTarqeeq1"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTarqeeq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTarqeeqIntro2"
+            android:layout_marginLeft="@dimen/size_twenty">
+
+            <ImageView
+                android:id="@+id/imgContent7"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_tarqeq2" />
+
+            <ImageView
+                android:id="@+id/speakerRaa7"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTarqeeqIntro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTarqeeq2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+
+        <RelativeLayout
+            android:id="@+id/relTarqeeq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtTarqeeqIntro3">
+
+            <ImageView
+                android:id="@+id/imgContent8"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_tarqeq3" />
+
+            <ImageView
+                android:id="@+id/speakerRaa8"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTarqeeqIntro4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTarqeeq3"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relTarqeeq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTarqeeqIntro4">
+
+            <ImageView
+                android:id="@+id/imgContent9"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_raa_tarqeq4" />
+
+            <ImageView
+                android:id="@+id/speakerRaa9"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.packageapp.HomeScreen1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false"
+            android:weightSum="3">
+            <LinearLayout
+                android:id="@+id/urduQuran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/main_index" />
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv1"
+                    android:id="@+id/tv1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen" />
+            </LinearLayout>
+
+           <!-- <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv1"
+                    android:textSize="@dimen/text_size_twelve" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Coming Soon"
+                    android:textColor="#C5BDBD"
+                    android:textSize="@dimen/text_size_twelve" />
+            </LinearLayout>-->
+        <!--</LinearLayout>-->
+
+           <!-- <LinearLayout
+                android:id="@+id/_13lineQuran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv1"
+                    android:textSize="@dimen/text_size_twelve" />
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/learnTajweed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/tv5"
+                    android:id="@+id/tv2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/quranVocabulary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/tv4"
+                    android:id="@+id/tv3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen"
+/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:id="@+id/rabanaDuas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv10"
+                    android:gravity="center"
+                    android:id="@+id/tv4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sajdahs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="homeClickEvent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv6"
+                    android:id="@+id/tv5"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/wordbyword"
+                android:clickable="true"
+                android:onClick="homeClickEvent">
+
+                <ImageView
+                    android:layout_width="@dimen/size_eighty"
+                    android:layout_height="@dimen/size_eighty"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/size_ten"
+                    android:background="@drawable/icon15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Word by Word"
+                    android:id="@+id/tv6"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_sixteen" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

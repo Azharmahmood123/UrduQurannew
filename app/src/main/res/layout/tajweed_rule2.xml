@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtIdghamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Meem Sakin Idgham e Shafwi"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtIdghamIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIdghamHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIdghamIntro">
+
+            <ImageView
+                android:id="@+id/imgContent1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_meem2" />
+
+            <ImageView
+                android:id="@+id/speaker1"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtIkhfaHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/rel1"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Meem Sakin Ikhfa e Shafwi"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txtIkhfaIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIkhfaHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIkhfaIntro">
+
+            <ImageView
+                android:id="@+id/imgContent2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_meem3" />
+
+            <ImageView
+                android:id="@+id/speaker2"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtIzharHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/rel2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Meem Sakin Izhar e Shafwi"
+            android:textSize="@dimen/text_size_twenty"
+        />
+
+        <TextView
+            android:id="@+id/txtIzharIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIzharHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/rel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtIzharIntro">
+
+            <ImageView
+                android:id="@+id/imgContent4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_meem4" />
+
+            <ImageView
+                android:id="@+id/speaker3"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

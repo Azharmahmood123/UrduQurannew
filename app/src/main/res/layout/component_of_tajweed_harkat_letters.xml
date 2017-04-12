@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_harkatTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Introduction"
+            android:textSize="@dimen/text_size_twenty"
+         />
+
+        <TextView
+            android:id="@+id/txt_harkatIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_harkatTitle"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:text="abcccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <TextView
+            android:id="@+id/txt_Fatah_Or_Zabr_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/txt_harkatIntroduction"
+            android:layout_marginLeft="@dimen/size_ten"
+
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Fatah Or Zabr"
+            android:textSize="@dimen/text_size_twenty"
+           />
+
+        <TextView
+            android:id="@+id/txt_Fatah_Or_Zabr_Title_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_Fatah_Or_Zabr_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+        <!---->
+        <RelativeLayout
+            android:id="@+id/relFatah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_Fatah_Or_Zabr_Title_Intro">
+
+            <ImageView
+                android:id="@+id/imgtxt_Fatah_Or_Zabr_Title1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_harkat1_fatah" />
+
+            <ImageView
+                android:id="@+id/speakerFatah_Or_Zabr"
+                android:layout_width="@dimen/size_twenty"
+
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_kasrah_or_zer_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@+id/relFatah"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Kasrah Or Zer"
+            android:textSize="@dimen/text_size_twenty"
+       />
+
+        <TextView
+            android:id="@+id/txt_kasrah_or_zer_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kasrah_or_zer_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relZer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kasrah_or_zer_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgkasrah_or_zer1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_harrkat2_kasrah" />
+
+            <ImageView
+                android:id="@+id/speakerkasrah_or_zer"
+                android:layout_width="@dimen/size_twenty"
+
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+        </RelativeLayout>
+
+
+        <!---->
+        <TextView
+            android:id="@+id/txt_dammah_or_pesh_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relZer"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Dammah Or Pesh"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txt_dammah_or_pesh_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dammah_or_pesh_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relPesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dammah_or_pesh_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgdammah_or_pesh1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_harkat2_dammah" />
+
+            <ImageView
+                android:id="@+id/speakerdammah_or_pesh"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.QuranReading.urduquran"
+        minSdkVersion 9
+        targetSdkVersion 22
+        versionCode 26
+        versionName "3.5"
+
+
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/commons-io-2.4.jar')
+    compile files('libs/zip4j_1.3.2.jar')
+    compile project(path: ':slideMenuLibrary')
+
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.google.android.gms:play-services-ads:9.6.1'
+    compile 'com.google.android.gms:play-services-analytics:9.6.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.17.0'
+    compile 'com.android.support:support-v4:25.0.0'
+}

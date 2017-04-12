@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false" android:background="@color/white">
+
+
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/drawer_item_selector"
+        />
+   <!-- <RelativeLayout
+        android:id="@+id/calibrationlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@drawable/calibration_background_img"
+        android:visibility="gone"
+
+
+        >
+
+
+
+        &lt;!&ndash;<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/calibration_background_img" />&ndash;&gt;
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="@dimen/size_hundred_twenty"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calibration_button"
+            android:onClick="onCalibrationClick"
+            android:padding="@dimen/size_fifteen"
+            android:layout_marginRight="@dimen/size_fourty"
+            android:layout_marginBottom="@dimen/size_fifty"
+            android:text="   Got It   "
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/textsize_twenty"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>-->
+</RelativeLayout>

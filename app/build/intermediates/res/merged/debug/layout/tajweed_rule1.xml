@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNunSakinHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Noon Sakin Izhar"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtNunSakinIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunSakinHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relNun1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunSakinIntro">
+
+            <ImageView
+                android:id="@+id/imgContent1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerInParent="true"
+                
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_nun_izhar" />
+
+            <ImageView
+                android:id="@+id/speakerNun1"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtNunIdghamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relNun1"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Noon Sakin Idgham"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtNunIdghamInro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunIdghamHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relNun2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/txtNunIdghamInro1">
+
+            <ImageView
+                android:id="@+id/imgContent2"
+                android:layout_width="@dimen/size_two_hundred_twenty"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_marginLeft="@dimen/size_fourty"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_nunidgam1" />
+
+            <ImageView
+                android:id="@+id/speakerNun2"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_thirty"
+                android:src="@drawable/speaker_selector" />
+            <!--next line-->
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtNunIdghamInro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relNun2"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relNun3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunIdghamInro2">
+
+            <ImageView
+                android:id="@+id/imgContent3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_nun_idgham2" />
+
+            <ImageView
+                android:id="@+id/speakerNun3"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+
+                android:src="@drawable/speaker_selector" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtNunIqlaabHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relNun3"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Noon Sakin Iqlab"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txtNunIqlabIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunIqlaabHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relNun4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunIqlabIntro">
+
+            <ImageView
+                android:id="@+id/imgContent4"
+                android:layout_width="@dimen/size_two_hundred_twenty"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_marginTop="@dimen/size_ten"
+                android:layout_marginLeft="@dimen/size_fourty"
+                android:src="@drawable/img_nun_iqlab" />
+
+            <ImageView
+                android:id="@+id/speakerNun4"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_thirty"
+
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtNunIkhfaHeading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relNun4"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Noon Sakin Ikhfa"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txtNunIkhfaIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNunIkhfaHeading"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relNun5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNunIkhfaIntro">
+
+            <ImageView
+                android:id="@+id/imgContent5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/res_nun_ikhfa" />
+
+            <ImageView
+                android:id="@+id/speakerNun5"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

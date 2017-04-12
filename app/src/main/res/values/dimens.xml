@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="size_minus_five_home">-5dp</dimen>
+
+    <dimen name="size_one">1dp</dimen>
+    <dimen name="size_two">2dp</dimen>
+    <dimen name="size_three">3dp</dimen>
+    <dimen name="size_four">4dp</dimen>
+    <dimen name="size_five">5dp</dimen>
+    <dimen name="size_six">6dp</dimen>
+    <dimen name="size_seven">7dp</dimen>
+    <dimen name="size_eight">8dp</dimen>
+    <dimen name="size_ten">10dp</dimen>
+    <dimen name="size_twelve">12dp</dimen>
+    <dimen name="size_fifteen">15dp</dimen>
+    <dimen name="size_twenty">20dp</dimen>
+    <dimen name="size_twenty_five">25dp</dimen>
+    <dimen name="size_twenty_eight">28dp</dimen>
+    <dimen name="size_thirty">30dp</dimen>
+    <dimen name="size_thirty_five">35dp</dimen>
+    <dimen name="size_thirty_six">36dp</dimen>
+    <dimen name="size_fourty">40dp</dimen>
+    <dimen name="size_fourty_five">45dp</dimen>
+    <dimen name="size_fourty_eight">48dp</dimen>
+    <dimen name="size_fourty_nine">49dp</dimen>
+    <dimen name="size_fifty">50dp</dimen>
+    <dimen name="size_fifty_five">55dp</dimen>
+    <dimen name="size_sixty">60dp</dimen>
+    <dimen name="size_sixty_calibaration">55dp</dimen>
+    <dimen name="size_sixty_five">65dp</dimen>
+    <dimen name="size_seventy">70dp</dimen>
+    <dimen name="size_eighty">80dp</dimen>
+    <dimen name="size_eighty_five">85dp</dimen>
+    <dimen name="size_hundred">100dp</dimen>
+    <dimen name="size_hundred_twenty">120dp</dimen>
+    <dimen name="size_hundred_sixty">160dp</dimen>
+    <dimen name="size_hundred_thirty">130dp</dimen>
+    <dimen name="size_hundred_fourty">140dp</dimen>
+    <dimen name="size_hundred_eighty">180dp</dimen>
+    <dimen name="size_two_hundred">200dp</dimen>
+    <dimen name="size_two_hundred_ten">210dp</dimen>
+    <dimen name="size_two_hundred_fifteen">215dp</dimen>
+    <dimen name="size_two_hundred_twenty">220dp</dimen>
+    <dimen name="size_two_hundred_ninty">290dp</dimen>
+    <dimen name="size_four_hundred_sixty">460dp</dimen>
+
+    <dimen name="text_size_twelve">10dp</dimen>
+    <dimen name="text_size_fifteen">15dp</dimen>
+    <dimen name="text_size_sixteen">14dp</dimen>
+    <dimen name="text_size_seventeen">15dp</dimen>
+    <dimen name="text_size_eighteen">16dp</dimen>
+    <dimen name="text_size_twenty">18dp</dimen>
+    <dimen name="text_size_twenty_one">19dp</dimen>
+    <dimen name="text_size_twenty_two">20dp</dimen>
+    <dimen name="text_size_twenty_four">22dp</dimen>
+    <dimen name="text_size_twenty_five">23dp</dimen>
+    <dimen name="text_size_thirty">28dp</dimen>
+    <dimen name="text_size_thirty_four">32dp</dimen>
+    <dimen name="text_size_thirty_six">36dp</dimen>
+
+    <dimen name="theme_container">170dp</dimen>
+
+    <dimen name="text_size_app_name">36dp</dimen>
+
+    <dimen name="aya_no_bg_size">25dp</dimen>
+
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+
+    <dimen name="dialog_width">290dp</dimen>
+    <dimen name="dialog_height">400dp</dimen>
+    <dimen name="dialog_btn_width">100dp</dimen>
+    <dimen name="size_two_hundred_sixty">260dp</dimen>
+
+    <dimen name="about_img_width">190dp</dimen>
+    <dimen name="about_img_height">190dp</dimen>
+    <dimen name="about_img_margin_top">30dp</dimen>
+    <dimen name="about_img_margin_bottom">10dp</dimen>
+    <dimen name="about_img_margin_left">15dp</dimen>
+    <dimen name="about_img_margin_right">15dp</dimen>
+    <dimen name="about_layout_margin">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--wbw dimens-->
+    <dimen name="size_minus_ten">-10dp</dimen>
+    <dimen name="size_minus_five">-10dp</dimen>
+    <dimen name="size_minus_fifteen">-15dp</dimen>
+    <dimen name="size_minus_twenty">-20dp</dimen>
+    <dimen name="size_minus_twenty_five">-25dp</dimen>
+
+    <dimen name="size_minus_cal">-13dp</dimen>
+
+    <dimen name="size_cal_minus_fifteen">-15dp</dimen>
+    <dimen name="size_cal_minus_eighteen">-22dp</dimen>
+    <dimen name="size_cal_thirty">45dp</dimen>
+    <dimen name="size_cal_seventy">70dp</dimen>
+    <dimen name="size_cal">0dp</dimen>
+    <dimen name="cali_margin">53dp</dimen>
+    <dimen name="cali_margin_sura_calibaration">45dp</dimen>
+    <dimen name="cali_margin_sura">23dp</dimen>
+    <dimen name="cali_margin_kalma">23dp</dimen>
+    <dimen name="cali_margin_dua">45dp</dimen>
+    <dimen name="cali_size">12dp</dimen>
+    <dimen name="size_expListHeight">80dp</dimen>
+    <dimen name="size_thirty_cal">30dp</dimen>
+    <dimen name="size_seventy_cal">70dp</dimen>
+    <dimen name="cal_minus_leftPadding">0dp</dimen>
+    <dimen name="cal_margin_bottom">-16dp</dimen>
+
+    <dimen name="topMarginCheckBox">7dp</dimen>
+    <dimen name="rightMarginCheckBox">8dp</dimen>
+    <dimen name="size_minus_twenty_calibaration">-15dp</dimen>
+
+</resources>

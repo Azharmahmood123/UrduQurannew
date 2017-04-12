@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\tafseer_uthmani_complete.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\tafseer_uthmani_complete.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\urdu_translation_ahmedrazakhan.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\urdu_translation_ahmedrazakhan.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\audio_timings_basit.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\audio_timings_basit.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\urdu_translation_jalandhry.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\urdu_translation_jalandhry.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\french_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\french_trans.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\eng_translation_shakir.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\eng_translation_shakir.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\eng_translation_daryabadi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\eng_translation_daryabadi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\hindi_suhel_farooq_khan_and_saifur_rahman_nadwi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\hindi_suhel_farooq_khan_and_saifur_rahman_nadwi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\indonesian_bhasha_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\indonesian_bhasha_trans.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\turkish_diyanet_isleri.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\turkish_diyanet_isleri.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\english_translation.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\english_translation.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\thai.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\thai.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\eng_translation_yusufali.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\eng_translation_yusufali.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\english_transliteration.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\english_transliteration.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\arabic_jalaleen.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\arabic_jalaleen.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\eng_translation_maududi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\eng_translation_maududi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\italian_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\italian_trans.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\quran_uthmani_corrected.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\quran_uthmani_corrected.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\juzz_index.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\juzz_index.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\russian_abuadel.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\russian_abuadel.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\eng_translation_pickthal.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\eng_translation_pickthal.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\audio_timings_sudais.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\audio_timings_sudais.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\bangali_zohurul_hoque.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\bangali_zohurul_hoque.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\urdu_translation_maududi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\urdu_translation_maududi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\urdu_translation_junagarhi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\urdu_translation_junagarhi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\urdu_junagarhi.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\urdu_junagarhi.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\audio_timings_afasy.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\audio_timings_afasy.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\dutch_trans_keyzer.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\dutch_trans_keyzer.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\chinese_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\chinese_trans.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\japanese.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\japanese.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\spanish_cortes_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\spanish_cortes_trans.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\malay_basmeih.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\malay_basmeih.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pourteges.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\pourteges.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\xml\\persian_ghoomshei_trans.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\xml\\persian_ghoomshei_trans.xml"
+    }
+]

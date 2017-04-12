@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_tanweenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Introduction"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txt_tanweenIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_tanweenTitle"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abcccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <TextView
+            android:id="@+id/txt_Fathatain_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/txt_tanweenIntroduction"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Fathatain"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txt_Fathatain_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_Fathatain_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relFatah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_Fathatain_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgtxt_Fathatain1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_tanween1_fataten" />
+
+            <ImageView
+                android:id="@+id/speakerFathatain"
+                android:layout_width="@dimen/size_twenty"
+
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_kasratain_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relFatah"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:gravity="left|center_vertical"
+            android:text="Kasratain"
+            android:textSize="@dimen/text_size_twenty"
+         />
+
+        <TextView
+            android:id="@+id/txt_kasratain_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kasratain_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relKasrahtain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kasratain_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgkasratain1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_tanween2_kasraten" />
+
+            <ImageView
+                android:id="@+id/speakerkasratain"
+                android:layout_width="@dimen/size_twenty"
+
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+            <!---->
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txt_dammatain_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relKasrahtain"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_twenty"
+            android:gravity="left|center_vertical"
+            android:text="Dammatain"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txt_dammatain_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dammatain_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relDamatain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dammatain_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgdammatain1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_tanween3_damm" />
+
+            <ImageView
+                android:id="@+id/speakerdammatain"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

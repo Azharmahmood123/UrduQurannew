@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bookmark.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\menu\\menu_bookmark.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

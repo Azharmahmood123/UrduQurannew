@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <LinearLayout
+        android:id="@+id/wordBywordLAyout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical"
+        android:splitMotionEvents="false" >
+
+        <RelativeLayout
+            android:id="@+id/wbwsurah_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_ten"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:splitMotionEvents="false" >
+
+            <RelativeLayout
+                android:id="@+id/WordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_eighty"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:splitMotionEvents="false" >
+
+                <ImageView
+                    android:id="@+id/nextButton"
+                    android:layout_width="@dimen/size_fifty"
+                    android:layout_height="@dimen/size_fifty"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_ten"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="nextWordClick"
+                    android:src="@drawable/next_word_selector_file" />
+
+                <ImageView
+                    android:layout_width="@dimen/size_two_hundred_twenty"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bg" />
+
+                <TextView
+                    android:id="@+id/textArabicWord"
+                    android:layout_width="@dimen/size_two_hundred_ten"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/size_twelve"
+                    android:gravity="center"
+                    android:text="arabic"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_thirty_four"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/backButton"
+                    android:layout_width="@dimen/size_fifty"
+                    android:layout_height="@dimen/size_fifty"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_ten"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="previousWordClick"
+                    android:src="@drawable/previous_word_selector_file" />
+
+                <ImageView
+                    android:id="@+id/playWord"
+                    android:layout_width="@dimen/size_fourty"
+                    android:layout_height="@dimen/size_fourty"
+                    android:layout_alignRight="@+id/textArabicWord"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="11dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/speaker_selector_file" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tranlation_Layout"
+                android:layout_width="@dimen/size_two_hundred_twenty"
+                android:layout_height="@dimen/size_fifty_five"
+                android:layout_below="@+id/WordLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_minus_ten" >
+
+                 <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bg" />
+
+                <TextView
+                    android:id="@+id/textTransliterationWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="transliteration"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_fifteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/size_two_hundred_twenty"
+                android:layout_height="@dimen/size_fifty_five"
+                android:layout_below="@+id/tranlation_Layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/size_seven"
+                android:layout_marginTop="@dimen/size_minus_ten" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bg" />
+
+                <TextView
+                    android:id="@+id/textTranslationWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/size_eight"
+                    android:layout_marginRight="@dimen/size_eight"
+                    android:gravity="center"
+                    android:text="translation hfru8e9 7uefjdi jgeu ridjfsh fuyhgf "
+                    android:textColor="@color/text_color" 
+                    android:textSize="@dimen/text_size_fifteen" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/ayahListView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/background_color"
+            android:scrollbars="none"
+            android:paddingRight="@dimen/size_five" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fullSurahLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color" >
+
+        <ListView
+            android:id="@+id/fullSurahList"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/background_color"
+            android:scrollbars="none" >
+        </ListView>
+
+        <ImageView
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_eight"
+            android:src="@drawable/shadow_file" />
+    </RelativeLayout>
+
+</LinearLayout>

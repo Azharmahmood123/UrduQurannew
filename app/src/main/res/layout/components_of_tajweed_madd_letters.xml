@@ -1,0 +1,230 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/txt_maddTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Introduction"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txt_maddIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_maddTitle"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:text="abcccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_eighteen" />
+
+        <TextView
+            android:id="@+id/txt_madd_e_mutassil_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/txt_maddIntroduction"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Madd e Mutassil"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txt_madd_e_mutassil_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_mutassil_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relMutassil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_mutassil_Intro">
+
+            <ImageView
+                android:id="@+id/imgtxt_madd_e_mutassil1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/img_madd1" />
+
+            <ImageView
+                android:id="@+id/speakermadd_e_mutassil"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+
+        </RelativeLayout>
+
+        <!---->
+
+        <TextView
+            android:id="@+id/txt_madd_e_munfasil_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relMutassil"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Madd e Munfasil"
+            android:textSize="@dimen/text_size_twenty"
+    />
+
+        <TextView
+            android:id="@+id/txt_madd_e_munfasil_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_munfasil_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relMunfasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_munfasil_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgmadd_e_munfasil1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_ten"
+                android:src="@drawable/img_madd2" />
+
+            <ImageView
+                android:id="@+id/speakermadd_e_munfasil"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+
+        <!---->
+        <TextView
+            android:id="@+id/txt_madd_e_aarith_waqfi_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relMunfasil"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Madd e Aarith Waqfi"
+            android:textSize="@dimen/text_size_twenty"
+            />
+
+        <TextView
+            android:id="@+id/txt_madd_e_aarith_waqfi_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_aarith_waqfi_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relWaqfi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_aarith_waqfi_Intro">
+            <!---->
+            <ImageView
+                android:id="@+id/imgmadd_e_aarith_waqfi1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fourty_five"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/img_madd3" />
+
+            <ImageView
+                android:id="@+id/speakermadd_e_aarith_waqfi"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:textSize="@dimen/text_size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+        <!--11111-->
+        <TextView
+            android:id="@+id/txt_madd_e_lazim_Title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_fourty"
+            android:layout_below="@id/relWaqfi"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:gravity="left|center_vertical"
+            android:text="Madd e Lazim"
+            android:textSize="@dimen/text_size_twenty"
+             />
+
+        <TextView
+            android:id="@+id/txt_madd_e_lazim_Intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_lazim_Title"
+            android:layout_marginLeft="@dimen/size_ten"
+            android:layout_marginRight="@dimen/size_ten"
+            android:layout_marginTop="@dimen/size_ten"
+            android:text="abccccccccccccccccccccccc"
+            android:textSize="@dimen/text_size_twenty" />
+
+        <RelativeLayout
+            android:id="@+id/relLazim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_madd_e_lazim_Intro">
+
+            <!---->
+            <ImageView
+                android:id="@+id/imgmadd_e_lazim1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_fifty"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/img_madd4" />
+
+            <ImageView
+                android:id="@+id/speakermadd_e_lazim"
+                android:layout_width="@dimen/size_twenty"
+                android:layout_height="@dimen/size_twenty"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size_thirty"
+                android:layout_marginTop="@dimen/size_twenty"
+                android:src="@drawable/speaker_selector" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
