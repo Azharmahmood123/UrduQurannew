@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -67,6 +69,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
+import static android.content.pm.PackageManager.*;
+
 public class HomeSplashActivity extends AppCompatActivity {
     ViewPager viewPager;
     ImageView imgDot1, imgDot2, imgDot3;
@@ -84,16 +88,16 @@ public class HomeSplashActivity extends AppCompatActivity {
     private SettingsSharedPref settngPref;
     private int appExitDialogPos = 0;
     private Bundle bundle;
-    private long lastClick=0;
+    private long lastClick = 0;
     private DBManager dbManager;
     private AlarmClassFacts alarmClassFacts;
     private DailyNotification alarmNotification;
     private WeeklyNotifications weeklyNotification;
     //text views for  main page
-    TextView tvUrduQuran,tvHeaderTitle;
+    TextView tvUrduQuran, tvHeaderTitle;
     InterstitialAdSingleton mInterstitialAdSingleton;
     AnalyticSingaltonClass mAnalyticSingaltonClass;
-
+    String url;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,18 +106,18 @@ public class HomeSplashActivity extends AppCompatActivity {
         mGlobal = ((GlobalClass) getApplicationContext());
         mGlobal.triggerAd();
         settngPref = new SettingsSharedPref(HomeSplashActivity.this);
-        mInterstitialAdSingleton=InterstitialAdSingleton.getInstance(this);
-        mAnalyticSingaltonClass=AnalyticSingaltonClass.getInstance(this);
+        mInterstitialAdSingleton = InterstitialAdSingleton.getInstance(this);
+        mAnalyticSingaltonClass = AnalyticSingaltonClass.getInstance(this);
         mAnalyticSingaltonClass.sendScreenAnalytics("Home_Screen");
         settngPref.setAppActive(true);
         mActivity = this;
         context = this;
-        mAnalyticSingaltonClass=AnalyticSingaltonClass.getInstance(context);
+        mAnalyticSingaltonClass = AnalyticSingaltonClass.getInstance(context);
         imgDot1 = (ImageView) findViewById(R.id.dot1);
         imgDot2 = (ImageView) findViewById(R.id.dot2);
         imgDot3 = (ImageView) findViewById(R.id.dot3);
-        tvUrduQuran= (TextView) findViewById(R.id.tvTitle);
-        tvHeaderTitle=(TextView) findViewById(R.id.homeActionBar);
+        tvUrduQuran = (TextView) findViewById(R.id.tvTitle);
+        tvHeaderTitle = (TextView) findViewById(R.id.homeActionBar);
         tvHeaderTitle.setTypeface(mGlobal.faceHeading);
         tvUrduQuran.setTypeface(mGlobal.faceHeading);
         quranLayout = (LinearLayout) findViewById(R.id.quranTranlsatlion);
@@ -177,77 +181,69 @@ public class HomeSplashActivity extends AppCompatActivity {
         } catch (Exception ex) {
         }
     }
-    private void setAllNotifications()
-    {
-        alarmClassFacts=new AlarmClassFacts(context); //Quran Facts Notification
-        alarmNotification=new DailyNotification(context);// Quran Vocabulary Notifications
-        weeklyNotification=new WeeklyNotifications(context); // Tajweed Alarm Class
+
+    private void setAllNotifications() {
+        alarmClassFacts = new AlarmClassFacts(context); //Quran Facts Notification
+        alarmNotification = new DailyNotification(context);// Quran Vocabulary Notifications
+        weeklyNotification = new WeeklyNotifications(context); // Tajweed Alarm Class
         AlarmCalss mAlarmHelper = new AlarmCalss(this); //Quran Surah Notifications
         HashMap<String, Boolean> tranSettngs = settngPref.getTransSettings(); //
-        if(tranSettngs.get(SettingsSharedPref.NOTIFICATION))
-        {
+        if (tranSettngs.get(SettingsSharedPref.NOTIFICATION)) {
             mAlarmHelper.cancelAlarm();
             mAlarmHelper.setAlarm();
         }
 
-        if(settngPref.getTajweed_Notification())
-        {
+        if (settngPref.getTajweed_Notification()) {
             weeklyNotification.setDailyAlarm();
         }
-        if(settngPref.getVocabulary_Notification())
-        {
+        if (settngPref.getVocabulary_Notification()) {
             alarmNotification.setDailyAlarm();
         }
-        if( settngPref.getQuran_facts_Notification())
-        {
+        if (settngPref.getQuran_facts_Notification()) {
             alarmClassFacts.setAlarm();
         }
 
     }
-    private void handleAllNotification()
-    {
+
+    private void handleAllNotification() {
         Intent mExtras = getIntent();
         bundle = mExtras.getExtras();
 
-        if (bundle != null&&bundle.containsKey("detailID")) {
-            int pageNumber=bundle.getInt("detailID",-1);
+        if (bundle != null && bundle.containsKey("detailID")) {
+            int pageNumber = bundle.getInt("detailID", -1);
             if (pageNumber != -1) {
-                mAnalyticSingaltonClass.sendEventAnalytics("Notification","TajweedNotification_Tapped");
-                startActivity(new Intent(HomeSplashActivity.this,TajweedActivity.class).putExtra("detailID",pageNumber));
-                bundle=null;
+                mAnalyticSingaltonClass.sendEventAnalytics("Notification", "TajweedNotification_Tapped");
+                startActivity(new Intent(HomeSplashActivity.this, TajweedActivity.class).putExtra("detailID", pageNumber));
+                bundle = null;
 
             }
-        }
-        else if(bundle != null&&bundle.containsKey("cat_id"))
-        {
-            int id=bundle.getInt("cat_id",-1);
-            String categoryName=bundle.getString("cat_name");
-            mAnalyticSingaltonClass.sendEventAnalytics("Notification","VocabularyNotificaion_Tapped");;
-            startActivity(new Intent(HomeSplashActivity.this,MainActivity.class).putExtra("cat_id",id).putExtra("cat_name",categoryName));
-            bundle=null;
-        }
-        else if(bundle != null&&bundle.containsKey("tabPosition"))
-        {
-            mAnalyticSingaltonClass.sendEventAnalytics("Notification","QuranFacts_Tapped");
-            startActivity(new Intent(HomeSplashActivity.this,QuranFactsList.class).putExtra("listItemPos",bundle.getInt("listItemPos")).putExtra("tabPosition",bundle.getInt("tabPosition")
-            ).putExtra("data",bundle.getStringArray("data")));
-            bundle=null;
-        }
-        else if(bundle != null&&bundle.containsKey("SURAHDAYNO"))
-        {
-            mAnalyticSingaltonClass.sendEventAnalytics("Notification","QuranNotification_Tapped");
-            startActivity(new Intent(HomeSplashActivity.this,SurahActivity.class).putExtra("NOTIFICATIONOCCURRED",bundle.getBoolean("NOTIFICATIONOCCURRED")).putExtra("SURAHDAYNO",bundle.getInt("SURAHDAYNO",-1)
-            ).putExtra("AYANO",bundle.getInt("AYANO",-1)));
-            bundle=null;
+        } else if (bundle != null && bundle.containsKey("cat_id")) {
+            int id = bundle.getInt("cat_id", -1);
+            String categoryName = bundle.getString("cat_name");
+            mAnalyticSingaltonClass.sendEventAnalytics("Notification", "VocabularyNotificaion_Tapped");
+            ;
+            startActivity(new Intent(HomeSplashActivity.this, MainActivity.class).putExtra("cat_id", id).putExtra("cat_name", categoryName));
+            bundle = null;
+        } else if (bundle != null && bundle.containsKey("tabPosition")) {
+            mAnalyticSingaltonClass.sendEventAnalytics("Notification", "QuranFacts_Tapped");
+            startActivity(new Intent(HomeSplashActivity.this, QuranFactsList.class).putExtra("listItemPos", bundle.getInt("listItemPos")).putExtra("tabPosition", bundle.getInt("tabPosition")
+            ).putExtra("data", bundle.getStringArray("data")));
+            bundle = null;
+        } else if (bundle != null && bundle.containsKey("SURAHDAYNO")) {
+            mAnalyticSingaltonClass.sendEventAnalytics("Notification", "QuranNotification_Tapped");
+            startActivity(new Intent(HomeSplashActivity.this, SurahActivity.class).putExtra("NOTIFICATIONOCCURRED", bundle.getBoolean("NOTIFICATIONOCCURRED")).putExtra("SURAHDAYNO", bundle.getInt("SURAHDAYNO", -1)
+            ).putExtra("AYANO", bundle.getInt("AYANO", -1)));
+            bundle = null;
         }
 
     }
+
     //Privacy policy dialogue
     private void showPrivacyPolicyDialog() {
-        String messageText=getString(R.string.txt_privacyText);
-        String link="http://www.quranreading.com/apps/Quran-with-Urdu-Translation-privacy-policy.html";
-        String text="Urdu Quran Privacy Policy.";
-        messageText+=" "+ "<a href=\""+ link + "\">"+text+"</a>";
+        String messageText = getString(R.string.txt_privacyText);
+        String link = "http://www.quranreading.com/apps/Quran-with-Urdu-Translation-privacy-policy.html";
+        String text = "Urdu Quran Privacy Policy.";
+        messageText += " " + "<a href=\"" + link + "\">" + text + "</a>";
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(R.string.txt_titele_privacy);
         builder.setMessage((Html.fromHtml(messageText)));
@@ -259,7 +255,6 @@ public class HomeSplashActivity extends AppCompatActivity {
         tvMessage.setMovementMethod(LinkMovementMethod.getInstance());
         dialog.show();
     }
-
 
 
     private void initializeAds() {
@@ -298,7 +293,6 @@ public class HomeSplashActivity extends AppCompatActivity {
             stopAdsCall();
         }
     }
-
 
 
     @Override
@@ -422,29 +416,29 @@ public class HomeSplashActivity extends AppCompatActivity {
 
     public void homeClickEvent(View view) {
         Toast toast;
-        if(SystemClock.elapsedRealtime()-lastClick<1000){
+        if (SystemClock.elapsedRealtime() - lastClick < 1000) {
             return;
         }
-        lastClick=SystemClock.elapsedRealtime();
+        lastClick = SystemClock.elapsedRealtime();
         switch (view.getId()) {
             case R.id.urduQuran:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","Quran small_Tap");
-                startActivity(new Intent(HomeSplashActivity.this,SurahActivity.class));
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "Quran small_Tap");
+                startActivity(new Intent(HomeSplashActivity.this, SurahActivity.class));
                 //showInterstitialAd();
                 //will include in futrue
                 // startActivity(new Intent(HomeSplashActivity.this, MainActivity13LineQuran.class));
                 break;
             case R.id.quranTranlsatlion:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","Quran Big_Tap");
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "Quran Big_Tap");
                 /*indexActivity.putExtra("NOTIFICATIONOCCURRED", true);
-			indexActivity.putExtra("SURAHDAYNO", getIntent().getIntExtra("SURAHDAYNO", -1));
+            indexActivity.putExtra("SURAHDAYNO", getIntent().getIntExtra("SURAHDAYNO", -1));
 			indexActivity.putExtra("AYANO", getIntent().getIntExtra("AYANO", -1));*/
                 startActivity(new Intent(HomeSplashActivity.this, SurahActivity.class));
                 // showInterstitialAd();
                 break;
             case R.id.wordbyword:
 
-                startActivity(new Intent(HomeSplashActivity.this,SurahListActivity.class));
+                startActivity(new Intent(HomeSplashActivity.this, SurahListActivity.class));
                 //showInterstitialAd();
                 break;
             case R.id.quranVocabulary:
@@ -458,7 +452,7 @@ public class HomeSplashActivity extends AppCompatActivity {
                 //showInterstitialAd();
                 break;
             case R.id.sajdahs:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","Sajdah_Tap");
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "Sajdah_Tap");
                 mGlobal.saveonpause = false;
                 Intent sajdahsActivity = new Intent(HomeSplashActivity.this, BookmarksActivity.class);
                 sajdahsActivity.putExtra("FROM", "HOMESPLASHSCREEN");
@@ -466,7 +460,7 @@ public class HomeSplashActivity extends AppCompatActivity {
                 // showInterstitialAd();
                 break;
             case R.id._100QuranFacts:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","Quran_FactsTap");
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "Quran_FactsTap");
                 startActivity(new Intent(this, QuranFactsList.class));
                 //showInterstitialAd();
                 break;
@@ -477,7 +471,7 @@ public class HomeSplashActivity extends AppCompatActivity {
                 shareApp();
                 break;
             case R.id.rabanaDuas:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","RabanaTap");
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "RabanaTap");
                 mGlobal.saveonpause = false;
                 Intent rabanaDuasActivity = new Intent(HomeSplashActivity.this, RubanaDuasActivity.class);
                 rabanaDuasActivity.putExtra("FROM", "RabanaduasHOMESPLASHSCREEN");
@@ -491,13 +485,14 @@ public class HomeSplashActivity extends AppCompatActivity {
                 //showInterstitialAd();
                 break;
             case R.id.btn_more:
-
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Quran+Reading"));
-                startActivity(browserIntent);
+                moreApps();
+//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Quran+Reading"));
+//                startActivity(browserIntent);
                 break;
             case R.id.Premium:
-                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access","Premium");
-                showRemoveAdDilog(false);
+                mAnalyticSingaltonClass.sendEventAnalytics("Quran_Access", "Premium");
+                Toast.makeText(context, "Not Available", Toast.LENGTH_SHORT).show();
+//                showRemoveAdDilog(false);
                 break;
             case R.id.btn_about:
                 Intent aboutActivity = new Intent(HomeSplashActivity.this, AboutActivity.class);
@@ -509,6 +504,49 @@ public class HomeSplashActivity extends AppCompatActivity {
 
         }
     }
+
+//    url="";
+//    final PackageManager packageManager = context.getPackageManager();
+//
+//    try
+//
+//    {
+//        final ApplicationInfo applicationInfo = packageManager.getApplicationInfo(context.getPackageName(), 0);
+//        String intaller_name = packageManager.getInstallerPackageName(applicationInfo.packageName);
+//        Log.i("InstallerName", intaller_name);
+//        if ("com.android.vending".equals(packageManager.getInstallerPackageName(applicationInfo.packageName))) {
+//            // App was installed by Play Store
+//            url = "market://search?q=pub:Quran+Reading"; // For show all apps in google
+////                https://play.google.com/store/apps/details?id=com.quranreading.sahihmuslimurdu
+////                url = "https://play.google.com/store/apps/details?id=com.QuranReading.urduquran";
+//        } else if ((packageManager.getInstallerPackageName(applicationInfo.packageName).startsWith("com.amazon"))) {
+//            url = "http://www.amazon.com/gp/mas/dl/android?p=com.QuranReading.urduquran&showAll=1";
+//            //for show all
+//
+//        } else {
+//            url = "";
+//        }
+//    }
+//
+//    catch(
+//    final NameNotFoundException e
+//    )
+//
+//    {
+//        e.printStackTrace();
+//    }
+//
+//    Intent browserIntent = new Intent(Intent.ACTION_SEND, Uri.parse(url));
+//    context.startActivity(browserIntent);
+//}
+
+    public void moreApps() {
+        getPackageInfo("MoreApps");
+
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        context.startActivity(browserIntent);
+    }
+
     private void getImage() {
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.main_index);
         File sd = getExternalCacheDir();
@@ -529,9 +567,38 @@ public class HomeSplashActivity extends AppCompatActivity {
         }
     }
 
+    private void getPackageInfo(String text) {
+
+        final PackageManager packageManager = context.getPackageManager();
+
+        try {
+            final ApplicationInfo applicationInfo = packageManager.getApplicationInfo(context.getPackageName(), 0);
+            if ("com.android.vending".equals(packageManager.getInstallerPackageName(applicationInfo.packageName))) {
+                if (text.equals("ShareApp")) {
+                    url = "https://play.google.com/store/apps/details?id=com.QuranReading.urduquran";
+                } else {
+                    url = "market://search?q=pub:Quran+Reading";
+                }
+            } else if ((packageManager.getInstallerPackageName(applicationInfo.packageName).startsWith("com.amazon"))) {
+                if (text.equals("ShareApp")) {
+                    url = "http://www.amazon.com/gp/mas/dl/android?p=com.QuranReading.urduquran";
+                } else {
+                    url = "http://www.amazon.com/gp/mas/dl/android?p=com.QuranReading.urduquran&showAll=1";
+                }
+
+            } else {
+                url = "";
+            }
+
+        } catch (final PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     private void shareApp() {
-        try{
+        try {
+            getPackageInfo("ShareApp");
             getImage();
             String fileName = "ic_launcher.png";
             String completePath = getExternalCacheDir() + "/" + fileName;
@@ -539,8 +606,11 @@ public class HomeSplashActivity extends AppCompatActivity {
             File file = new File(completePath);
             Uri imageUri = Uri.fromFile(file);
             Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+//            String text = "I just found this Beautiful Islamic App \"Urdu Quran\" on Play store - Download Free Now\n" +
+//                    "https://play.google.com/store/apps/details?id=com.QuranReading.urduquran";
+
             String text = "I just found this Beautiful Islamic App \"Urdu Quran\" on Play store - Download Free Now\n" +
-                    "https://play.google.com/store/apps/details?id=com.QuranReading.urduquran";
+                    url;
             shareIntent.setType("*/*");
             shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Urdu Quran");
             shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, text);
@@ -566,15 +636,15 @@ public class HomeSplashActivity extends AppCompatActivity {
 
     }
 
-    public void showRemoveAdDilog(boolean ExitFromApp) {
-        if (!chkdualActivity) {
-            chkdualActivity = true;
-            Intent removeAdDialog = new Intent(HomeSplashActivity.this, RemoveAdsActivity.class);
-            removeAdDialog.putExtra("EXITFROMAPP", ExitFromApp);
-            startActivity(removeAdDialog);
-            // startActivityForResult(removeAdDialog, requestRemoveAd);
-        }
-    }
+//    public void showRemoveAdDilog(boolean ExitFromApp) {
+//        if (!chkdualActivity) {
+//            chkdualActivity = true;
+//            Intent removeAdDialog = new Intent(HomeSplashActivity.this, RemoveAdsActivity.class);
+//            removeAdDialog.putExtra("EXITFROMAPP", ExitFromApp);
+//            startActivity(removeAdDialog);
+//            // startActivityForResult(removeAdDialog, requestRemoveAd);
+//        }
+//    }
 
     @Override
     public void onBackPressed() {
@@ -583,13 +653,13 @@ public class HomeSplashActivity extends AppCompatActivity {
             openRateUs(true);
         } else {
             appExitDialogPos++;
-            if (!((GlobalClass) getApplication()).isPurchase) {
-                showRemoveAdDilog(true);
-            } else {
-                openRateUs(true);
-                //  settngPref.setSurahNo(suraPosition);
-                // settngPref.setAyano(((GlobalClass) getApplication()).ayahPos);
-            }
+//            if (!((GlobalClass) getApplication()).isPurchase) {
+////                showRemoveAdDilog(true);
+//            } else {
+            openRateUs(true);
+            //  settngPref.setSurahNo(suraPosition);
+            // settngPref.setAyano(((GlobalClass) getApplication()).ayahPos);
+//            }
             settngPref.setPosForExitDialog(appExitDialogPos);
 
         }

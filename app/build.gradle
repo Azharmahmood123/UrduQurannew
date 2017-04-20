@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-    compile files('libs/commons-io-2.4.jar')
+    compile files('g/commons-io-2.4.jar')
     compile files('libs/zip4j_1.3.2.jar')
     compile project(path: ':slideMenuLibrary')
 

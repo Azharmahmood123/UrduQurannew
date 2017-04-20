@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Farhan\\Projects_Official\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "outputFile": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 941
                 },
                 "from": {
-                    "file": "E:\\Farhan\\Projects_Official\\UrduQuran\\slideMenuLibrary\\src\\main\\res\\values\\ids.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 42,
-                        "endOffset": 93
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\Aamir_Android_Studio_Workspace\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1008,
-                    "endColumn": 42,
-                    "endOffset": 1046
-                },
-                "from": {
-                    "file": "D:\\Aamir_Android_Studio_Workspace\\UrduQuran\\slideMenuLibrary\\src\\main\\res\\values\\ids.xml",
+                    "file": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\slideMenuLibrary\\src\\main\\res\\values\\ids.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

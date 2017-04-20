@@ -1,634 +1,634 @@
 [
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_quranvocabulary.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_splash_quranvocabulary.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\list_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhrooj_row_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\mukhrooj_row_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_large.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_surah_list.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_surah_list.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\update_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\UrduQuran\\slideMenuLibrary\\unspecified\\res\\layout\\slidingmenumain.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ayah_row.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\ayah_row.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidemenu_settings.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\slidemenu_settings.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule1.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule1.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\index_row.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\index_row.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rubana_duas.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_rubana_duas.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rate_us.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\rate_us.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidemenu_surahindex.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\slidemenu_surahindex.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhrooj_row_item_urdu.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\mukhrooj_row_item_urdu.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_small.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule2.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule2.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sura_list_row_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\sura_list_row_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facts_view_pager.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_facts_view_pager.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_more_apps.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_more_apps.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_surah.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_dropdown_surah.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule3.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule3.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\list_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_splash.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_home_splash.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wordsearch_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\wordsearch_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\disclaimer_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\disclaimer_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quizresult.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_quizresult.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quizresult.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_quizresult.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\index_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\index_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_premium.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\dialog_premium.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bookmarks.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_bookmarks.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_activity13_line_quran.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_main_activity13_line_quran.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen1.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen1.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublist_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\sublist_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublist_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\sublist_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_word_by_word.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_word_by_word.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_list_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_13line.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\toolbar_13line.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_splash.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_home_splash.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule4.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule4.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\duas_list_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\duas_list_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment_images.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_fragment_images.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_surah_row_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\word_surah_row_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\goto_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\goto_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_single_text_and_image.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_single_text_and_image.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reset_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\reset_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facts_viewpager.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_facts_viewpager.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fact_detail.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fact_detail.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule3.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule3.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\components_of_tajweed_madd_letters.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\components_of_tajweed_madd_letters.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\index_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\index_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\goto_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\goto_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rubana_duas.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_rubana_duas.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reset_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\reset_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\detail_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule2.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule2.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_quiz.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\layout_quiz.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen2.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen2.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_row_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\word_row_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed1_2.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed1_2.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quiz.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_quiz.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more_apps.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_more_apps.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tajweed.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_tajweed.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigation_drawer_item_row.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\navigation_drawer_item_row.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wordsearch_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\wordsearch_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_main_list.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_main_list.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tajweed.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_tajweed.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transperant_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\transperant_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_harkat_letters.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_harkat_letters.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\update_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\disclaimer_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\disclaimer_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\index_row.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\index_row.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sura_list_row_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\sura_list_row_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_activity_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stopsigns_activity_s3.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\stopsigns_activity_s3.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surah_frgament_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\surah_frgament_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_single_text_and_image.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_single_text_and_image.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facts_view_pager.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_facts_view_pager.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_13line.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\toolbar_13line.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_activity13_line_quran.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_main_activity13_line_quran.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\remove_ads.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\remove_ads.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_small.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quran_facts_list.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_quran_facts_list.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_large.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rate_us.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\rate_us.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigation_drawer_item_row.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\navigation_drawer_item_row.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transperant_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\transperant_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_surah_row_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\word_surah_row_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigation_drawer_header.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\navigation_drawer_header.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surah_frgament_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\surah_frgament_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\full_surah_row_view.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\full_surah_row_view.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhraj_ul_huroof.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\mukhraj_ul_huroof.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_premium.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\dialog_premium.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen_3.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen_3.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhraj_ul_huroof.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\mukhraj_ul_huroof.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_surah_items.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_surah_items.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bookmarks.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_bookmarks.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule5.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule5.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_quranvocabulary.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_splash_quranvocabulary.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_tanween_letters.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_tanween_letters.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_round.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_main_list.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_main_list.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_tanween_letters.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_tanween_letters.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_list.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_more_apps.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_more_apps.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_custom_big.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stopsigns_activity.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\stopsigns_activity.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_download_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidemenu_settings.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\slidemenu_settings.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_detail.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_list.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quran_facts_list.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_quran_facts_list.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublistrow.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\sublistrow.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmarks_row.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\bookmarks_row.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen2.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen2.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_row_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\word_row_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ayah_row.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\ayah_row.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_quiz.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\layout_quiz.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmarks_row.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\bookmarks_row.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_surah_items.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_surah_items.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_activity_s3.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\about_activity_s3.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_surah_list.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_surah_list.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quiz.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_quiz.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_surah.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_surah.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\detail_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fact_detail.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fact_detail.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule5.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule5.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\xlistview_header.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_introduction.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_introduction.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\remove_ads.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\remove_ads.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stopsigns_activity_s3.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\stopsigns_activity_s3.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\duas_list_fragment.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\duas_list_fragment.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_navigation_item.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stopsigns_activity.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\stopsigns_activity.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_dialog.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\download_dialog.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detailpage.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_detailpage.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_action.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\components_of_tajweed_madd_letters.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\components_of_tajweed_madd_letters.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublistrow.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\sublistrow.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigation_drawer_header.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\navigation_drawer_header.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen1.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen1.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_harkat_letters.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_harkat_letters.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhrooj_row_item.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\mukhrooj_row_item.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facts_viewpager.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_facts_viewpager.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_activity.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\about_activity.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed1_2.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed1_2.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidemenu_surahindex.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\slidemenu_surahindex.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\download_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_word_by_word.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_word_by_word.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\UrduQuran\\slideMenuLibrary\\unspecified\\res\\layout\\slidingmenumain.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_leen_letters.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_leen_letters.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_introduction.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_introduction.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_dialog.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_download_dialog.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_activity.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\about_activity.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list_layout.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_list_layout.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\full_surah_row_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\full_surah_row_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more_apps.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_more_apps.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detailpage.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_detailpage.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule4.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule4.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment_images.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_fragment_images.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tajweed_rule1.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\tajweed_rule1.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mukhrooj_row_item_urdu.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\mukhrooj_row_item_urdu.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\component_of_tajweed_leen_letters.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\component_of_tajweed_leen_letters.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_surah.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\spinner_dropdown_surah.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_screen_3.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\fragment_home_screen_3.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_surah.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\activity_surah.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_activity_s3.xml",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\layout\\about_activity_s3.xml"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_small.xml"
     }
 ]

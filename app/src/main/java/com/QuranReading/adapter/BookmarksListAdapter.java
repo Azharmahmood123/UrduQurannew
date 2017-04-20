@@ -57,7 +57,6 @@ public class BookmarksListAdapter extends BaseAdapter
 		return position;
 	}
 
-	/* private view holder class */
 	private class ViewHolder 
 	{
 		TextView tvName;

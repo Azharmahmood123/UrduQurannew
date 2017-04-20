@@ -6,6 +6,8 @@ import java.util.HashMap;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
@@ -42,10 +44,11 @@ import com.google.android.gms.ads.AdView;
 public class SurahDetailActivity extends FragmentActivity {
     //ImageView adImage;
     AdView adview;
+    String url;
     private static final String LOG_TAG = "Ads";
     private final Handler adsHandler = new Handler();
     private int timerValue = 3000, networkRefreshTime = 10000;
-    public boolean  isPlayingWordByWord = false, isPlayingWordByWordKalma = false, isPlayingWordByWordDua = false;
+    public boolean isPlayingWordByWord = false, isPlayingWordByWordKalma = false, isPlayingWordByWordDua = false;
     int faceArabic = 1, fontSizeIndex, arabicFont, englishFont, topPadding = 15;
 
     private String title, device, favSurahString = "";
@@ -64,7 +67,7 @@ public class SurahDetailActivity extends FragmentActivity {
 
     public static ImageView playButton, stopButton, favouriteButton;
     public static boolean ISBACKPRESSED = false;
-    private long stopClick=0;
+    private long stopClick = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -198,8 +201,7 @@ public class SurahDetailActivity extends FragmentActivity {
             title = getIntent().getStringExtra("duaTitle");
             globalObject.surahPos = (Arrays.asList(titleList)).indexOf(title);
             surahPoss = (Arrays.asList(titleList)).indexOf(title);
-        }
-        else {
+        } else {
             title = getIntent().getStringExtra("Title");
             globalObject.surahPos = getIntent().getIntExtra("position", 0);
             surahPoss = getIntent().getIntExtra("position", 0);
@@ -227,15 +229,14 @@ public class SurahDetailActivity extends FragmentActivity {
         if (!favSurahString.equals("")) {
             favSuraList.clear();
             String[] arr = favSurahString.split(",");
-            for(int index = 0; index < arr.length; index++) {
+            for (int index = 0; index < arr.length; index++) {
                 favSuraList.add(arr[index].trim());
             }
         }
 
         if (favSuraList.contains(title)) {
             favouriteButton.setImageResource(R.drawable.fav_h_w);
-        }
-        else {
+        } else {
             favouriteButton.setImageResource(R.drawable.favourite_selctor_file);
         }
 
@@ -265,8 +266,7 @@ public class SurahDetailActivity extends FragmentActivity {
                     }
                 });
             }
-        }
-        else {
+        } else {
             fullSuraView.setVisibility(View.INVISIBLE);
             wordSurahView.setVisibility(View.VISIBLE);
 
@@ -311,8 +311,7 @@ public class SurahDetailActivity extends FragmentActivity {
 
                 if (favSuraList.contains(title)) {
                     favouriteButton.setImageResource(R.drawable.fav_h_w);
-                }
-                else {
+                } else {
                     favouriteButton.setImageResource(R.drawable.favourite_selctor_file);
                 }
 
@@ -340,8 +339,7 @@ public class SurahDetailActivity extends FragmentActivity {
 
         if (tag == 1) {
             if (globalObject.selectedTabPosition == 1) {
-            }
-            else {
+            } else {
                 fullSuraView.setVisibility(View.VISIBLE);
                 wordSurahView.setVisibility(View.INVISIBLE);
 
@@ -356,12 +354,10 @@ public class SurahDetailActivity extends FragmentActivity {
                 intent1.setAction("TabChangeBroadcast");
                 this.sendBroadcast(intent1);
             }
-        }
-        else {
+        } else {
             if (globalObject.selectedTabPosition == 2) // if on same tab
             {
-            }
-            else {
+            } else {
                 fullSuraView.setVisibility(View.INVISIBLE);
                 wordSurahView.setVisibility(View.VISIBLE);
 
@@ -380,8 +376,7 @@ public class SurahDetailActivity extends FragmentActivity {
                     if (!isNetworkConnected()) {
 
                         adLayout.getLayoutParams().height = 1;
-                    }
-                    else {
+                    } else {
                         adLayout.setVisibility(View.VISIBLE);
                     }
 
@@ -404,12 +399,11 @@ public class SurahDetailActivity extends FragmentActivity {
     }
 
     public void buttonClick(View view) {
-        if(SystemClock.elapsedRealtime()-stopClick<1000)
-        {
+        if (SystemClock.elapsedRealtime() - stopClick < 1000) {
             return;
 
         }
-        stopClick=SystemClock.elapsedRealtime();
+        stopClick = SystemClock.elapsedRealtime();
         int tag = Integer.parseInt(view.getTag().toString());
         switch (tag) {
             case 1:
@@ -451,8 +445,7 @@ public class SurahDetailActivity extends FragmentActivity {
         if (favSuraList.contains(title)) {
             favSuraList.remove(title);
             favouriteButton.setImageResource(R.drawable.favourite_selctor_file);
-        }
-        else {
+        } else {
             favSuraList.add(title);
             favouriteButton.setImageResource(R.drawable.fav_h_w);
         }
@@ -462,8 +455,7 @@ public class SurahDetailActivity extends FragmentActivity {
         SurahDetailActivity.playButton.setImageResource(R.drawable.play_selector_file);
         if (globalObject.selectedTabPosition == 1) {
             resetFullSuraMediaPlayer();
-        }
-        else {
+        } else {
             resetWordMediaPlayer();
         }
 
@@ -481,22 +473,51 @@ public class SurahDetailActivity extends FragmentActivity {
         int ayahListTranslationId = this.getResources().getIdentifier(title.replace("-", "_") + "_translation", "array", this.getPackageName());
         String[] ayahTranslationList = this.getResources().getStringArray(ayahListTranslationId);
 
-        for(int i = 0; i < ayahList.length; i++) {
+        for (int i = 0; i < ayahList.length; i++) {
             duaArabic = duaArabic.concat(String.valueOf(ayahList[i]));
             duaArabic = duaArabic.concat("\n");
         }
 
-        for(int i = 0; i < ayahTranslationList.length; i++) {
+        for (int i = 0; i < ayahTranslationList.length; i++) {
             duaTranslation = duaTranslation.concat(String.valueOf(ayahTranslationList[i]));
             duaTranslation = duaTranslation.concat("\n");
         }
-
+        getPackageInfo("ShareApp");
         Intent actionIntent = new Intent(Intent.ACTION_SEND);
         actionIntent.setType("text/plain");
         actionIntent.putExtra(Intent.EXTRA_SUBJECT, "Urdu Quran");
         actionIntent.putExtra(Intent.EXTRA_TEXT,
-                "Surah Name:\n" + "      " + title + "\n\n" + "Surah:\n" + duaArabic + "\n\n" + "Translation:\n" + duaTranslation.replace("-", "") + "\nLearn to recite word by word Surahs from Urdu Quran & More" + "\n" +"https://play.google.com/store/apps/details?id=com.QuranReading.urduquran");
+                "Surah Name:\n" + "      " + title + "\n\n" + "Surah:\n" + duaArabic + "\n\n" + "Translation:\n" + duaTranslation.replace("-", "") + "\nLearn to recite word by word Surahs from Urdu Quran & More" + "\n" + url);
         startActivityForResult(Intent.createChooser(actionIntent, "Share via"), 0);
+
+    }
+
+    private void getPackageInfo(String text) {
+
+        final PackageManager packageManager = SurahDetailActivity.this.getPackageManager();
+
+        try {
+            final ApplicationInfo applicationInfo = packageManager.getApplicationInfo(SurahDetailActivity.this.getPackageName(), 0);
+            if ("com.android.vending".equals(packageManager.getInstallerPackageName(applicationInfo.packageName))) {
+                if (text.equals("ShareApp")) {
+                    url = "https://play.google.com/store/apps/details?id=com.QuranReading.urduquran";
+                } else {
+                    url = "market://search?q=pub:Quran+Reading";
+                }
+            } else if ((packageManager.getInstallerPackageName(applicationInfo.packageName).startsWith("com.amazon"))) {
+                if (text.equals("ShareApp")) {
+                    url = "http://www.amazon.com/gp/mas/dl/android?p=com.QuranReading.urduquran";
+                } else {
+                    url = "http://www.amazon.com/gp/mas/dl/android?p=com.QuranReading.urduquran&showAll=1";
+                }
+
+            } else {
+                url = "";
+            }
+
+        } catch (final PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -518,8 +539,7 @@ public class SurahDetailActivity extends FragmentActivity {
                 globalObject.mediaPlayerWordByWord.seekTo(0);
                 globalObject.mediaPlayerWordByWord.release();
                 globalObject.mediaPlayerWordByWord = null;
-            }
-            else {
+            } else {
                 globalObject.mediaPlayerWordByWord.release();
                 globalObject.mediaPlayerWordByWord = null;
             }
@@ -541,8 +561,7 @@ public class SurahDetailActivity extends FragmentActivity {
     protected void onResume() {
         super.onResume();
         getPreferences();
-        if(globalObject.mediaPlayerWordByWord!=null)
-        {
+        if (globalObject.mediaPlayerWordByWord != null) {
             globalObject.mediaPlayerWordByWord.start();
         }
         if (globalObject.mediaPlayerFullSurah != null) {
@@ -571,7 +590,7 @@ public class SurahDetailActivity extends FragmentActivity {
         ISBACKPRESSED = true;
         globalObject.selectedTabPosition = 2;
 
-        for(int i = 0; i < favSuraList.size(); i++) {
+        for (int i = 0; i < favSuraList.size(); i++) {
             favouriteSurahs += (favSuraList.get(i)).trim();
 
             if (i != favSuraList.size() - 1)
@@ -581,14 +600,15 @@ public class SurahDetailActivity extends FragmentActivity {
 
         //FavoriteListAdapter.isItemClickedd = false;
         super.onBackPressed();
-    };
+    }
+
+    ;
 
     @Override
     protected void onPause() {
 
         super.onPause();
-        if( globalObject.mediaPlayerWordByWord!=null)
-        {
+        if (globalObject.mediaPlayerWordByWord != null) {
             globalObject.mediaPlayerWordByWord.pause();
             playButton.setImageResource(R.drawable.play_selector_file);
 
@@ -600,7 +620,7 @@ public class SurahDetailActivity extends FragmentActivity {
 
         }
 
-    //  stop();
+        //  stop();
         if (!globalObject.isPurchase) {
             stopAdsCall();
         }
@@ -616,7 +636,7 @@ public class SurahDetailActivity extends FragmentActivity {
     }
 
 /*	private void loadSettings() {
-		int fontSize_A_1[] = {};
+        int fontSize_A_1[] = {};
 		int fontSize_A_2[] = {};
 
 		if (fontSizeIndex == -1) {
@@ -699,8 +719,7 @@ public class SurahDetailActivity extends FragmentActivity {
                         callCheck = true;
                         globalObject.mediaPlayerFullSurah.pause();
                     }
-                }
-                else if (state == TelephonyManager.CALL_STATE_IDLE) {
+                } else if (state == TelephonyManager.CALL_STATE_IDLE) {
                     // Not in call: Play Audio
                     if (callCheck && globalObject.mediaPlayerFullSurah != null) {
                         callCheck = false;
@@ -708,8 +727,7 @@ public class SurahDetailActivity extends FragmentActivity {
                         // handler.postDelayed(sendUpdatesToUI, 0);
                         globalObject.mediaPlayerFullSurah.start();
                     }
-                }
-                else if (state == TelephonyManager.CALL_STATE_OFFHOOK) {
+                } else if (state == TelephonyManager.CALL_STATE_OFFHOOK) {
                     // A call is dialing, active or on hold: Pause Audio
                     // handler.removeCallbacks(sendUpdatesToUI);
                     if (globalObject.mediaPlayerFullSurah.isPlaying()) {
@@ -727,8 +745,7 @@ public class SurahDetailActivity extends FragmentActivity {
                         callCheck = true;
                         globalObject.mediaPlayerWordByWord.pause();
                     }
-                }
-                else if (state == TelephonyManager.CALL_STATE_IDLE) {
+                } else if (state == TelephonyManager.CALL_STATE_IDLE) {
                     // Not in call: Play Audio
                     if (callCheck && globalObject.mediaPlayerWordByWord != null) {
                         callCheck = false;
@@ -736,8 +753,7 @@ public class SurahDetailActivity extends FragmentActivity {
                         // handler.postDelayed(sendUpdatesToUI, 0);
                         globalObject.mediaPlayerWordByWord.start();
                     }
-                }
-                else if (state == TelephonyManager.CALL_STATE_OFFHOOK) {
+                } else if (state == TelephonyManager.CALL_STATE_OFFHOOK) {
                     // A call is dialing, active or on hold: Pause Audio
                     // handler.removeCallbacks(sendUpdatesToUI);
                     if (globalObject.mediaPlayerWordByWord.isPlaying()) {

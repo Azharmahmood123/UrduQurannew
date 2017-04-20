@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Farhan\\Projects_Official\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 941
                 },
                 "from": {
-                    "file": "E:\\Farhan\\Projects_Official\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\slideMenuLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

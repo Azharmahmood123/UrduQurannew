@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_notification.png",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_notification.png"
     },
     {
-        "merged": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_notification.png",
-        "source": "E:\\Farhan\\Projects_Official\\UrduQuran\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_notification.png"
+        "merged": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Android\\Desktop\\UPDATES\\UrduQuran\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]
