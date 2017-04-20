@@ -37,7 +37,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.packageapp.HomeSplashActivity;
 
-public class RemoveAdsActivity extends Activity {
+public class
+RemoveAdsActivity extends Activity {
 
 	AdView adview;
 	GoogleAdsClass googleAds;
